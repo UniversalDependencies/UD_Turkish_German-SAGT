@@ -1,0 +1,42 @@
+Running the following version of tools/evaluate_treebank.pl:
+commit d71d1b63fd448a8b098d4b5a0329f8da3f7413b0
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Sat Apr 21 19:02:58 2018 +0200
+Evaluating the following revision of UD_Turkish_German-SAGT:
+commit b10b40018704e976d46349c7c94922c8d5ee7e9e
+Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Wed Nov 11 16:19:03 2020 +0100
+Size: counted 31946 of 31946 words (nodes).
+Size: min(0, log((N/1000)**2)) = 6.92809395473553.
+Size: maximum value 13.815511 is for 1000000 words or more.
+Split: Did not find more than 10000 training words.
+Split: Found at least 10000 development words.
+Split: Found at least 10000 test words.
+Lemmas: source of annotation (from README) factor is 1.
+Universal POS tags: 17 out of 17 found in the corpus.
+Universal POS tags: source of annotation (from README) factor is 1.
+Features: 16449 out of 31946 total words have one or more features.
+Features: source of annotation (from README) factor is 1.
+Universal relations: 33 out of 37 found in the corpus.
+Universal relations: source of annotation (from README) factor is 1.
+Udapi: found 3979 bugs.
+Udapi: worst expected case (threshold) is one bug per 10 words. There are 31946 words.
+Genres: found 1 out of 17 known.
+validate.py --lang qtd --max-err=10 UD_Turkish_German-SAGT/qtd_sagt-ud-dev.conllu
+*** PASSED ***
+validate.py --lang qtd --max-err=10 UD_Turkish_German-SAGT/qtd_sagt-ud-test.conllu
+*** PASSED ***
+validate.py --lang qtd --max-err=10 UD_Turkish_German-SAGT/qtd_sagt-ud-train.conllu
+*** PASSED ***
+Validity: 1
+(weight=0.0769230769230769) * (score{features}=1) = 0.0769230769230769
+(weight=0.0769230769230769) * (score{genres}=0.0588235294117647) = 0.00452488687782805
+(weight=0.0769230769230769) * (score{lemmas}=1) = 0.0769230769230769
+(weight=0.256410256410256) * (score{size}=0.501472162441486) = 0.128582605754227
+(weight=0.0512820512820513) * (score{split}=0.67) = 0.0343589743589744
+(weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
+(weight=0.307692307692308) * (score{udapi}=0.01) = 0.00307692307692308
+(weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
+(TOTAL score=0.469919689444252) * (availability=1) * (validity=1) = 0.469919689444252
+STARS = 2.5
+UD_Turkish_German-SAGT	0.469919689444252	2.5
