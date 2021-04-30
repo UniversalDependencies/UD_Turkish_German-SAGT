@@ -2,8 +2,6 @@
 
 UD Turkish-German SAGT is a Turkish-German code-switching treebank that is developed as part of the [SAGT](https://www.ims.uni-stuttgart.de/en/research/projects/sagt/) project. 
 
-Note that statistics for the 2.7.1 release are slightly different from the official 2.7 release.
-
 # Introduction
 
 The treebank consists of bilingual conversation transcriptions annotated with several
@@ -22,18 +20,15 @@ a separate licence. Please contact ozlem@ims.uni-stuttgart.de for further inform
 
 # Data Split
 
-There is a total of 2184 sentences in the treebank. All sentences contain at least one intrasentential switch.
+In total, there 2184 sentences in the treebank. All sentences contain at least one intrasentential switch.
 The data is split into train, development, and test sets, paying attention to conversation boundaries as well as a balanced theme and participant distribution.
-
-Only half of the training data is released via UD repositories. The remaining data is also available and can be obtained from  Özlem Çetinoğlu (ozlem@ims.uni-stuttgart.de)
 
 <table>
 <tr style="background-color: #eee"><th>Split</th><th># Conversations</th><th># Sentences</th><th># Tokens</th>
 </tr>
-<tr><td>train (released)</td><td>15</td><td>286</td><td>4808</td></tr>
-<tr><td>train (all)</td><td>15</td><td>578</td><td>10084</td></tr>
-<tr><td>development</td><td>17</td><td>801</td><td>13056</td></tr>
-<tr><td>test</td><td>16</td><td>805</td><td>14093</td></tr>
+<tr><td>train      </td><td>15</td><td>578</td><td>10084</td></tr>
+<tr><td>development</td><td>17</td><td>801</td><td>13057</td></tr>
+<tr><td>test       </td><td>16</td><td>805</td><td>14092</td></tr>
 </table>
 
 # Contributors
