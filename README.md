@@ -20,7 +20,7 @@ a separate licence. Please contact ozlem@ims.uni-stuttgart.de for further inform
 
 # Data Split
 
-In total, there 2184 sentences in the treebank. All sentences contain at least one intrasentential switch.
+In total, there are 2184 sentences in the treebank. All sentences contain at least one intrasentential switch.
 The data is split into train, development, and test sets, paying attention to conversation boundaries as well as a balanced theme and participant distribution.
 
 <table>
