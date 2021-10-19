@@ -170,7 +170,7 @@
 # sent_id = TRDE-CS-C03-0009
 # text = Geçen sene ich weiß noch eh sınavların olduğu günlerde.
 1	Geçen	geç	VERB	_	Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part	2	acl	_	LangID=TR
-2	sene	sene	NOUN	_	Case=Nom|Number=Sing	4	obj	_	LangID=TR
+2	sene	sene	NOUN	_	Case=Nom|Number=Sing	4	obl	_	LangID=TR
 3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	LangID=DE
 4	weiß	wissen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	LangID=DE
 5	noch	noch	ADV	_	_	4	advmod	_	LangID=DE
@@ -306,7 +306,7 @@
 5	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	LangID=DE
 6	nicht	nicht	PART	_	Polarity=Neg	7	advmod	_	LangID=DE
 7	angenehm	angenehm	ADJ	_	_	0	root	_	LangID=DE
-8	reş--	resmen	ADJ	_	_	9	reparandum	_	LangID=TR|CorrectForm=resmen
+8	reş--	resmen	ADJ	_	Typo=Yes	9	reparandum	_	LangID=TR|CorrectForm=resmen
 9	resmen	resmen	ADJ	_	_	10	advmod	_	LangID=TR
 10	pişiyordun	piş	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Past	7	parataxis	_	LangID=TR
 11	hani	hani	ADV	_	_	10	discourse	_	LangID=TR|SpaceAfter=No
@@ -345,7 +345,7 @@
 # text = Ama ja be-- dudaklarım kurudu benim ich hab das so richtig gespürt ich denke mir so nein.
 1	Ama	ama	CCONJ	_	_	5	cc	_	LangID=TR
 2	ja	ja	INTJ	_	_	5	discourse	_	LangID=DE
-3	be--	benim	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	6	reparandum	_	LangID=DE|CorrectForm=benim
+3	be--	benim	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs|Typo=Yes	6	reparandum	_	LangID=DE|CorrectForm=benim
 4	dudaklarım	dudak	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	5	obj	_	LangID=TR
 5	kurudu	kuru	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	LangID=TR
 6	benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod	_	LangID=TR
@@ -925,7 +925,7 @@
 7	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	LangID=TR
 8	öyle	öyle	ADV	_	_	13	advmod	_	LangID=TR
 9	şey	şey	NOUN	_	Case=Nom|Number=Sing	13	obj	_	LangID=TR
-10	Wohn--	Wohnheim	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	11	reparandum	_	LangID=DE|CorrectForm=Wohnheim
+10	Wohn--	Wohnheim	NOUN	_	Case=Nom|Gender=Masc|Number=Sing|Typo=Yes	11	reparandum	_	LangID=DE|CorrectForm=Wohnheim
 11	WGlerde	WG	NOUN	_	Case=Loc|Number=Plur	13	dislocated	_	CSPoint=WG§lerde|DeCase=Dat|DeGender=Fem|DislocateHead=9|LangID=MIXED
 12	oturmak	otur	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	13	xcomp	_	LangID=TR
 13	istemiyorum	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	4	conj	_	LangID=TR
@@ -1190,7 +1190,7 @@
 2	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	4	nsubj	_	LangID=DE
 3	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	4	cop	_	LangID=DE
 4	Projektmanagement	Projektmanagement	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	LangID=DE
-5	international	international	ADJ	_	Foreign=Yes	6	amod	_	LangID=LANG3
+5	international	international	ADJ	_	Foreign=Yes	6	amod	_	LangID=LANG3|Lang=en
 6	Projektmanagement	Projektmanagement	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	4	appos	_	LangID=DE
 7	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	9	nsubj	_	LangID=DE
 8	Reutlingen'de	Reutlingen	PROPN	_	Case=Loc|Number=Sing	9	obl	_	CSPoint=Reutlingen§'de|DeCase=Dat|LangID=MIXED
@@ -1527,7 +1527,7 @@
 # sent_id = TRDE-CS-C20-0002
 # text = Em bazenleri de öyle geç kalkıyorum und danach dann noch halt lege ich mich einfach hin.
 1	Em	em	INTJ	_	_	6	discourse	_	LangID=TR
-2	bazenleri	bazen	ADV	_	Typo=Yes	6	advmod	_	LangID=TR|CorrectForm=bazen
+2	bazenleri	bazen	ADV	_	_	6	advmod	_	LangID=TR|CorrectForm=bazen
 3	de	de	ADV	_	_	2	advmod:emph	_	LangID=TR
 4	öyle	öyle	ADV	_	_	6	advmod	_	LangID=TR
 5	geç	geç	ADJ	_	_	6	advmod	_	LangID=TR
@@ -1565,7 +1565,7 @@
 6	dann	dann	SCONJ	_	_	7	mark	_	LangID=DE
 7	mähe	mähen	VERB	_	Number=Sing|Person=1|Tense=Pres	4	conj	_	LangID=DE
 8	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	LangID=DE
-9	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	10	det	_	LangID=DE|CorrectForm=den|CorrectGender=Masc
+9	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art|Typo=Yes	10	det	_	LangID=DE|CorrectForm=den|CorrectGender=Masc
 10	Rasen	Rasen	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	7	obj	_	LangID=DE
 11	und	und	CCONJ	_	_	16	cc	_	LangID=DE
 12	danach	danach	ADV	_	_	16	mark	_	LangID=DE
@@ -1588,7 +1588,7 @@
 2	ja	ja	INTJ	_	_	14	discourse	_	LangID=DE
 3	also	also	ADV	_	_	14	advmod	_	LangID=DE
 4	eigentlich	eigentlich	ADV	_	_	14	advmod	_	LangID=DE
-5	dass	dass	SCONJ	_	_	14	mark	_	LangID=DE|CorrectForm=das
+5	dass	dass	SCONJ	_	Typo=Yes	14	mark	_	LangID=DE|CorrectForm=das
 6	was	was	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	14	obj	_	LangID=DE
 7	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	LangID=DE
 8	halt	halt	ADV	_	_	14	advmod	_	LangID=DE
@@ -1715,7 +1715,7 @@
 1	Ähm	Ähm	INTJ	_	_	5	discourse	_	LangID=DE
 2	zu	zu	ADP	_	_	4	case	_	LangID=DE
 3	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	LangID=DE
-4	Bei--	Beispiel	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	8	reparandum	_	LangID=DE|CorrectForm=Beispiel
+4	Bei--	Beispiel	NOUN	_	Case=Dat|Gender=Neut|Number=Sing|Typo=Yes	8	reparandum	_	LangID=DE|CorrectForm=Beispiel
 5	mesela	mesela	ADV	_	_	8	advmod	_	LangID=TR
 6	bir	bir	NUM	_	NumType=Card	7	nummod	_	LangID=TR
 7	tane	tane	NOUN	_	Case=Nom|Number=Sing	8	nsubj	_	LangID=TR
@@ -2063,14 +2063,14 @@
 33	.	.	PUNCT	_	_	14	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C20-0020
-# text = Em başka neler var Garten'inizde?
+# text = Em başka neler var Garteninizde?
 1	Em	em	INTJ	_	_	5	discourse	_	LangID=TR
 2	başka	başka	ADJ	_	_	5	advmod	_	LangID=TR
 3-4	neler	_	_	_	_	_	_	_	LangID=TR
 3	ne	ne	NOUN	_	Case=Nom|Number=Sing	5	nsubj	_	LangID=TR
 4	ler	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Pres	3	cop	_	LangID=TR
 5	var	var	ADJ	_	_	0	root	_	LangID=TR
-6	Garten'inizde	Garten	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=2	5	obl	_	CSPoint=Garten§'inizde|DeCase=Dat|DeGender=Masc|LangID=MIXED|SpaceAfter=No
+6	Garteninizde	Garten	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=2	5	obl	_	CSPoint=Garten§inizde|DeCase=Dat|DeGender=Masc|LangID=MIXED|SpaceAfter=No
 7	?	?	PUNCT	_	_	5	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C20-0021
@@ -2253,7 +2253,7 @@
 # text = Eh em ben tabii ki salatayı çok sevdiğim için würde ich dann halt mehr Salat machen aber so ein Mischmasch Salat, also jetzt nicht einfach ein Kopfsalat und dann noch die Soße sondern einfach mal so mit Radieschen dann Pep-- Ding auch Peperoni Petersilie zu dem Beispiel auch mes- ähm ja Salatgurke.
 1	Eh	eh	INTJ	_	_	8	discourse	_	LangID=TR
 2	em	em	INTJ	_	_	8	discourse	_	LangID=TR
-3	ben	ben	PRON	_	Case=Nom|Number=Sing	8	nsubj	_	LangID=TR
+3	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	LangID=TR
 4	tabii	tabii	ADV	_	_	8	advmod	_	LangID=TR
 5	ki	ki	ADV	_	_	4	fixed	_	LangID=TR
 6	salatayı	salata	NOUN	_	Case=Acc|Number=Sing	8	obj	_	LangID=TR
@@ -2291,7 +2291,7 @@
 38	mit	mit	ADP	_	_	39	case	_	LangID=DE
 39	Radieschen	Radieschen	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	28	conj	_	LangID=DE
 40	dann	dann	ADV	_	_	44	mark	_	LangID=DE
-41	Pep--	Peperoni	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	42	reparandum	_	LangID=DE|CorrectForm=Peperoni
+41	Pep--	Peperoni	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	42	reparandum	_	LangID=DE|CorrectForm=Peperoni
 42	Ding	Ding	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	44	reparandum	_	LangID=DE
 43	auch	auch	ADV	_	_	44	advmod	_	LangID=DE
 44	Peperoni	Peperoni	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	39	conj	_	LangID=DE
@@ -2441,7 +2441,7 @@
 24	Arbeitskollegen	Arbeitskollege	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	25	obl	_	LangID=DE
 25	essen	essen	VERB	_	VerbForm=Inf	4	parataxis	_	LangID=DE
 26	gehen	gehen	VERB	_	VerbForm=Inf	25	xcomp	_	LangID=DE
-27	Mittags--	Mittagspause	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	30	reparandum	_	LangID=DE|CorrectForm=Mittagspause
+27	Mittags--	Mittagspause	NOUN	_	Case=Nom|Gender=Fem|Number=Sing|Typo=Yes	30	reparandum	_	LangID=DE|CorrectForm=Mittagspause
 28	in	in	ADP	_	_	30	case	_	LangID=DE
 29	der	der	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	30	det	_	LangID=DE
 30	Mittagspause	Mittagspause	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	25	obl	_	LangID=DE|SpaceAfter=No
@@ -2655,7 +2655,7 @@
 # text = Bir de bazenleri mesela kendin gittiğin zaman ähm kommst dann auch so auf andere Gedanken sowie: "Ah das brauche ich noch ah das würde das habe ich vergessen oder dies oder das", deshalb denke ich ähm so einkaufen selber ist besser.
 1	Bir	bir	CCONJ	_	_	6	cc	_	LangID=TR
 2	de	de	CCONJ	_	_	1	fixed	_	LangID=TR
-3	bazenleri	bazen	ADV	_	Typo=Yes	6	advmod	_	LangID=TR|CorrectForm=bazen
+3	bazenleri	bazen	ADV	_	_	6	advmod	_	LangID=TR|CorrectForm=bazen
 4	mesela	mesela	ADV	_	_	6	advmod	_	LangID=TR
 5	kendin	kendi	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	6	obl	_	LangID=TR
 6	gittiğin	git	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	0	root	_	LangID=TR
@@ -2880,7 +2880,7 @@
 17	ja	ja	INTJ	_	_	12	discourse	_	LangID=DE
 18	so	so	ADV	_	_	12	advmod	_	LangID=DE
 19	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	LangID=DE
-20	Nudel--	Nudelbar	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	21	reparandum	_	LangID=DE|CorrectForm=Nudelbar
+20	Nudel--	Nudelbar	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	21	reparandum	_	LangID=DE|CorrectForm=Nudelbar
 21	Nudelbar	Nudelbar	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	12	obj	_	LangID=DE
 22	und	und	CCONJ	_	_	12	cc	_	LangID=DE|SpaceAfter=No
 23	.	.	PUNCT	_	_	4	punct	_	LangID=OTHER
@@ -3105,14 +3105,14 @@
 2	bir	bir	DET	_	Definite=Ind	5	det	_	LangID=TR
 3	mesela	mesela	ADV	_	_	1	advmod	_	LangID=TR
 4	böyle	böyle	ADV	_	_	1	advmod	_	LangID=TR
-5	Jack	Jack	PROPN	_	Case=Acc|Number=Sing	1	obj	_	LangID=LANG3
+5	Jack	Jack	PROPN	_	Foreign=Yes	1	obj	_	LangID=LANG3|Lang=en
 6	&	&	PUNCT	_	_	7	punct	_	LangID=OTHER
-7	Jones	Jones	PROPN	_	_	5	conj	_	LangID=LANG3
+7	Jones	Jones	PROPN	_	Foreign=Yes	5	conj	_	LangID=LANG3|Lang=en
 8	oder	oder	CCONJ	_	_	9	cc	_	LangID=DE
-9	Hugo	Hugo	PROPN	_	_	5	conj	_	LangID=LANG3
-10	Boss	Boss	PROPN	_	_	9	flat	_	LangID=LANG3
+9	Hugo	Hugo	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	LangID=DE
+10	Boss	Boss	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	9	flat	_	LangID=DE
 11	oder	oder	CCONJ	_	_	12	cc	_	LangID=DE
-12	Zinser	Zinser	PROPN	_	_	5	conj	_	LangID=LANG3|SpaceAfter=No
+12	Zinser	Zinser	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	5	conj	_	LangID=DE|SpaceAfter=No
 13	.	.	PUNCT	_	_	1	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C20-0059
@@ -3160,7 +3160,7 @@
 1	Çünkü	çünkü	SCONJ	_	_	3	mark	_	LangID=TR
 2	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	3	obl	_	LangID=TR
 3	sormuştu	sor	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp	0	root	_	LangID=TR
-4	ben	ben	PRON	_	Case=Nom|Number=Sing	8	nsubj	_	LangID=TR
+4	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	LangID=TR
 5	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	8	obl	_	LangID=TR
 6	bir	bir	DET	_	Definite=Ind	7	det	_	LangID=TR
 7	şey	şey	NOUN	_	Case=Acc|Number=Sing	8	obj	_	LangID=TR
@@ -3197,7 +3197,7 @@
 23	holen	holen	VERB	_	VerbForm=Inf	9	advcl	_	LangID=DE
 24	möchte	mögen	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	23	aux	_	LangID=DE
 25	so	so	ADV	_	_	28	advmod	_	LangID=DE
-26	Amazon'dan	Amazon	PROPN	_	Case=Abl|Number=Sing	28	obl	_	CSPoint=Amazon§'dan|DeCase=Dat|LangID=MIXED
+26	Amazon'dan	Amazon	PROPN	_	Case=Abl|Number=Sing	28	obl	_	CSPoint=Amazon§'dan|LangID=MIXED
 27	falan	falan	ADV	_	_	28	advmod	_	LangID=TR
 28	bakmıştım	bak	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Pqp	9	parataxis	_	LangID=TR|SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	LangID=OTHER
@@ -3209,7 +3209,7 @@
 3	aylığım	aylık	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	4	nsubj	_	LangID=TR
 4	geldiği	gel	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	9	advcl	_	LangID=TR
 5	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	4	obl	_	LangID=TR
-6	ben	ben	PRON	_	Case=Nom|Number=Sing	9	nsubj	_	LangID=TR
+6	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	LangID=TR
 7	de	de	ADV	_	_	6	advmod:emph	_	LangID=TR
 8	şey	şey	NOUN	_	Case=Acc|Number=Sing	9	obj	_	LangID=TR
 9	yapacağım	yap	VERB	_	Aspect=Perf|Case=Nom|Evident=Fh|Mood=Ind|Number=Sing|Number[psor]=Sing|Person[psor]=1|Tense=Fut	0	root	_	LangID=TR
@@ -3229,7 +3229,7 @@
 5	auch	auch	ADV	_	_	8	advmod	_	LangID=DE
 6	so	so	ADV	_	_	8	advmod	_	LangID=DE
 7	bisschen	bisschen	ADV	_	_	8	advmod	_	LangID=DE
-8	shopaholic	shopaholic	ADJ	_	_	0	root	_	LangID=LANG3
+8	shopaholic	shopaholic	ADJ	_	Foreign=Yes	0	root	_	LangID=LANG3|Lang=en
 9	also	also	ADV	_	_	11	advmod	_	LangID=DE
 10	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	LangID=DE
 11	gehe	gehen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	8	parataxis	_	LangID=DE
@@ -3242,7 +3242,7 @@
 18	yani	yani	ADV	_	_	19	advmod	_	LangID=TR
 19	diyelim	de	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Plur|Person=1|Tense=Pres	8	parataxis	_	LangID=TR
 20	böyle	böyle	ADV	_	_	19	advmod	_	LangID=TR
-21	Zara	Zara	PROPN	_	Foreign=Yes	19	nsubj	_	LangID=LANG3
+21	Zara	Zara	PROPN	_	Foreign=Yes	19	nsubj	_	LangID=LANG3|Lang=es
 22	oder	oder	CCONJ	_	_	23	cc	_	LangID=DE
 23	H	H	PROPN	_	_	21	conj	_	LangID=DE
 24	&	&	PUNCT	_	_	25	punct	_	LangID=OTHER
@@ -3367,8 +3367,8 @@
 3	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	LangID=DE
 4	denke	denken	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	LangID=DE
 5	heute	heute	ADV	_	_	10	advmod	_	LangID=DE
-6	sp--	spielen	VERB	_	Number=Sing|Person=3|Tense=Pres	10	reparandum	_	LangID=DE|CorrectForm=spielt
-7	sp--	spielen	VERB	_	Number=Sing|Person=3|Tense=Pres	10	reparandum	_	LangID=DE|CorrectForm=spielt
+6	sp--	spielen	VERB	_	Number=Sing|Person=3|Tense=Pres|Typo=Yes	10	reparandum	_	LangID=DE|CorrectForm=spielt
+7	sp--	spielen	VERB	_	Number=Sing|Person=3|Tense=Pres|Typo=Yes	10	reparandum	_	LangID=DE|CorrectForm=spielt
 8	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	9	reparandum	_	LangID=DE
 9	Geld	Geld	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	10	nsubj	_	LangID=DE
 10	spielt	spielen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	ccomp	_	LangID=DE
@@ -3570,7 +3570,7 @@
 7	also	also	ADV	_	_	14	advmod	_	LangID=DE
 8	jetzt	jetzt	ADV	_	_	14	advmod	_	LangID=DE
 9	auch	auch	ADV	_	_	14	advmod	_	LangID=DE
-10	finanz--	finanziell	ADJ	_	_	12	reparandum	_	LangID=DE|CorrectForm=finanziell
+10	finanz--	finanziell	ADJ	_	Typo=Yes	12	reparandum	_	LangID=DE|CorrectForm=finanziell
 11	äh	äh	INTJ	_	_	14	discourse	_	LangID=DE
 12	finanziell	finanziell	ADJ	_	_	14	advmod	_	LangID=DE
 13	hani	hani	ADV	_	_	14	advmod	_	LangID=TR
@@ -3680,9 +3680,9 @@
 9	Almanlar	Alman	PROPN	_	Case=Nom|Number=Plur	11	obl	_	LangID=TR
 10	için	için	ADP	_	_	9	case	_	LangID=TR
 11	büyük	büyük	ADJ	_	_	7	ccomp	_	LangID=TR
-12	kü--	küçük	ADJ	_	_	24	reparandum	_	LangID=TR|CorrectForm=küçük
-13	kü--	küçük	ADJ	_	_	24	reparandum	_	LangID=TR|CorrectForm=küçük
-14	kü--	küçük	ADJ	_	_	24	reparandum	_	LangID=TR|CorrectForm=küçük
+12	kü--	küçük	ADJ	_	Typo=Yes	24	reparandum	_	LangID=TR|CorrectForm=küçük
+13	kü--	küçük	ADJ	_	Typo=Yes	24	reparandum	_	LangID=TR|CorrectForm=küçük
+14	kü--	küçük	ADJ	_	Typo=Yes	24	reparandum	_	LangID=TR|CorrectForm=küçük
 15	Türkler	Türk	PROPN	_	Case=Nom|Number=Plur	24	obl	_	LangID=TR
 16	için	için	ADP	_	_	15	case	_	LangID=TR
 17	also	also	ADV	_	_	19	advmod	_	LangID=DE
@@ -3811,7 +3811,7 @@
 12	Familie	Familie	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	9	obj	_	LangID=DE
 13	sehr	sehr	ADV	_	_	14	advmod	_	LangID=DE
 14	große	groß	ADJ	_	Case=Acc|Gender=Fem|Number=Sing	15	amod	_	LangID=DE
-15	Ver--	Verwandtschaft	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	19	reparandum	_	LangID=DE|CorrectForm=Verwandtschaft
+15	Ver--	Verwandtschaft	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	19	reparandum	_	LangID=DE|CorrectForm=Verwandtschaft
 16	hani	hani	ADV	_	_	19	advmod	_	LangID=TR
 17	voll	voll	ADJ	_	_	19	advmod	_	LangID=DE
 18	viele	viel	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	19	det	_	LangID=DE
@@ -4218,7 +4218,7 @@
 9	jetzt	jetzt	ADV	_	_	15	advmod	_	LangID=DE
 10	auch	auch	ADV	_	_	15	advmod	_	LangID=DE
 11	kein	kein	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	14	det	_	LangID=DE
-12	Prinzessen--	Prinzessinenkleid	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	14	reparandum	_	LangID=DE|CorrectForm=Prinzessinenkleid
+12	Prinzessen--	Prinzessinenkleid	NOUN	_	Case=Acc|Gender=Neut|Number=Sing|Typo=Yes	14	reparandum	_	LangID=DE|CorrectForm=Prinzessinenkleid
 13	ähm	ähm	INTJ	_	_	15	discourse	_	LangID=DE
 14	Brautkleid	Brautkleid	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	15	obj	_	LangID=DE
 15	haben	haben	VERB	_	VerbForm=Inf	6	advcl	_	LangID=DE|SpaceAfter=No
@@ -4311,7 +4311,7 @@
 # text = İşte bakalım ben de yeşil giyeceğim ondan sonra organizasyon işte das wird aber alles in rot sein.
 1	İşte	işte	ADV	_	_	2	advmod	_	LangID=TR
 2	bakalım	bak	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Plur|Person=1|Tense=Pres	0	root	_	LangID=TR
-3	ben	ben	PRON	_	Case=Nom|Number=Sing	6	nsubj	_	LangID=TR
+3	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	LangID=TR
 4	de	de	ADV	_	_	3	advmod:emph	_	LangID=TR
 5	yeşil	yeşil	ADJ	_	_	6	advmod	_	LangID=TR
 6	giyeceğim	giy	VERB	_	Aspect=Perf|Case=Nom|Evident=Fh|Mood=Ind|Number=Sing|Number[psor]=Sing|Person[psor]=1|Tense=Fut	2	ccomp	_	LangID=TR
@@ -4352,7 +4352,7 @@
 19	kırmızı	kırmızı	ADJ	_	_	20	advmod	_	LangID=TR
 20	olmayacak	ol	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Tense=Fut	11	parataxis	_	LangID=TR
 21	ama	ama	CCONJ	_	_	27	cc	_	LangID=TR
-22	benim	ben	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	23	nmod	_	LangID=TR
+22	benim	ben	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|PronType=Prs	23	nmod	_	LangID=TR
 23	oturduğum	otur	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	24	acl	_	LangID=TR
 24	yer	yer	NOUN	_	Case=Nom|Number=Sing	27	nsubj	_	LangID=TR
 25	mesela	mesela	ADV	_	_	27	advmod	_	LangID=TR
@@ -4368,7 +4368,7 @@
 4	şey	şey	NOUN	_	Case=Acc|Number=Sing	5	obj	_	LangID=TR
 5	düşündük	düşün	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	LangID=TR
 6	başta	baş	NOUN	_	Case=Loc|Number=Sing	8	obl	_	LangID=TR
-7	ben	ben	PRON	_	Case=Nom|Number=Sing	8	nsubj	_	LangID=TR
+7	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	LangID=TR
 8	diyordum	de	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past	5	ccomp	_	LangID=TR
 9	hani	hani	ADV	_	_	12	advmod	_	LangID=TR
 10	belki	belki	ADV	_	_	12	advmod	_	LangID=TR
@@ -4425,7 +4425,7 @@
 8	işte	işte	ADV	_	_	10	advmod	_	LangID=TR
 9	ne	ne	ADV	_	_	10	advmod	_	LangID=TR
 10	bileyim	bil	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=1|Tense=Pres	3	parataxis:discourse	_	LangID=TR
-11	ben	ben	PRON	_	Case=Nom|Number=Sing	10	nsubj	_	LangID=TR
+11	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	LangID=TR
 12	şöyle	şöyle	ADV	_	_	13	advmod	_	LangID=TR
 13	diyeyim	de	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=1|Tense=Pres	3	parataxis	_	LangID=TR
 14	iğne	iğne	NOUN	_	Case=Nom|Number=Sing	13	ccomp	_	LangID=TR
@@ -4442,7 +4442,7 @@
 5	sonra	sonra	ADP	_	_	4	case	_	LangID=TR
 6	ne	ne	ADV	_	_	7	advmod	_	LangID=TR
 7	bileyim	bil	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=1|Tense=Pres	2	parataxis:discourse	_	LangID=TR
-8	ben	ben	PRON	_	Case=Nom|Number=Sing	7	nsubj	_	LangID=TR
+8	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	LangID=TR
 9	Besteck	Besteck	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	2	conj	_	LangID=DE|SpaceAfter=No
 10	,	,	PUNCT	_	_	11	punct	_	LangID=OTHER
 11	Gläser	Glas	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	9	conj	_	LangID=DE
@@ -4519,7 +4519,7 @@
 5	işte	işte	ADV	_	_	7	advmod	_	LangID=TR
 6	ne	ne	ADV	_	_	7	advmod	_	LangID=TR
 7	bileyim	bil	VERB	_	Number=Sing|Person=1|Tense=Pres	11	parataxis:discourse	_	LangID=TR
-8	ben	ben	PRON	_	Case=Nom|Number=Sing	7	nsubj	_	LangID=TR
+8	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	LangID=TR
 9	saç	saç	NOUN	_	Case=Nom|Number=Sing	10	nmod	_	LangID=TR
 10	kurutma	kuru	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun|Voice=Cau	11	nmod	_	LangID=TR
 11	makinesi	makine	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	LangID=TR
@@ -4608,7 +4608,7 @@
 5	kurulandılar	kur	VERB	_	Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	4	parataxis	_	LangID=TR
 6	işte	işte	ADV	_	_	5	advmod	_	LangID=TR
 7	belki	belki	ADV	_	_	9	advmod	_	LangID=TR
-8	benim	ben	PRON	_	Case=Nom|Number=Sing	9	nsubj	_	LangID=TR
+8	benim	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	LangID=TR
 9	kullanacaklarım	kullan	VERB	_	Aspect=Perf|Case=Nom|Evident=Fh|Mood=Ind|Number=Plur|Number[psor]=Sing|Person[psor]=1|Tense=Fut	4	parataxis	_	LangID=TR
 10	bunlar	bu	PRON	_	Case=Nom|Number=Plur|PronType=Dem	9	obj	_	LangID=TR
 11	sadece	sadece	ADV	_	_	9	advmod	_	LangID=TR|SpaceAfter=No
@@ -4701,7 +4701,7 @@
 11	işte	işte	ADV	_	_	10	advmod	_	LangID=TR
 12	ne	ne	ADV	_	_	13	advmod	_	LangID=TR
 13	bileyim	bil	VERB	_	Number=Sing|Person=1|Tense=Pres	10	parataxis:discourse	_	LangID=TR
-14	ben	ben	PRON	_	Case=Nom|Number=Sing	13	nsubj	_	LangID=TR
+14	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	LangID=TR
 15	perdesi	perde	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	conj	_	LangID=TR
 16	halısı	halı	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	conj	_	LangID=TR|SpaceAfter=No
 17	.	.	PUNCT	_	_	4	punct	_	LangID=OTHER
@@ -4735,7 +4735,7 @@
 4	voll	voll	ADJ	_	_	5	advmod	_	LangID=DE
 5	nett	nett	ADJ	_	_	0	root	_	LangID=DE
 6	also	also	ADV	_	_	9	advmod	_	LangID=DE
-7	bende	ben	PRON	_	Case=Loc|Number=Sing	9	obl	_	LangID=TR
+7	bende	ben	PRON	_	Case=Loc|Number=Sing|Person=1|PronType=Prs	9	obl	_	LangID=TR
 8	hep	hep	ADV	_	_	9	advmod	_	LangID=TR
 9	değişik	değişik	ADJ	_	_	5	parataxis	_	LangID=TR
 10	ya	ya	SCONJ	_	_	9	mark	_	LangID=TR
@@ -4805,7 +4805,7 @@
 
 # sent_id = TRDE-CS-C21-0060
 # text = Benim ähm damals halt von dem Studium onun onun vesilesiyle girdim zaten.
-1	Benim	ben	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	11	reparandum	_	LangID=TR
+1	Benim	ben	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=1|Person[psor]=1|PronType=Prs	11	reparandum	_	LangID=TR
 2	ähm	ähm	INTJ	_	_	11	discourse	_	LangID=DE
 3	damals	damals	ADV	_	_	11	advmod	_	LangID=DE
 4	halt	halt	ADV	_	_	11	advmod	_	LangID=DE
@@ -4839,9 +4839,9 @@
 16	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	23	obj	_	LangID=DE
 17	bitte	bitte	ADV	_	_	23	advmod	_	LangID=DE
 18	mit	mit	ADP	_	_	19	case	_	LangID=DE
-19	Time	Time	NOUN	_	Foreign=Yes	20	nmod	_	LangID=LANG3
-20	Control	Control	NOUN	_	_	21	nmod	_	LangID=LANG3
-21	Support	Support	NOUN	_	Foreign=Yes	23	obl	_	LangID=LANG3
+19	Time	Time	NOUN	_	Foreign=Yes	20	nmod	_	LangID=LANG3|Lang=en
+20	Control	Control	NOUN	_	Foreign=Yes	21	nmod	_	LangID=LANG3|Lang=en
+21	Support	Support	NOUN	_	Foreign=Yes	23	obl	_	LangID=LANG3|Lang=en
 22	äh	äh	INTJ	_	_	23	discourse	_	LangID=DE
 23	weiterverbinden	weiterverbinden	VERB	_	VerbForm=Inf	7	parataxis	_	LangID=DE|SpaceAfter=No
 24	"	"	PUNCT	_	_	23	punct	_	LangID=OTHER|SpaceAfter=No
@@ -4881,7 +4881,7 @@
 1	Diyorlar	de	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	LangID=TR
 2	ki	ki	ADV	_	_	1	mark	_	LangID=TR
 3	mesela	mesela	ADV	_	_	7	advmod	_	LangID=TR
-4	ben	ben	PRON	_	Case=Nom|Number=Sing	7	nsubj	_	LangID=TR
+4	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	7	nsubj	_	LangID=TR
 5	bununla	bun	NOUN	_	Case=Ins|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	obl	_	LangID=TR
 6	konuşmak	konuş	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	7	xcomp	_	LangID=TR
 7	istiyorum	iste	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	1	ccomp	_	LangID=TR
@@ -4919,7 +4919,7 @@
 15	die	der	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	LangID=DE
 16	Berechnungen	Berechnung	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	17	nsubj	_	LangID=DE
 17	aussehen	aussehen	VERB	_	VerbForm=Inf	20	ccomp	_	LangID=DE
-18	ben	ben	PRON	_	Case=Nom|Number=Sing	20	nsubj	_	LangID=TR
+18	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	LangID=TR
 19	onunla	o	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	20	obl	_	LangID=TR
 20	konuşacağım	konuş	VERB	_	Aspect=Perf|Case=Nom|Evident=Fh|Mood=Ind|Number=Sing|Number[psor]=Sing|Person[psor]=1|Tense=Fut	3	parataxis	_	LangID=TR|SpaceAfter=No
 21	.	.	PUNCT	_	_	3	punct	_	LangID=OTHER
@@ -4958,11 +4958,11 @@
 30	.	.	PUNCT	_	_	3	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0067
-# text = Tabii böyle demiyorum Kunde'lerle böyle nasıl konuşacaksın.
+# text = Tabii böyle demiyorum Kundelerle böyle nasıl konuşacaksın.
 1	Tabii	tabii	ADV	_	_	3	advmod	_	LangID=TR
 2	böyle	böyle	ADV	_	_	3	advmod	_	LangID=TR
 3	demiyorum	de	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	LangID=TR
-4	Kunde'lerle	Kunde	NOUN	_	Case=Ins|Number=Plur	3	obl	_	CSPoint=Kunde§'lerle|DeCase=Dat|DeGender=Masc|LangID=MIXED
+4	Kundelerle	Kunde	NOUN	_	Case=Ins|Number=Plur	3	obl	_	CSPoint=Kunde§lerle|DeCase=Dat|DeGender=Masc|LangID=MIXED
 5	böyle	böyle	ADV	_	_	7	advmod	_	LangID=TR
 6	nasıl	nasıl	ADV	_	_	7	advmod	_	LangID=TR
 7	konuşacaksın	konuş	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Fut	3	parataxis	_	LangID=TR|SpaceAfter=No
@@ -4988,7 +4988,7 @@
 16	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	17	expl	_	LangID=DE
 17	dringend	dringend	ADJ	_	_	22	advcl	_	LangID=DE
 18	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	LangID=DE
-19	ben	ben	PRON	_	Case=Nom|Number=Sing	22	nsubj	_	LangID=TR
+19	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	22	nsubj	_	LangID=TR
 20	de	de	ADV	_	_	19	advmod:emph	_	LangID=TR
 21	yardım	yardım	NOUN	_	Case=Nom|Number=Sing	22	obj	_	LangID=TR
 22	edebilirim	et	VERB	_	Aspect=Hab|Case=Nom|Evident=Fh|Mood=GenPot|Number=Sing|Number[psor]=Sing|Person[psor]=1|Tense=Pres	13	parataxis	_	LangID=TR|SpaceAfter=No
@@ -5214,7 +5214,7 @@
 28	.	.	PUNCT	_	_	6	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0080
-# text = Ähm das Problem ist hani ich bin sehr neu in der Branche hani bir de man muss echt ähm nasıl diyeyim böyle Kunde'lerle falan konuşma hiç böyle kolay olmayabilir.
+# text = Ähm das Problem ist hani ich bin sehr neu in der Branche hani bir de man muss echt ähm nasıl diyeyim böyle Kundelerle falan konuşma hiç böyle kolay olmayabilir.
 1	Ähm	Ähm	INTJ	_	_	5	discourse	_	LangID=DE
 2	das	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	3	det	_	LangID=DE
 3	Problem	Problem	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	5	nsubj	_	LangID=DE
@@ -5237,7 +5237,7 @@
 20	nasıl	nasıl	ADV	_	_	21	advmod	_	LangID=TR
 21	diyeyim	de	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=1|Tense=Pres	5	parataxis:discourse	_	LangID=TR
 22	böyle	böyle	ADV	_	_	29	advmod	_	LangID=TR
-23	Kunde'lerle	Kunde	NOUN	_	Case=Ins|Number=Plur	25	nmod	_	CSPoint=Kunde§'lerle|DeCase=Dat|DeGender=Masc|LangID=MIXED
+23	Kundelerle	Kunde	NOUN	_	Case=Ins|Number=Plur	25	nmod	_	CSPoint=Kunde§lerle|DeCase=Dat|DeGender=Masc|LangID=MIXED
 24	falan	falan	ADV	_	_	23	advmod	_	LangID=TR
 25	konuşma	konuşma	NOUN	_	Case=Nom|Number=Sing	29	nsubj	_	LangID=TR
 26	hiç	hiç	ADV	_	_	29	advmod	_	LangID=TR
@@ -5310,8 +5310,8 @@
 25	?	?	PUNCT	_	_	4	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0083
-# text = Kunde'lerin çoğu da bilmiyor.
-1	Kunde'lerin	Kunde	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	4	nsubj	_	CSPoint=Kunde§'lerin|DeCase=Nom|DeGender=Masc|LangID=MIXED
+# text = Kundelerin çoğu da bilmiyor.
+1	Kundelerin	Kunde	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	4	nsubj	_	CSPoint=Kunde§lerin|DeCase=Nom|DeGender=Masc|LangID=MIXED
 2	çoğu	çoğu	DET	_	Definite=Ind	1	det	_	LangID=TR
 3	da	de	ADV	_	_	1	advmod:emph	_	LangID=TR
 4	bilmiyor	bil	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	0	root	_	LangID=TR|SpaceAfter=No
@@ -5383,8 +5383,8 @@
 15	yükseğe	yüksek	NOUN	_	Case=Dat|Number=Sing	17	reparandum	_	LangID=TR
 16	daha	daha	ADV	_	_	18	advmod	_	LangID=TR
 17	yükseğe	yüksek	NOUN	_	Case=Dat|Number=Sing	18	obl	_	LangID=TR
-18	çıkabiliyorsun	çık	VERB	_	Aspect=Prog|Evident=Fh|Mood=Pot|Number=Sing|Person=2|Tense=Pres	12	parataxis	_	LangID=TR|CorrectForm=çıkabiliyormusun
-19	mu	mi	AUX	_	Number=Sing|Person=3	18	aux:q	_	LangID=TR|CorrectForm=çıkabiliyormusun
+18	çıkabiliyorsun	çık	VERB	_	Aspect=Prog|Evident=Fh|Mood=Pot|Number=Sing|Person=2|Tense=Pres|Typo=Yes	12	parataxis	_	LangID=TR|CorrectForm=çıkabiliyormusun
+19	mu	mi	AUX	_	Number=Sing|Person=3|Typo=Yes	18	aux:q	_	LangID=TR|CorrectForm=çıkabiliyormusun
 20	oder	oder	CCONJ	_	_	21	cc	_	LangID=DE
 21	ja	ja	INTJ	_	_	18	parataxis:discourse	_	LangID=DE|SpaceAfter=No
 22	.	.	PUNCT	_	_	2	punct	_	LangID=OTHER
@@ -5493,7 +5493,7 @@
 3	onun	o	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	4	nmod	_	LangID=TR
 4	programını	program	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	LangID=TR
 5	yüklüyorsun	yükle	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	LangID=TR
-6	Java'yı	Java	PROPN	_	Case=Acc|Number=Sing	7	obj	_	CSPoint=Java§'yı|DeCase=Acc|LangID=MIXED
+6	Java'yı	Java	PROPN	_	Case=Acc|Number=Sing	7	obj	_	CSPoint=Java§'yı|LangID=MIXED
 7	yüklüyorsun	yükle	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	5	conj	_	LangID=TR
 8	her	her	DET	_	Definite=Def	9	det	_	LangID=TR
 9	şeyi	şey	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	10	obj	_	LangID=TR
@@ -5600,7 +5600,7 @@
 8	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	LangID=DE
 9	Version	Version	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	11	nmod	_	LangID=DE
 10	von	von	ADP	_	_	11	case	_	LangID=DE
-11	Atos	Atos	PROPN	_	Foreign=Yes	6	obj	_	LangID=LANG3|SpaceAfter=No
+11	Atos	Atos	PROPN	_	Foreign=Yes	6	obj	_	Lang=fr|LangID=LANG3|SpaceAfter=No
 12	,	,	PUNCT	_	_	22	punct	_	LangID=OTHER
 13	äh	äh	INTJ	_	_	22	discourse	_	LangID=DE
 14	wir	wir	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	LangID=DE
@@ -5692,7 +5692,7 @@
 24	.	.	PUNCT	_	_	4	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0098
-# text = Und ähm weil du gerade gesagt hast ähm du hast es bei dem Kunden gesehen yani Kunde'nın yanına mı gidiyorsun oder ist das einfach die Kunden vor Ort?
+# text = Und ähm weil du gerade gesagt hast ähm du hast es bei dem Kunden gesehen yani Kundenın yanına mı gidiyorsun oder ist das einfach die Kunden vor Ort?
 1	Und	und	CCONJ	_	_	6	cc	_	LangID=DE
 2	ähm	ähm	INTJ	_	_	6	discourse	_	LangID=DE
 3	weil	weil	SCONJ	_	_	6	mark	_	LangID=DE
@@ -5709,7 +5709,7 @@
 14	Kunden	Kunde	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	15	obl	_	LangID=DE
 15	gesehen	sehen	VERB	_	VerbForm=Part	6	ccomp	_	LangID=DE
 16	yani	yani	ADV	_	_	20	advmod	_	LangID=TR
-17	Kunde'nın	Kunde	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	18	nmod	_	CSPoint=Kunde§'nın|DeCase=Dat|DeGender=Masc|LangID=MIXED
+17	Kundenın	Kunde	NOUN	_	Case=Gen|Number=Sing|Number[psor]=Sing|Person[psor]=2	18	nmod	_	CSPoint=Kunde§nın|DeCase=Dat|DeGender=Masc|LangID=MIXED
 18	yanına	yan	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obl	_	LangID=TR
 19	mı	mi	AUX	_	Number=Sing|Person=3	20	aux:q	_	LangID=TR
 20	gidiyorsun	git	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	6	parataxis	_	LangID=TR
@@ -5730,7 +5730,7 @@
 3	.	.	PUNCT	_	_	2	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0100
-# text = Und ich muss ja ich muss ja so gesagt die Kunden einschulen hani ben hani Kunde'lerin yanına geçip Kunde'lere hatta o programı anlatacağım.
+# text = Und ich muss ja ich muss ja so gesagt die Kunden einschulen hani ben hani Kundelerin yanına geçip Kundelere hatta o programı anlatacağım.
 1	Und	und	CCONJ	_	_	12	cc	_	LangID=DE
 2	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	LangID=DE
 3	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	reparandum	_	LangID=DE
@@ -5744,12 +5744,12 @@
 11	Kunden	Kunde	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	12	obj	_	LangID=DE
 12	einschulen	einschulen	VERB	_	VerbForm=Inf	0	root	_	LangID=DE
 13	hani	hani	ADV	_	_	18	advmod	_	LangID=TR
-14	ben	ben	PRON	_	Case=Nom|Number=Sing	18	nsubj	_	LangID=TR
+14	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	18	nsubj	_	LangID=TR
 15	hani	hani	ADV	_	_	18	advmod	_	LangID=TR
-16	Kunde'lerin	Kunde	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	17	nmod	_	CSPoint=Kunde§'lerin|DeCase=Dat|DeGender=Masc|LangID=MIXED
+16	Kundelerin	Kunde	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	17	nmod	_	CSPoint=Kunde§lerin|DeCase=Dat|DeGender=Masc|LangID=MIXED
 17	yanına	yan	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=3	18	obl	_	LangID=TR
 18	geçip	geç	VERB	_	VerbForm=Conv	12	advcl	_	LangID=TR
-19	Kunde'lere	Kunde	NOUN	_	Case=Dat|Number=Plur	23	obl	_	CSPoint=Kunde§'lere|DeCase=Dat|DeGender=Masc|LangID=MIXED
+19	Kundelere	Kunde	NOUN	_	Case=Dat|Number=Plur	23	obl	_	CSPoint=Kunde§lere|DeCase=Dat|DeGender=Masc|LangID=MIXED
 20	hatta	hatta	ADV	_	_	23	advmod	_	LangID=TR
 21	o	o	DET	_	Definite=Def	22	det	_	LangID=TR
 22	programı	program	NOUN	_	Case=Acc|Number=Sing	23	obl	_	LangID=TR
@@ -5830,11 +5830,11 @@
 35	.	.	PUNCT	_	_	3	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0103
-# text = Belirli bir zaman Kunde'lere yardım ediyorsun işte ähm weil du musst ja die ganzen Isgus Geräte vorbereiten.
+# text = Belirli bir zaman Kundelere yardım ediyorsun işte ähm weil du musst ja die ganzen Isgus Geräte vorbereiten.
 1	Belirli	belirli	ADJ	_	_	3	amod	_	LangID=TR
 2	bir	bir	DET	_	Definite=Ind	3	det	_	LangID=TR
 3	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	6	obl	_	LangID=TR
-4	Kunde'lere	Kunde	NOUN	_	Case=Dat|Number=Plur	6	obl	_	CSPoint=Kunde§'lere|DeCase=Dat|DeGender=Masc|LangID=MIXED
+4	Kundelere	Kunde	NOUN	_	Case=Dat|Number=Plur	6	obl	_	CSPoint=Kunde§lere|DeCase=Dat|DeGender=Masc|LangID=MIXED
 5	yardım	yardım	NOUN	_	Case=Nom|Number=Sing	6	compound:lvc	_	LangID=TR
 6	ediyorsun	et	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	LangID=TR
 7	işte	işte	ADV	_	_	6	advmod	_	LangID=TR
@@ -5867,7 +5867,7 @@
 13	.	.	PUNCT	_	_	3	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0105
-# text = Hani es gibt Kunden die haben nur zweihundert Mitarbeiter, mesela sogar weniger elli Mitarbeiter'sı olan bile var ama es gibt auch Kunden, die haben siebentausend Mitarbeiter.
+# text = Hani es gibt Kunden die haben nur zweihundert Mitarbeiter, mesela sogar weniger elli Mitarbeitersı olan bile var ama es gibt auch Kunden, die haben siebentausend Mitarbeiter.
 1	Hani	hani	ADV	_	_	3	advmod	_	LangID=TR
 2	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	3	expl	_	LangID=DE
 3	gibt	geben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	LangID=DE
@@ -5882,7 +5882,7 @@
 12	sogar	sogar	ADV	_	_	13	advmod	_	LangID=DE
 13	weniger	weniger	ADJ	_	_	3	parataxis	_	LangID=DE
 14	elli	elli	NUM	_	NumType=Card	15	nummod	_	LangID=TR
-15	Mitarbeiter'sı	Mitarbeiter	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obj	_	CSPoint=Mitarbeiter§'sı|DeCase=Acc|DeGender=Masc|LangID=MIXED
+15	Mitarbeitersı	Mitarbeiter	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	16	obj	_	CSPoint=Mitarbeiter§sı|DeCase=Acc|DeGender=Masc|LangID=MIXED
 16	olan	olan	VERB	_	Mood=Imp|Number=Sing|Person=2	18	csubj	_	LangID=TR
 17	bile	bile	ADV	_	_	18	advmod	_	LangID=TR
 18	var	var	ADJ	_	_	3	parataxis	_	LangID=TR
@@ -5899,7 +5899,7 @@
 29	.	.	PUNCT	_	_	3	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0106
-# text = Es kann sein, dass äh, dass du dann bei einem Kunden bir sene sürüyor öbür Kunde'de işte iki üç ay sürüyor veriyorsun.
+# text = Es kann sein, dass äh, dass du dann bei einem Kunden bir sene sürüyor öbür Kundede işte iki üç ay sürüyor veriyorsun.
 1	Es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	LangID=DE
 2	kann	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	aux	_	LangID=DE
 3	sein	sein	AUX	_	VerbForm=Inf	1	cop	_	LangID=DE|SpaceAfter=No
@@ -5917,7 +5917,7 @@
 15	sene	sene	NOUN	_	Case=Nom|Number=Sing	16	obl	_	LangID=TR
 16	sürüyor	sürü	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	1	parataxis	_	LangID=TR
 17	öbür	öbür	DET	_	Definite=Def	18	det	_	LangID=TR
-18	Kunde'de	Kunde	NOUN	_	Case=Loc|Number=Sing	23	obl	_	CSPoint=Kunde§'de|DeCase=Dat|DeGender=Masc|LangID=MIXED
+18	Kundede	Kunde	NOUN	_	Case=Loc|Number=Sing	23	obl	_	CSPoint=Kunde§de|DeCase=Dat|DeGender=Masc|LangID=MIXED
 19	işte	işte	ADV	_	_	23	advmod	_	LangID=TR
 20	iki	iki	NUM	_	Case=Nom|Number=Sing	21	compound:redup	_	LangID=TR
 21	üç	üç	NUM	_	NumType=Card	22	nummod	_	LangID=TR
@@ -5927,7 +5927,7 @@
 25	.	.	PUNCT	_	_	1	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0107
-# text = Dann gibst du das an Hotline weiter und die übernehmen das, falls die irgendwie Kunde Probleme haben Hotline'i arıyorlar onlar da sorunu çözmeye çalışıyorlar işte aber daraufhin können sie uns immer noch weiterhin ansprechen.
+# text = Dann gibst du das an Hotline weiter und die übernehmen das, falls die irgendwie Kunde Probleme haben Hotlinei arıyorlar onlar da sorunu çözmeye çalışıyorlar işte aber daraufhin können sie uns immer noch weiterhin ansprechen.
 1	Dann	dann	SCONJ	_	_	2	mark	_	LangID=DE
 2	gibst	geben	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	LangID=DE
 3	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	LangID=DE
@@ -5946,7 +5946,7 @@
 16	Kunde	Kunde	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	18	nsubj	_	LangID=DE
 17	Probleme	Problem	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	18	obj	_	LangID=DE
 18	haben	haben	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	20	advcl	_	LangID=DE
-19	Hotline'i	Hotline	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obj	_	CSPoint=Hotline§'i|DeCase=Acc|DeGender=Fem|LangID=MIXED
+19	Hotlinei	Hotline	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	20	obj	_	CSPoint=Hotline§i|DeCase=Acc|DeGender=Fem|LangID=MIXED
 20	arıyorlar	ara	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Pres	2	parataxis	_	LangID=TR
 21	onlar	o	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	24	nsubj	_	LangID=TR
 22	da	de	ADV	_	_	21	advmod:emph	_	LangID=TR
@@ -5994,7 +5994,7 @@
 # text = Yani diyelim ben şimdi altı saat sonra Pause yapmadım değil mi?
 1	Yani	yani	ADV	_	_	2	advmod	_	LangID=TR
 2	diyelim	de	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Plur|Person=1|Tense=Pres	0	root	_	LangID=TR
-3	ben	ben	PRON	_	Case=Nom|Number=Sing	9	nsubj	_	LangID=TR
+3	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	LangID=TR
 4	şimdi	şimdi	NOUN	_	Case=Nom|Number=Sing	9	obl	_	LangID=TR
 5	altı	altı	NUM	_	NumType=Card	6	nummod	_	LangID=TR
 6	saat	saat	NOUN	_	Case=Nom|Number=Sing	9	obl	_	LangID=TR
@@ -6067,12 +6067,12 @@
 22	.	.	PUNCT	_	_	2	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0113
-# text = Çünkü hani şey em Kunde'lerin zorlukları da var çünkü die Mitarbeiter vergessen immer wieder zu stempeln.
+# text = Çünkü hani şey em Kundelerin zorlukları da var çünkü die Mitarbeiter vergessen immer wieder zu stempeln.
 1	Çünkü	çünkü	SCONJ	_	_	8	mark	_	LangID=TR
 2	hani	hani	ADV	_	_	8	advmod	_	LangID=TR
 3	şey	şey	NOUN	_	Case=Nom|Number=Sing	8	discourse	_	LangID=TR
 4	em	em	INTJ	_	_	8	discourse	_	LangID=TR
-5	Kunde'lerin	Kunde	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	8	nsubj	_	CSPoint=Kunde§'lerin|DeCase=Nom|DeGender=Masc|LangID=MIXED
+5	Kundelerin	Kunde	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=2	6	nmod	_	CSPoint=Kunde§lerin|DeCase=Nom|DeGender=Masc|LangID=MIXED
 6	zorlukları	zorluk	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	8	nsubj	_	LangID=TR
 7	da	de	ADV	_	_	6	advmod:emph	_	LangID=TR
 8	var	var	ADJ	_	_	0	root	_	LangID=TR
@@ -6087,9 +6087,9 @@
 17	.	.	PUNCT	_	_	8	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0114
-# text = Ya Pause'yi unutuyorlar ya zamanın nasıl geçtiğini unutuyorlar.
+# text = Ya Pauseyi unutuyorlar ya zamanın nasıl geçtiğini unutuyorlar.
 1	Ya	ya	CCONJ	_	_	3	cc	_	LangID=TR
-2	Pause'yi	Pause	NOUN	_	Case=Acc|Number=Sing	3	obj	_	CSPoint=Pause§'yi|DeCase=Acc|DeGender=Fem|LangID=MIXED
+2	Pauseyi	Pause	NOUN	_	Case=Acc|Number=Sing	3	obj	_	CSPoint=Pause§yi|DeCase=Acc|DeGender=Fem|LangID=MIXED
 3	unutuyorlar	unut	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=3|Tense=Pres	0	root	_	LangID=TR
 4	ya	ya	CCONJ	_	_	8	cc	_	LangID=TR
 5	zamanın	zaman	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2	7	obj	_	LangID=TR
@@ -6123,7 +6123,7 @@
 21	.	.	PUNCT	_	_	4	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0116
-# text = Hani sonradan geçip de seni prüfen işte allgemein o Kunde'yi prüfen etmeye geldiklerinde bekommst du dementsprechend Strafe.
+# text = Hani sonradan geçip de seni prüfen işte allgemein o Kundeyi prüfen etmeye geldiklerinde bekommst du dementsprechend Strafe.
 1	Hani	hani	ADV	_	_	3	advmod	_	LangID=TR
 2	sonradan	sonradan	ADV	_	_	3	advmod	_	LangID=TR
 3	geçip	geç	VERB	_	VerbForm=Conv	0	root	_	LangID=TR
@@ -6133,7 +6133,7 @@
 7	işte	işte	ADV	_	_	12	advmod	_	LangID=TR
 8	allgemein	allgemein	ADJ	_	_	12	advmod	_	LangID=DE
 9	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	10	nmod	_	LangID=TR
-10	Kunde'yi	Kunde	NOUN	_	Case=Acc|Number=Sing	12	obj	_	CSPoint=Kunde§'yi|DeCase=Acc|DeGender=Masc|LangID=MIXED
+10	Kundeyi	Kunde	NOUN	_	Case=Acc|Number=Sing	12	obj	_	CSPoint=Kunde§yi|DeCase=Acc|DeGender=Masc|LangID=MIXED
 11	prüfen	prüfen	VERB	_	VerbForm=Inf	12	compound:lvc	_	LangID=DE
 12	etmeye	et	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	13	xcomp	_	LangID=TR
 13	geldiklerinde	gel	VERB	_	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=3|Tense=Past|VerbForm=Part	3	conj	_	LangID=TR
@@ -6280,7 +6280,7 @@
 25	.	.	PUNCT	_	_	14	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0122
-# text = Ya ya işte hani bizde de işte Kunde'lere göre isteklere göre ayarlıyorsun.
+# text = Ya ya işte hani bizde de işte Kundelere göre isteklere göre ayarlıyorsun.
 1	Ya	ya	INTJ	_	_	12	discourse	_	LangID=TR
 2	ya	ya	INTJ	_	_	12	discourse	_	LangID=TR
 3	işte	işte	INTJ	_	_	12	discourse	_	LangID=TR
@@ -6288,7 +6288,7 @@
 5	bizde	biz	PRON	_	Case=Loc|Number=Plur|Person=1|PronType=Prs	12	obl	_	LangID=TR
 6	de	de	ADV	_	_	5	advmod:emph	_	LangID=TR
 7	işte	işte	ADV	_	_	12	advmod	_	LangID=TR
-8	Kunde'lere	Kunde	NOUN	_	Case=Dat|Number=Plur	12	obl	_	CSPoint=Kunde§'lere|DeCase=Acc|DeGender=Masc|LangID=MIXED
+8	Kundelere	Kunde	NOUN	_	Case=Dat|Number=Plur	12	obl	_	CSPoint=Kunde§lere|DeCase=Acc|DeGender=Masc|LangID=MIXED
 9	göre	göre	ADP	_	_	8	case	_	LangID=TR
 10	isteklere	istek	NOUN	_	Case=Dat|Number=Plur	12	obl	_	LangID=TR
 11	göre	göre	ADP	_	_	10	case	_	LangID=TR
@@ -6298,7 +6298,7 @@
 # sent_id = TRDE-CS-C21-0123
 # text = Und Studiumnan alakası var mı şimdi çalıştığının yani?
 1	Und	und	CCONJ	_	_	4	cc	_	LangID=DE
-2	Studiumnan	_	NOUN	_	Case=Dat|Number=Sing	4	obl	_	CorrectForm=Studium§la|CSPoint=Studium§nan|DeCase=Dat|DeGender=Neut|LangID=MIXED
+2	Studiumnan	_	NOUN	_	Case=Dat|Number=Sing|Typo=Yes	4	obl	_	CorrectForm=Studium§la|CSPoint=Studium§nan|DeCase=Dat|DeGender=Neut|LangID=MIXED
 3	alakası	alaka	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	LangID=TR
 4	var	var	ADJ	_	_	0	root	_	LangID=TR
 5	mı	mi	AUX	_	Number=Sing|Person=3	4	aux:q	_	LangID=TR
@@ -6482,7 +6482,7 @@
 16	.	.	PUNCT	_	_	15	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-C21-0132
-# text = Das ist jetzt auch mit dabei ama geçip de Studium'da işte Datenbank'da işte Tabelle'leri aufzeichnen ediyordun işte ne bileyim.
+# text = Das ist jetzt auch mit dabei ama geçip de Studiumda işte Datenbankda işte Tabelleleri aufzeichnen ediyordun işte ne bileyim.
 1	Das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	nsubj	_	LangID=DE
 2	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	LangID=DE
 3	jetzt	jetzt	ADV	_	_	6	advmod	_	LangID=DE
@@ -6492,11 +6492,11 @@
 7	ama	ama	CCONJ	_	_	8	cc	_	LangID=TR
 8	geçip	geç	VERB	_	VerbForm=Conv	6	conj	_	LangID=TR
 9	de	de	ADV	_	_	8	advmod:emph	_	LangID=TR
-10	Studium'da	Studium	NOUN	_	Case=Loc|Number=Sing	16	obl	_	CSPoint=Studium§'da|DeCase=Dat|DeGender=Fem|LangID=MIXED
+10	Studiumda	Studium	NOUN	_	Case=Loc|Number=Sing	16	obl	_	CSPoint=Studium§da|DeCase=Dat|DeGender=Fem|LangID=MIXED
 11	işte	işte	ADV	_	_	16	advmod	_	LangID=TR
-12	Datenbank'da	Datenbank	NOUN	_	Case=Loc|Number=Sing	10	conj	_	CSPoint=Datenbank§'da|DeCase=Dat|DeGender=Fem|LangID=MIXED
+12	Datenbankda	Datenbank	NOUN	_	Case=Loc|Number=Sing	10	conj	_	CSPoint=Datenbank§da|DeCase=Dat|DeGender=Fem|LangID=MIXED
 13	işte	işte	ADV	_	_	16	advmod	_	LangID=TR
-14	Tabelle'leri	Tabelle	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	16	obj	_	CSPoint=Tabelle§'leri|DeCase=Acc|DeGender=Fem|LangID=MIXED
+14	Tabelleleri	Tabelle	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=3	16	obj	_	CSPoint=Tabelle§leri|DeCase=Acc|DeGender=Fem|LangID=MIXED
 15	aufzeichnen	aufzeichnen	VERB	_	VerbForm=Inf	16	compound:lvc	_	LangID=DE
 16	ediyordun	et	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Past	8	conj	_	LangID=TR
 17	işte	işte	ADV	_	_	19	advmod	_	LangID=TR
@@ -6936,7 +6936,7 @@
 # text = Ist die Halt-- die Haltestelle Zug sürüyor also.
 1	Ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	LangID=DE
 2	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	3	det	_	LangID=DE
-3	Halt--	Haltestelle	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	5	reparandum	_	LangID=DE|CorrectForm=Haltestelle
+3	Halt--	Haltestelle	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	5	reparandum	_	LangID=DE|CorrectForm=Haltestelle
 4	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	5	det	_	LangID=DE
 5	Haltestelle	Haltestelle	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	LangID=DE
 6	Zug	Zug	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	7	nsubj	_	LangID=DE
@@ -7222,7 +7222,7 @@
 1	Şimdi	şimdi	NOUN	_	Case=Nom|Number=Sing	7	obl	_	LangID=TR
 2	benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	4	nmod	_	LangID=TR
 3	aldığım	al	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|Tense=Past|VerbForm=Part	4	acl	_	LangID=TR
-4	otobüs	otobüs	NOUN	_	Case=Nom|Number=Sing	7	obj	_	LangID=TR
+4	otobüs	otobüs	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	LangID=TR
 5	de	de	ADV	_	_	4	advmod:emph	_	LangID=TR
 6	mesela	mesela	ADV	_	_	7	advmod	_	LangID=TR
 7	kommt	kommen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	LangID=DE
@@ -7487,7 +7487,7 @@
 1	Hani	hani	ADV	_	_	6	discourse	_	LangID=TR
 2	bana	ben	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	6	obl	_	LangID=TR
 3	öyle	öyle	ADV	_	_	6	discourse	_	LangID=TR
-4	inte--	enteresan	ADJ	_	_	5	reparandum	_	LangID=TR|CorrectForm=enteresan
+4	inte--	enteresan	ADJ	_	Typo=Yes	5	reparandum	_	LangID=TR|CorrectForm=enteresan
 5	enteresan	enteresan	ADJ	_	_	6	advmod	_	LangID=TR
 6	gelmişti	gel	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Pqp	0	root	_	LangID=TR
 7	kulağıma	kulak	NOUN	_	Case=Dat|Number=Sing|Number[psor]=Sing|Person[psor]=1	6	obl	_	LangID=TR
@@ -7727,7 +7727,7 @@
 # sent_id = TRDE-CS-E02-0014
 # text = Bosch Connect adı ähm.
 1	Bosch	Bosch	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	3	nmod	_	LangID=DE
-2	Connect	Connect	PROPN	_	Foreign=Yes	1	flat	_	LangID=LANG3
+2	Connect	Connect	PROPN	_	Foreign=Yes	1	flat	_	LangID=LANG3|Lang=en
 3	adı	ad	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	LangID=TR
 4	ähm	ähm	INTJ	_	_	3	discourse	_	LangID=DE|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	LangID=OTHER
@@ -7769,7 +7769,7 @@
 32	haben	haben	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	28	conj	_	LangID=DE
 33	sowas	sowas	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	35	nmod	_	LangID=DE
 34	wie	wie	ADP	_	_	35	case	_	LangID=DE
-35	Communities	Communities	NOUN	_	Case=Acc|Foreign=Yes	32	obj	_	LangID=LANG3
+35	Communities	Communities	NOUN	_	Foreign=Yes	32	obj	_	LangID=LANG3|Lang=en
 36	auf	auf	ADP	_	_	39	case	_	LangID=DE
 37	diesen	dies	PRON	_	Case=Dat|Number=Sing|PronType=Dem	39	nmod	_	LangID=DE
 38	sozialen	sozial	ADJ	_	Case=Dat|Gender=Fem|Number=Plur	39	amod	_	LangID=DE
@@ -7779,7 +7779,7 @@
 42	Gruppen	Gruppe	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	35	conj	_	LangID=DE
 43	wie	wie	ADP	_	_	45	case	_	LangID=DE
 44	bei	bei	ADP	_	_	45	case	_	LangID=DE
-45	Facebook	Facebook	PROPN	_	Foreign=Yes	42	nmod	_	LangID=LANG3|SpaceAfter=No
+45	Facebook	Facebook	PROPN	_	Foreign=Yes	42	nmod	_	Lang=en|LangID=LANG3|SpaceAfter=No
 46	.	.	PUNCT	_	_	20	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-E03-0001
@@ -8277,7 +8277,7 @@
 # sent_id = TRDE-CS-S22-0002
 # text = Buah ben çok dizi izledim ich schaue sehr viele Serien an.
 1	Buah	Buah	INTJ	_	_	5	discourse	_	LangID=TR
-2	ben	ben	PRON	_	Case=Nom|Number=Sing	5	nsubj	_	LangID=TR
+2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	5	nsubj	_	LangID=TR
 3	çok	çok	DET	_	_	4	det	_	LangID=TR
 4	dizi	diz	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	obj	_	LangID=TR
 5	izledim	izle	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	LangID=TR
@@ -8634,7 +8634,7 @@
 2	istediğin	iste	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	3	acl	_	LangID=TR
 3	dizi	diz	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	LangID=TR
 4	einfach	einfach	ADJ	_	_	6	advmod	_	LangID=DE
-5	YouTube'da	YouTube	PROPN	_	Case=Loc|Number=Sing	6	obl	_	CSPoint=YouTube§'da|DeCase=Dat|LangID=MIXED
+5	YouTube'da	YouTube	PROPN	_	Case=Loc|Number=Sing	6	obl	_	CSPoint=YouTube§'da|LangID=MIXED
 6	var	var	ADJ	_	_	0	root	_	LangID=TR|SpaceAfter=No
 7	.	.	PUNCT	_	_	6	punct	_	LangID=OTHER
 
@@ -9260,7 +9260,7 @@
 12	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	LangID=DE
 13	dachte	denken	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	advcl	_	LangID=DE
 14	so	so	ADV	_	_	13	advmod	_	LangID=DE
-15	bro	brother	NOUN	_	Foreign=Yes	17	vocative	_	LangID=LANG3
+15	bro	brother	NOUN	_	Foreign=Yes	17	vocative	_	LangID=LANG3|Lang=en
 16	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	17	nsubj	_	LangID=DE
 17	trage	tragen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	13	ccomp	_	LangID=DE
 18	das	der	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	17	obj	_	LangID=DE
@@ -9772,18 +9772,18 @@
 # text = Sie hat des eine çıkardı und des Nächste die so, ich krieg des nicht rein.
 1	Sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	5	nsubj	_	LangID=DE
 2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	LangID=DE
-3	des	der	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	det	_	LangID=DE|CorrectForm=das
+3	des	der	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art|Typo=Yes	4	det	_	LangID=DE|CorrectForm=das
 4	eine	ein	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	5	obj	_	LangID=DE
 5	çıkardı	çıkar	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	LangID=TR
 6	und	und	CCONJ	_	_	8	cc	_	LangID=DE
-7	des	der	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	det	_	LangID=DE|CorrectForm=das
+7	des	der	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art|Typo=Yes	8	det	_	LangID=DE|CorrectForm=das
 8	Nächste	Nächste	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	5	conj	_	LangID=DE
 9	die	der	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Dem	8	orphan	_	LangID=DE
 10	so	so	ADV	_	_	8	advmod	_	LangID=DE|SpaceAfter=No
 11	,	,	PUNCT	_	_	13	punct	_	LangID=OTHER
 12	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	13	nsubj	_	LangID=DE
 13	krieg	kriegen	VERB	_	Mood=Imp|Number=Sing	8	ccomp	_	LangID=DE
-14	des	der	PRON	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	13	obj	_	LangID=DE|CorrectForm=das
+14	des	der	PRON	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art|Typo=Yes	13	obj	_	LangID=DE|CorrectForm=das
 15	nicht	nicht	PART	_	Polarity=Neg	13	advmod	_	LangID=DE
 16	rein	rein	ADV	_	_	13	compound:prt	_	LangID=DE|SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	LangID=OTHER
@@ -10121,7 +10121,7 @@
 17	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	20	nsubj	_	LangID=DE
 18	wahrscheinlich	wahrscheinlich	ADV	_	_	20	advmod	_	LangID=DE
 19	sehr	sehr	ADV	_	_	20	advmod	_	LangID=DE
-20	down	down	NOUN	_	Foreign=Yes	14	ccomp	_	LangID=LANG3
+20	down	down	NOUN	_	Foreign=Yes	14	ccomp	_	LangID=LANG3|Lang=en
 21	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	20	cop	_	LangID=DE
 22	annemi	anne	NOUN	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=1	23	obj	_	LangID=TR
 23	aradım	ara	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	LangID=TR
@@ -10472,7 +10472,7 @@
 26	ya	ya	CCONJ	_	_	33	cc	_	LangID=TR
 27	da	de	CCONJ	_	_	33	advmod:emph	_	LangID=TR
 28	ah	ah	INTJ	_	_	33	discourse	_	LangID=TR
-29	beni	ben	PRON	_	Case=Acc|Number=Sing	31	obj	_	LangID=TR
+29	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	31	obj	_	LangID=TR
 30	şöyle	şöyle	ADV	_	_	31	advmod	_	LangID=TR
 31	ağırlasınlar	ağırla	VERB	_	Mood=Imp|Number=Plur|Person=3	33	ccomp	_	LangID=TR
 32	filan	filan	ADV	_	_	31	advmod	_	LangID=TR
@@ -10701,7 +10701,7 @@
 5	eh	eh	INTJ	_	_	4	discourse	_	LangID=TR
 6	komple	komple	ADJ	_	_	7	amod	_	LangID=TR
 7	kabloları	kablo	NOUN	_	Case=Acc|Number=Plur	10	nsubj:pass	_	LangID=TR
-8	mabloları	kablo	NOUN	_	Case=Acc|Number=Plur|Typo=Yes	7	compound:redup	_	LangID=MIXED|CorrectForm=kabloları|DeCase=Acc
+8	mabloları	kablo	NOUN	_	Case=Acc|Number=Plur|Typo=Yes	7	compound:redup	_	LangID=TR|CorrectForm=kabloları
 9	müssen	müssen	AUX	_	VerbForm=Inf	10	aux	_	LangID=DE
 10	rausgenommen	rausnehmen	VERB	_	VerbForm=Part	2	dislocated	_	LangID=DE|DislocateHead=1
 11	werden	werden	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin|Voice=Pass	10	aux:pass	_	LangID=DE|SpaceAfter=No
@@ -10715,7 +10715,7 @@
 4	diese	dies	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Dem	6	nmod	_	LangID=DE
 5	einzelnen	einzeln	ADJ	_	Case=Nom|Gender=Neut|Number=Plur	6	amod	_	LangID=DE
 6	Teile	Teil	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	9	reparandum	_	LangID=DE
-7	CPUyu	CPU	NOUN	_	Case=Acc|Number=Sing	9	obj	_	CSPoint=CPU§yu|DeCase=Acc|DeGender=Fem|LangID=MIXED
+7	CPUyu	CPU	NOUN	_	Case=Acc|Number=Sing	9	obj	_	CSPoint=CPU§yu|LangID=MIXED
 8	falan	falan	ADV	_	_	7	advmod	_	LangID=TR
 9	çıkarmam	çıkar	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	0	root	_	LangID=TR|SpaceAfter=No
 10	,	,	PUNCT	_	_	14	punct	_	LangID=OTHER
@@ -10734,7 +10734,7 @@
 5	mal	mal	ADV	_	_	9	advmod	_	LangID=DE
 6	diesen	dies	PRON	_	Case=Acc|Number=Sing|PronType=Dem	7	reparandum	_	LangID=DE
 7	diesen	dies	PRON	_	Case=Acc|Number=Sing|PronType=Dem	8	nmod	_	LangID=DE
-8	Motherboard	Motherboard	NOUN	_	Foreign=Yes	9	dislocated	_	LangID=LANG3|DislocateHead=4
+8	Motherboard	Motherboard	NOUN	_	Foreign=Yes	9	dislocated	_	LangID=LANG3|DislocateHead=4|Lang=en
 9	festgeschraubt	festschrauben	VERB	_	VerbForm=Part	14	advcl	_	LangID=DE|SpaceAfter=No
 10	,	,	PUNCT	_	_	9	punct	_	LangID=OTHER
 11	yanlış	yanlış	ADJ	_	_	12	amod	_	LangID=TR
@@ -10749,7 +10749,7 @@
 2	damit	damit	SCONJ	_	_	6	mark	_	LangID=DE
 3	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	LangID=DE
 4	den	der	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	5	det	_	LangID=DE
-5	Motherboard	Motherboard	NOUN	_	Foreign=Yes	6	obj	_	LangID=LANG3
+5	Motherboard	Motherboard	NOUN	_	Foreign=Yes	6	obj	_	LangID=LANG3|Lang=en
 6	abbauen	abbauen	VERB	_	VerbForm=Inf	15	advcl	_	LangID=DE
 7	kann	können	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	LangID=DE
 8	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	reparandum	_	LangID=DE
@@ -10775,7 +10775,7 @@
 5	falan	falan	ADV	_	_	4	advmod	_	LangID=TR
 6	çıkarırız	çıkar	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Plur|Person=1|Tense=Pres	0	root	_	LangID=TR|SpaceAfter=No
 7	,	,	PUNCT	_	_	8	punct	_	LangID=OTHER
-8	Fanları	Fan	NOUN	_	Case=Acc|Number=Plur	6	conj	_	CSPoint=Fan§ları|DeCase=Acc|DeGender=Masc|LangID=MIXED|SpaceAfter=No
+8	Fanları	Fan	NOUN	_	Case=Acc|Number=Plur	6	conj	_	CSPoint=Fan§ları|LangID=MIXED|SpaceAfter=No
 9	.	.	PUNCT	_	_	6	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S01-0009
@@ -10790,7 +10790,7 @@
 
 # sent_id = TRDE-CS-S01-0010
 # text = Mainboard üzerinde kalır.
-1	Mainboard	Mainboard	NOUN	_	Foreign=Yes	3	nsubj	_	LangID=LANG3
+1	Mainboard	Mainboard	NOUN	_	Foreign=Yes	3	nsubj	_	LangID=LANG3|Lang=en
 2	üzerinde	üzeri	NOUN	_	Case=Loc|Number=Sing	3	obl	_	LangID=TR
 3	kalır	kal	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	LangID=TR|SpaceAfter=No
 4	.	.	PUNCT	_	_	3	punct	_	LangID=OTHER
@@ -10822,7 +10822,7 @@
 
 # sent_id = TRDE-CS-S01-0012
 # text = Fanı komple temizlemem gerek, ist viel zu staubig staubig innen.
-1	Fanı	Fan	NOUN	_	Case=Acc|Number=Sing	3	obj	_	CSPoint=Fan§ı|DeCase=Acc|DeGender=Masc|LangID=MIXED
+1	Fanı	Fan	NOUN	_	Case=Acc|Number=Sing	3	obj	_	CSPoint=Fan§ı|LangID=MIXED
 2	komple	komple	ADJ	_	_	3	amod	_	LangID=TR
 3	temizlemem	temizle	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	4	csubj	_	LangID=TR
 4	gerek	gerek	NOUN	_	Case=Nom|Number=Sing	0	root	_	LangID=TR|SpaceAfter=No
@@ -10939,7 +10939,7 @@
 5	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	8	nsubj	_	LangID=TR
 6	eh	eh	INTJ	_	_	8	discourse	_	LangID=TR
 7	şeye	şey	NOUN	_	Case=Dat|Number=Sing	8	obl	_	LangID=TR
-8	git--	git	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Tense=Pqp	12	reparandum	_	LangID=TR|CorrectForm=gitmiştik
+8	git--	git	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=1|Tense=Pqp|Typo=Yes	12	reparandum	_	LangID=TR|CorrectForm=gitmiştik
 9	eh	eh	INTJ	_	_	12	discourse	_	LangID=TR
 10	biz	biz	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	LangID=TR
 11	Mısır'a	Mısır	PROPN	_	Case=Dat|Number=Sing	12	obl	_	LangID=TR
@@ -11036,7 +11036,7 @@
 6	turu	tur	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	LangID=TR
 7	yaptığımızda	yap	VERB	_	Case=Loc|Number=Sing|Number[psor]=Plur|Person[psor]=1|Tense=Past|VerbForm=Part	11	advcl	_	LangID=TR
 8	vulkanische	vulkanisch	ADJ	_	Case=Acc|Gender=Neut|Number=Plur	9	amod	_	LangID=DE
-9	Gesteinları	Gestein	NOUN	_	Case=Acc|Number=Plur	11	nsubj	_	CSPoint=Gestein§ları|DeCase=Acc|DeGender=Neut|LangID=MIXED
+9	Gesteinları	Gestein	NOUN	_	Case=Acc|Number=Plur	11	obj	_	CSPoint=Gestein§ları|DeCase=Acc|DeGender=Neut|LangID=MIXED
 10	falan	falan	ADV	_	_	9	advmod	_	LangID=TR
 11	gördük	gör	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Past	0	root	_	LangID=TR|SpaceAfter=No
 12	.	.	PUNCT	_	_	11	punct	_	LangID=OTHER
@@ -11146,7 +11146,7 @@
 # text = Giderken işte Sicherheits-- eh Vorkehrunglar yüzünden bekletildik.
 1	Giderken	git	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Tense=Pres|VerbForm=Conv	7	advcl	_	LangID=TR
 2	işte	işte	INTJ	_	_	5	discourse	_	LangID=TR
-3	Sicherheits--	Sicherheitsvorkehrung	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	5	reparandum	_	LangID=DE|CorrectForm=Sicherheitsvorkehrungen
+3	Sicherheits--	Sicherheitsvorkehrung	NOUN	_	Case=Nom|Gender=Fem|Number=Plur|Typo=Yes	5	reparandum	_	LangID=DE|CorrectForm=Sicherheitsvorkehrungen
 4	eh	eh	INTJ	_	_	5	discourse	_	LangID=DE
 5	Vorkehrunglar	Vorkehrung	NOUN	_	Case=Nom|Number=Plur	6	nmod	_	CSPoint=Vorkehrung§lar|DeCase=Dat|DeGender=Fem|LangID=MIXED
 6	yüzünden	yüz	NOUN	_	Case=Abl|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	LangID=TR
@@ -11738,7 +11738,7 @@
 9	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	LangID=DE
 10	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	LangID=DE
 11	auch	auch	ADV	_	_	15	advmod	_	LangID=DE
-12	Arzu	Arzu	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	15	obj	_	LangID=DE
+12	Arzu	Arzu	PROPN	_	Case=Nom|Number=Sing	15	obj	_	LangID=TR
 13	und	und	CCONJ	_	_	14	cc	_	LangID=DE
 14	dich	du	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	12	conj	_	LangID=DE
 15	kennengelernt	kennenlern	VERB	_	VerbForm=Part	0	root	_	LangID=DE|SpaceAfter=No
@@ -12025,7 +12025,7 @@
 4	okuyan	oku	VERB	_	Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part	5	acl	_	LangID=TR
 5	başkaları	başka	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=3	6	nsubj	_	LangID=TR
 6	başladı	başla	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	LangID=TR
-7	bilene	bile	ADV	_	Typo=Yes	6	advmod	_	LangID=TR|CorrectForm=bile
+7	bilene	bile	ADV	_	_	6	advmod	_	LangID=TR|CorrectForm=bile
 8	und	und	CCONJ	_	_	10	cc	_	LangID=DE
 9	die	der	PRON	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Rel	10	nsubj	_	LangID=DE
 10	haben	haben	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	conj	_	LangID=DE
@@ -12057,12 +12057,12 @@
 6	nicht	nicht	PART	_	Polarity=Neg	9	advmod	_	LangID=DE
 7	Comp--	comp	X	_	_	9	reparandum	_	LangID=DE
 8	eh	eh	INTJ	_	_	9	discourse	_	LangID=DE
-9	Bachelor	Bachelor	PROPN	_	Foreign=Yes	0	root	_	LangID=LANG3
-10	of	of	ADP	_	Foreign=Yes	9	case	_	LangID=LANG3
-11	Science	Science	PROPN	_	Foreign=Yes	9	nmod	_	LangID=LANG3
-12	Bachelor	Bachelor	PROPN	_	Foreign=Yes	16	obl	_	LangID=LANG3
-13	of	of	ADP	_	Foreign=Yes	12	case	_	LangID=LANG3
-14	Arts	Arts	NOUN	_	Foreign=Yes	12	nmod	_	LangID=LANG3
+9	Bachelor	Bachelor	PROPN	_	Foreign=Yes	0	root	_	LangID=LANG3|Lang=en
+10	of	of	ADP	_	Foreign=Yes	9	case	_	LangID=LANG3|Lang=en
+11	Science	Science	PROPN	_	Foreign=Yes	9	nmod	_	LangID=LANG3|Lang=en
+12	Bachelor	Bachelor	PROPN	_	Foreign=Yes	16	obl	_	LangID=LANG3|Lang=en
+13	of	of	ADP	_	Foreign=Yes	12	case	_	LangID=LANG3|Lang=en
+14	Arts	Arts	NOUN	_	Foreign=Yes	12	nmod	_	LangID=LANG3|Lang=en
 15	diye	diye	ADP	_	_	12	case	_	LangID=TR
 16	geçiyor	geç	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	9	parataxis	_	LangID=TR|SpaceAfter=No
 17	.	.	PUNCT	_	_	9	punct	_	LangID=OTHER
@@ -12394,15 +12394,14 @@
 8	.	.	PUNCT	_	_	6	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S11-0072
-# text = Mündlichesi her halde beş dakika bile geçmemiş.
-1	Mündlichesi	Mündliche	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	CSPoint=Mündliche§si|DeCase=Nom|DeGender=Fem|LangID=MIXED
-2	her	her	DET	_	Definite=Def	3	det	_	LangID=TR
-3	halde	hal	NOUN	_	Case=Loc|Number=Sing	7	obl	_	LangID=TR
-4	beş	beş	NUM	_	NumType=Card	5	nummod	_	LangID=TR
-5	dakika	dakika	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	LangID=TR
-6	bile	bile	ADV	_	_	5	advmod	_	LangID=TR
-7	geçmemiş	geç	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	LangID=TR|SpaceAfter=No
-8	.	.	PUNCT	_	_	7	punct	_	LangID=OTHER
+# text = Mündlichesi herhalde beş dakika bile geçmemiş.
+1	Mündlichesi	Mündliche	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	CSPoint=Mündliche§si|DeCase=Nom|DeGender=Fem|LangID=MIXED
+2	herhalde	herhalde	ADV	_	_	6	advmod	_	LangID=TR
+3	beş	beş	NUM	_	NumType=Card	4	nummod	_	LangID=TR
+4	dakika	dakika	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	LangID=TR
+5	bile	bile	ADV	_	_	4	advmod	_	LangID=TR
+6	geçmemiş	geç	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Past	0	root	_	LangID=TR|SpaceAfter=No
+7	.	.	PUNCT	_	_	6	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S11-0073
 # text = Bist du dumm, dass du das nicht kannst, falan gibi.
@@ -12587,19 +12586,18 @@
 17	.	.	PUNCT	_	_	2	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S11-0086
-# text = Ja o yüzden her halde eh inşallah Bachelor bittikten sonra yaparım.
-1	Ja	ja	INTJ	_	_	5	discourse	_	LangID=DE
+# text = Ja o yüzden herhalde eh inşallah Bachelor bittikten sonra yaparım.
+1	Ja	ja	INTJ	_	_	8	discourse	_	LangID=DE
 2	o	o	DET	_	Definite=Def	3	det	_	LangID=TR
-3	yüzden	yüz	NOUN	_	Case=Abl|Number=Sing	5	nmod	_	LangID=TR
-4	her	her	DET	_	Definite=Def	5	det	_	LangID=TR
-5	halde	hal	NOUN	_	Case=Loc|Number=Sing	0	root	_	LangID=TR
-6	eh	eh	INTJ	_	_	9	discourse	_	LangID=TR
-7	inşallah	inşallah	ADV	_	_	9	discourse	_	LangID=TR
-8	Bachelor	Bachelor	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	LangID=DE
-9	bittikten	bit	VERB	_	Case=Abl|Number=Sing|Tense=Past|VerbForm=Part	11	advcl	_	LangID=TR
-10	sonra	sonra	ADP	_	_	9	mark	_	LangID=TR
-11	yaparım	yap	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=1|Tense=Pres	5	parataxis	_	LangID=TR|SpaceAfter=No
-12	.	.	PUNCT	_	_	5	punct	_	LangID=OTHER
+3	yüzden	yüz	NOUN	_	Case=Abl|Number=Sing	8	nmod	_	LangID=TR
+4	herhalde	herhalde	ADV	_	_	8	advmod	_	LangID=TR
+5	eh	eh	INTJ	_	_	8	discourse	_	LangID=TR
+6	inşallah	inşallah	ADV	_	_	8	discourse	_	LangID=TR
+7	Bachelor	Bachelor	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	LangID=DE
+8	bittikten	bit	VERB	_	Case=Abl|Number=Sing|Tense=Past|VerbForm=Part	10	advcl	_	LangID=TR
+9	sonra	sonra	ADP	_	_	8	mark	_	LangID=TR
+10	yaparım	yap	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=1|Tense=Pres	0	root	_	LangID=TR|SpaceAfter=No
+11	.	.	PUNCT	_	_	10	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S15-0001
 # text = Ehm wer-- ay dur bir, soruyu unuttum.
@@ -12646,9 +12644,9 @@
 5	Trilogie	Trilogie	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	0	root	_	LangID=DE|SpaceAfter=No
 6	,	,	PUNCT	_	_	12	punct	_	LangID=OTHER
 7	sondern	sondern	CCONJ	_	_	12	cc	_	LangID=DE
-8	John--	John	PROPN	_	Case=Gen|Gender=Masc|Number=Sing	12	reparandum	_	LangID=DE|CorrectForm=John
+8	John--	John	PROPN	_	Case=Gen|Gender=Masc|Number=Sing|Typo=Yes	12	reparandum	_	LangID=DE|CorrectForm=John
 9	şeyin	şey	NOUN	_	Case=Gen|Number=Sing	12	obl	_	LangID=TR
-10	Tolkien'in	Tolkien	PROPN	_	Case=Gen|Number=Sing	12	reparandum	_	CSPoint=Tolkien§'in|DeCase=Gen|LangID=MIXED
+10	Tolkien'in	Tolkien	PROPN	_	Case=Gen|Number=Sing	12	reparandum	_	CSPoint=Tolkien§'in|LangID=MIXED
 11	diğer	diğer	DET	_	Definite=Def	12	det	_	LangID=TR
 12	kitaplarını	kitap	NOUN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	5	conj	_	LangID=TR|SpaceAfter=No
 13	.	.	PUNCT	_	_	5	punct	_	LangID=OTHER
@@ -12678,7 +12676,7 @@
 20	ki	ki	ADP	_	_	19	case	_	LangID=TR
 21	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	11	obj	_	LangID=TR
 22	ama	ama	CCONJ	_	_	32	cc	_	LangID=TR
-23	Tolkien	Tolkien	PROPN	_	_	32	nsubj	_	LangID=LANG3
+23	Tolkien	Tolkien	PROPN	_	Foreign=Yes	32	nsubj	_	LangID=LANG3|Lang=en
 24	Reis	reis	NOUN	_	Case=Nom|Number=Sing	23	flat	_	LangID=TR
 25	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	32	aux	_	LangID=DE
 26	außerdem	außerdem	ADV	_	_	32	advmod	_	LangID=DE
@@ -12769,11 +12767,11 @@
 7	İngilizcelerini	İngilizce	PROPN	_	Case=Acc|Number=Plur|Number[psor]=Plur|Person[psor]=3	5	dislocated	_	DislocateHead=3|LangID=TR|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	LangID=OTHER
 9	bu	bu	DET	_	Definite=Def	10	det	_	LangID=TR
-10	Silmarion	Silmarion	PROPN	_	_	7	appos	_	LangID=LANG3
+10	Silmarion	Silmarion	PROPN	_	Foreign=Yes	7	appos	_	LangID=LANG3|Lang=en
 11	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	13	nmod	_	LangID=TR
 12	sonra	sonra	ADP	_	_	11	case	_	LangID=TR
-13	Laws	Laws	PROPN	_	_	10	conj	_	LangID=LANG3
-14	Tales	Tales	PROPN	_	_	13	nmod	_	LangID=LANG3
+13	Laws	Laws	PROPN	_	Foreign=Yes	10	conj	_	LangID=LANG3|Lang=en
+14	Tales	Tales	PROPN	_	Foreign=Yes	13	nmod	_	LangID=LANG3|Lang=en
 15	und	und	CCONJ	_	_	16	cc	_	LangID=DE
 16	so	so	ADV	_	_	10	conj	_	LangID=DE|SpaceAfter=No
 17	.	.	PUNCT	_	_	5	punct	_	LangID=OTHER
@@ -12828,7 +12826,7 @@
 # sent_id = TRDE-CS-S15-0011
 # text = Aynen Trilogieyi bir kitap yapmışlar so.
 1	Aynen	aynen	ADV	_	_	5	advmod	_	LangID=TR
-2	Trilogieyi	Trilogie	NOUN	_	Case=Acc|Number=Sing	5	obj	_	CSPoint=Trilogie§yi|DeGender=Fem|LangID=MIXED
+2	Trilogieyi	Trilogie	NOUN	_	Case=Acc|Number=Sing	5	obj	_	CSPoint=Trilogie§yi|DeCase=Acc|DeGender=Fem|LangID=MIXED
 3	bir	bir	DET	_	Definite=Ind	4	det	_	LangID=TR
 4	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	5	obj	_	LangID=TR
 5	yapmışlar	yap	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	LangID=TR
@@ -13061,7 +13059,7 @@
 19	.	.	PUNCT	_	_	15	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S15-0022
-# text = Und dann denken sie, orada anlatılanlar falan so, ne bileyim, Ork'lar gerçekten yaşamış bir ırk mesela, harbi Elf'ler varmış ausgestorben oder so.
+# text = Und dann denken sie, orada anlatılanlar falan so, ne bileyim, Orklar gerçekten yaşamış bir ırk mesela, harbi Elfler varmış ausgestorben oder so.
 1	Und	und	CCONJ	_	_	3	cc	_	LangID=DE
 2	dann	dann	ADV	_	_	3	advmod	_	LangID=DE
 3	denken	denken	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	18	reparandum	_	LangID=DE
@@ -13075,7 +13073,7 @@
 11	ne	ne	PRON	_	Case=Nom|Number=Sing	12	obj	_	LangID=TR
 12	bileyim	bil	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=1|Tense=Pres	18	reparandum	_	LangID=TR|SpaceAfter=No
 13	,	,	PUNCT	_	_	12	punct	_	LangID=OTHER
-14	Ork'lar	Ork	NOUN	_	Case=Nom|Number=Plur	18	nsubj	_	CSPoint=Ork§'lar|DeCase=Nom|DeGender=Masc|LangID=MIXED
+14	Orklar	Ork	NOUN	_	Case=Nom|Number=Plur	18	nsubj	_	CSPoint=Ork§lar|DeCase=Nom|DeGender=Masc|LangID=MIXED
 15	gerçekten	gerçekten	ADV	_	_	16	advmod	_	LangID=TR
 16	yaşamış	yaşa	VERB	_	Aspect=Perf|Case=Nom|Evident=Nfh|Mood=Ind|Number=Sing|Tense=Past|VerbForm=Part	18	acl	_	LangID=TR
 17	bir	bir	DET	_	Definite=Ind	18	det	_	LangID=TR
@@ -13083,7 +13081,7 @@
 19	mesela	mesela	ADV	_	_	18	advmod	_	LangID=TR|SpaceAfter=No
 20	,	,	PUNCT	_	_	23	punct	_	LangID=OTHER
 21	harbi	harbi	ADJ	_	_	23	advmod	_	LangID=TR
-22	Elf'ler	Elf	NOUN	_	Case=Nom|Number=Plur	23	nsubj	_	CSPoint=Elf§'ler|DeCase=Nom|DeGender=Masc|LangID=MIXED
+22	Elfler	Elf	NOUN	_	Case=Nom|Number=Plur	23	nsubj	_	CSPoint=Elf§ler|DeCase=Nom|DeGender=Masc|LangID=MIXED
 23-24	varmış	_	_	_	_	_	_	_	LangID=TR
 23	var	var	ADJ	_	_	18	conj	_	LangID=TR
 24	mış	i	AUX	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	23	cop	_	LangID=TR
@@ -13137,7 +13135,7 @@
 6	dechiffriert	dechiffrieren	VERB	_	VerbForm=Part	0	root	_	LangID=DE
 7	ne	ne	PRON	_	Case=Nom|Number=Sing	8	obj	_	LangID=TR
 8	dendiği	de	VERB	_	Case=Nom|Number=Sing|Tense=Past|VerbForm=Part|Voice=Pass	10	csubj	_	LangID=TR
-9	biliyo--	bil	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	10	reparandum	_	LangID=TR|CorrectForm=biliniyor
+9	biliyo--	bil	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Typo=Yes|Voice=Pass	10	reparandum	_	LangID=TR|CorrectForm=biliniyor
 10	biliniyor	bil	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres|Voice=Pass	6	conj	_	LangID=TR
 11	içinde	için	ADP	_	Case=Loc|Number=Sing	10	mark	_	LangID=TR
 12	so	so	ADV	_	_	10	advmod	_	LangID=DE|SpaceAfter=No
@@ -13254,7 +13252,7 @@
 14	birisi	biri	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=3|Person[psor]=3	24	nsubj	_	LangID=TR
 15	so	so	INTJ	_	_	18	discourse	_	LangID=TR
 16	so	so	INTJ	_	_	18	discourse	_	LangID=DE
-17	joke	joke	NOUN	_	Foreign=Yes	18	xcomp	_	LangID=LANG3
+17	joke	joke	NOUN	_	Foreign=Yes	18	xcomp	_	LangID=LANG3|Lang=en
 18	olarak	ol	VERB	_	VerbForm=Conv	24	advcl	_	LangID=TR
 19	als	als	ADP	_	_	20	case	_	LangID=DE
 20	Spaß	Spaß	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	18	appos:trans	_	LangID=DE
@@ -13556,7 +13554,7 @@
 8	yapmışlar	yap	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Plur|Person=3|Tense=Past	0	root	_	LangID=TR
 9	radara	radar	NOUN	_	Case=Dat|Number=Sing	10	obl	_	LangID=TR
 10	yakalanmayan	yakalan	VERB	_	Polarity=Neg|Tense=Pres|VerbForm=Part	12	acl	_	LangID=TR
-11	Kampfpilo--	Kampfpilot	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	reparandum	_	LangID=DE|CorrectForm=Kampfpilot
+11	Kampfpilo--	Kampfpilot	NOUN	_	Case=Acc|Gender=Masc|Number=Sing|Typo=Yes	12	reparandum	_	LangID=DE|CorrectForm=Kampfpilot
 12	Kampfjet	Kampfjet	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	8	dislocated	_	LangID=DE|DislocateHead=7
 13	Alter	Alter	NOUN	_	_	12	vocative	_	LangID=DE|SpaceAfter=No
 14	.	.	PUNCT	_	_	8	punct	_	LangID=OTHER
@@ -13854,7 +13852,7 @@
 2	Typ	Typ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	3	nsubj	_	LangID=DE
 3	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	14	reparandum	_	LangID=DE
 4	einfach	einfach	ADV	_	_	3	advmod	_	LangID=DE
-5	Erdanziehungs--	Erdanziehungkraft	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	3	reparandum	_	LangID=DE|CorrectForm=Erdanziehungkraft
+5	Erdanziehungs--	Erdanziehungkraft	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	3	reparandum	_	LangID=DE|CorrectForm=Erdanziehungkraft
 6	eh	eh	INTJ	_	_	7	discourse	_	LangID=DE
 7	Dings	Ding	INTJ	_	_	14	reparandum	_	LangID=DE
 8	eh	eh	INTJ	_	_	7	discourse	_	LangID=DE
@@ -14061,7 +14059,7 @@
 13	,	,	PUNCT	_	_	11	punct	_	LangID=OTHER
 14	fällt	fallen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	LangID=DE
 15	so	so	ADV	_	_	16	advmod	_	LangID=DE
-16	ein--	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	14	reparandum	_	LangID=DE|CorrectForm=eine
+16	ein--	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Typo=Yes	14	reparandum	_	LangID=DE|CorrectForm=eine
 17	so	so	ADV	_	_	19	advmod	_	LangID=DE
 18	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	19	det	_	LangID=DE
 19	Nuss	Nuss	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	14	nsubj	_	LangID=DE
@@ -14396,10 +14394,10 @@
 8	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	17	aux	_	LangID=DE
 9	auch	auch	ADV	_	_	17	advmod	_	LangID=DE
 10	echt	echt	ADJ	_	_	17	advmod	_	LangID=DE
-11	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	LangID=DE|CorrectForm=eine|CorrectGender=Fem
+11	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art|Typo=Yes	16	det	_	LangID=DE|CorrectForm=eine|CorrectGender=Fem
 12	sehr	sehr	ADV	_	_	15	advmod	_	LangID=DE
 13	sehr	sehr	ADV	_	_	15	advmod	_	LangID=DE
-14	übersensibles--	übersensibel	ADJ	_	_	15	reparandum	_	LangID=DE|CorrectForm=übersensible
+14	übersensibles--	übersensibel	ADJ	_	Typo=Yes	15	reparandum	_	LangID=DE|CorrectForm=übersensible
 15	übersensible	übersensibel	ADJ	_	Case=Nom|Gender=Fem|Number=Sing	16	amod	_	LangID=DE
 16	Gesellschaft	Gesellschaft	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	obj	_	LangID=DE
 17	geworden	werden	VERB	_	VerbForm=Part	0	root	_	LangID=DE|SpaceAfter=No
@@ -14410,7 +14408,7 @@
 22	,	,	PUNCT	_	_	25	punct	_	LangID=OTHER
 23	her	her	DET	_	Definite=Def	24	det	_	LangID=TR
 24	şeyden	şey	NOUN	_	Case=Abl|Number=Sing	25	obl	_	LangID=TR
-25	triggered	triggered	VERB	_	Foreign=Yes	17	conj	_	LangID=LANG3
+25	triggered	triggered	VERB	_	Foreign=Yes	17	conj	_	LangID=LANG3|Lang=en
 26	her	her	DET	_	Definite=Def	27	det	_	LangID=TR
 27	şey	şey	NOUN	_	Case=Nom|Number=Sing	30	nsubj	_	LangID=TR
 28	bizi	biz	PRON	_	Case=Acc|Number=Plur|Person=1|PronType=Prs	30	obj	_	LangID=TR
@@ -14435,18 +14433,18 @@
 12	yayınlanan	yayınla	VERB	_	Case=Nom|Number=Sing|Tense=Pres|VerbForm=Part|Voice=Pass	15	acl	_	LangID=TR
 13	ünlü	ünlü	ADJ	_	_	15	amod	_	LangID=TR
 14	Amerikan	Amerikan	PROPN	_	Case=Nom|Number=Sing	15	nmod	_	LangID=TR
-15	Sitcomları	Sitcom	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	dislocated	_	CSPoint=Sitcom§ları|DeCase=Nom|DeGender=Fem|DislocateHead=6|LangID=MIXED
+15	Sitcomları	Sitcom	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	dislocated	_	CSPoint=Sitcom§ları|DislocateHead=6|LangID=MIXED
 16	veyahut	veyahut	ADV	_	_	18	advmod	_	LangID=TR
 17	da	de	ADV	_	_	16	advmod:emph	_	LangID=TR
-18	South	South	PROPN	_	Foreign=Yes	19	amod	_	LangID=LANG3
-19	Park	Park	PROPN	_	Foreign=Yes	15	conj	_	LangID=LANG3
+18	South	South	PROPN	_	Foreign=Yes	19	amod	_	LangID=LANG3|Lang=en
+19	Park	Park	PROPN	_	Foreign=Yes	15	conj	_	LangID=LANG3|Lang=en
 20	mesela	mesela	ADV	_	_	18	advmod	_	LangID=TR|SpaceAfter=No
 21	.	.	PUNCT	_	_	7	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S15-0089
 # text = South Park gibi bir çizgi filmde die Witze, die man da gemacht hat, wenn du mal die älteren Witze mal vergleichst, wenn du die jetzt şimdi televizyona çıkıp onu yapsam bizim şu andaki Gesellschaftımızda ne olur?
-1	South	South	PROPN	_	Foreign=Yes	2	amod	_	LangID=LANG3
-2	Park	Park	PROPN	_	Foreign=Yes	6	nmod	_	LangID=LANG3
+1	South	South	PROPN	_	Foreign=Yes	2	amod	_	LangID=LANG3|Lang=en
+2	Park	Park	PROPN	_	Foreign=Yes	6	nmod	_	LangID=LANG3|Lang=en
 3	gibi	gibi	ADP	_	_	1	case	_	LangID=TR
 4	bir	bir	DET	_	Definite=Ind	6	det	_	LangID=TR
 5	çizgi	çizgi	NOUN	_	Case=Nom|Number=Sing	6	nmod	_	LangID=TR
@@ -14512,8 +14510,8 @@
 4	İngiltere'de	İngiltere	PROPN	_	Case=Loc|Number=Sing	17	obl	_	LangID=TR
 5	şey	şey	NOUN	_	Case=Nom|Number=Sing	17	discourse	_	LangID=TR
 6	eh	eh	INTJ	_	_	17	discourse	_	LangID=TR
-7	eh	eh	INTJ	_	_	17	discourse	_	LangID=LANG3
-8	Office	Office	NOUN	_	Foreign=Yes	16	nmod	_	LangID=LANG3
+7	eh	eh	INTJ	_	Foreign=Yes	17	discourse	_	LangID=LANG3|Lang=en
+8	Office	Office	NOUN	_	Foreign=Yes	16	nmod	_	LangID=LANG3|Lang=en
 9	diye	diye	ADP	_	_	8	case	_	LangID=TR
 10	çok	çok	ADV	_	_	11	advmod	_	LangID=TR
 11	ünlü	ünlü	ADJ	_	_	13	amod	_	LangID=TR
@@ -14552,7 +14550,7 @@
 9	aşırı	aşırı	ADJ	_	_	10	advmod	_	LangID=TR
 10	komik	komik	ADJ	_	_	12	amod	_	LangID=TR
 11	bir	bir	DET	_	Definite=Ind	12	det	_	LangID=TR
-12	Sitcom	Sitcom	NOUN	_	Foreign=Yes	5	conj	_	LangID=LANG3
+12	Sitcom	Sitcom	NOUN	_	Foreign=Yes	5	conj	_	LangID=LANG3|Lang=en
 13	tamam	tamam	INTJ	_	_	5	parataxis:discourse	_	LangID=TR
 14	mı	mi	AUX	_	Number=Sing|Person=3	13	aux:q	_	LangID=TR|SpaceAfter=No
 15	?	?	PUNCT	_	_	5	punct	_	LangID=OTHER
@@ -14647,7 +14645,7 @@
 16	,	,	PUNCT	_	_	11	punct	_	LangID=OTHER
 17	wir	wir	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	18	nsubj	_	LangID=DE
 18	suchen	suchen	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	LangID=DE
-19	einen--	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	18	reparandum	_	LangID=DE|CorrectForm=eine
+19	einen--	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art|Typo=Yes	18	reparandum	_	LangID=DE|CorrectForm=eine
 20	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	21	det	_	LangID=DE
 21	Zweideutigkeit	zweideutig	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	obj	_	LangID=DE
 22	dahinter	dahinter	ADP	_	_	21	case	_	LangID=DE|SpaceAfter=No
@@ -14752,7 +14750,7 @@
 7	Typ	Typ	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	10	nsubj	_	LangID=DE
 8	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	LangID=DE
 9	einfach	einfach	ADV	_	_	10	advmod	_	LangID=DE
-10	schei--	scheiße	ADJ	_	_	4	reparandum	_	CorrectForm=scheiße|LangID=DE|SpaceAfter=No
+10	schei--	scheiße	ADJ	_	Typo=Yes	4	reparandum	_	CorrectForm=scheiße|LangID=DE|SpaceAfter=No
 11	.	.	PUNCT	_	_	4	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S15-0103
@@ -14937,7 +14935,7 @@
 10	haben	haben	AUX	_	_	11	reparandum	_	LangID=DE
 11	sitzen	sitzen	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	LangID=DE
 12	in	in	ADP	_	_	15	case	_	LangID=DE
-13	der	der	DET	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	15	det	_	LangID=DE|CorrectForm=dem|CorrectGender=Masc
+13	der	der	DET	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art|Typo=Yes	15	det	_	LangID=DE|CorrectForm=dem|CorrectGender=Masc
 14	gleichen	gleich	ADJ	_	Case=Dat|Gender=Masc|Number=Sing	15	amod	_	LangID=DE
 15	Abteil	Abteil	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	11	obl	_	LangID=DE|SpaceAfter=No
 16	,	,	PUNCT	_	_	18	punct	_	LangID=OTHER
@@ -15291,7 +15289,7 @@
 5	bence	bence	ADV	_	_	4	advmod	_	LangID=TR
 6	yol	yol	NOUN	_	Case=Nom|Number=Sing	10	nsubj	_	LangID=TR
 7	aslında	aslında	ADV	_	_	10	advmod	_	LangID=TR
-8	kö--	köy	NOUN	_	Case=Nom|Number=Sing	10	reparandum	_	LangID=TR|CorrectForm=köy
+8	kö--	köy	NOUN	_	Case=Nom|Number=Sing|Typo=Yes	10	reparandum	_	LangID=TR|CorrectForm=köy
 9	fena	fena	ADJ	_	_	10	advmod	_	LangID=TR
 10	değil	değil	PART	_	_	4	parataxis	_	LangID=TR
 11	ama	ama	CCONJ	_	_	10	discourse	_	LangID=TR
@@ -15377,7 +15375,7 @@
 3	Zusammenfassung	Zusammenfassung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	9	obj	_	LangID=DE
 4	von	von	ADP	_	_	8	case	_	LangID=DE
 5	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	8	det	_	LangID=DE
-6	Praktikums--	Praktikumsbericht	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	8	reparandum	_	LangID=DE|CorrectForm=Praktikumsbericht
+6	Praktikums--	Praktikumsbericht	NOUN	_	Case=Dat|Gender=Masc|Number=Sing|Typo=Yes	8	reparandum	_	LangID=DE|CorrectForm=Praktikumsbericht
 7	also	also	ADV	_	_	8	advmod	_	LangID=DE
 8	Praktikumsbericht	Praktikumsbericht	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	3	nmod	_	LangID=DE
 9	yazmam	yaz	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1|VerbForm=Vnoun	10	xcomp	_	LangID=TR
@@ -15678,7 +15676,7 @@
 21	.	.	PUNCT	_	_	7	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S17-0039
-# text = Ama şimdi yeni bir kitap buldum Feminismusla ilgili değişik değişik ehm Schauspieler$lardan yazılmış bir kitap und ich glaube, das ist auch ganz interessant, ama o da İngilizce.
+# text = Ama şimdi yeni bir kitap buldum Feminismusla ilgili değişik değişik ehm Schauspielerlardan yazılmış bir kitap und ich glaube, das ist auch ganz interessant, ama o da İngilizce.
 1	Ama	ama	CCONJ	_	_	6	cc	_	LangID=TR
 2	şimdi	şimdi	NOUN	_	Case=Nom|Number=Sing	6	obl	_	LangID=TR
 3	yeni	yeni	ADJ	_	_	5	amod	_	LangID=TR
@@ -15692,7 +15690,7 @@
 10	değişik	değişik	ADJ	_	_	11	compound:redup	_	LangID=TR
 11	değişik	değişik	ADJ	_	_	13	amod	_	LangID=TR
 12	ehm	ehm	INTJ	_	_	14	discourse	_	LangID=TR
-13	Schauspieler$lardan	Schauspieler	NOUN	_	Case=Dat|Number=Plur	14	obl	_	CSPoint=Schauspieler§lardan|LangID=MIXED|DeGender=Masc|DeCase=Dat
+13	Schauspielerlardan	Schauspieler	NOUN	_	Case=Dat|Number=Plur	14	obl	_	CSPoint=Schauspieler§lardan|DeCase=Dat|DeGender=Masc|LangID=MIXED
 14	yazılmış	yaz	VERB	_	_	16	acl	_	LangID=TR
 15	bir	bir	DET	_	Definite=Ind	16	det	_	LangID=TR
 16	kitap	kitap	NOUN	_	Case=Nom|Number=Sing	6	parataxis	_	LangID=TR
@@ -15726,8 +15724,8 @@
 10	?	?	PUNCT	_	_	9	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S17-0041
-# text = Jugendzeit'da hep Liebesromane ama artık hep aynısı olduğu için onları okuyamıyorum, bilmiyorum, biraz schwierig.
-1	Jugendzeit'da	Jugendzeit	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	CSPoint=Jugendzeit§'da|DeCase=Dat|DeGender=Fem|LangID=MIXED
+# text = Jugendzeitda hep Liebesromane ama artık hep aynısı olduğu için onları okuyamıyorum, bilmiyorum, biraz schwierig.
+1	Jugendzeitda	Jugendzeit	NOUN	_	Case=Loc|Number=Sing	3	nmod	_	CSPoint=Jugendzeit§da|DeCase=Dat|DeGender=Fem|LangID=MIXED
 2	hep	hep	ADV	_	_	3	advmod	_	LangID=TR
 3	Liebesromane	Liebesroman	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	0	root	_	LangID=DE
 4	ama	ama	CCONJ	_	_	11	cc	_	LangID=TR
@@ -16258,7 +16256,7 @@
 10	bilmiyorum	bil	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	7	conj	_	LangID=TR|SpaceAfter=No
 11	,	,	PUNCT	_	_	15	punct	_	LangID=OTHER
 12	içeriği	içerik	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	15	nsubj	_	LangID=TR
-13	beni	ben	PRON	_	Case=Acc|Number=Sing	15	obj	_	LangID=TR
+13	beni	ben	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	15	obj	_	LangID=TR
 14	pek	pek	ADV	_	_	15	advmod	_	LangID=TR
 15	çekmiyor	çek	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	7	parataxis	_	LangID=TR
 16	sanki	sanki	ADV	_	_	15	advmod	_	LangID=TR|SpaceAfter=No
@@ -16274,7 +16272,7 @@
 5	mesela	mesela	ADV	_	_	3	advmod	_	LangID=TR|SpaceAfter=No
 6	,	,	PUNCT	_	_	3	punct	_	LangID=OTHER
 7	onu	o	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	10	obj	_	LangID=TR
-8	Netflix'de	Netflix	PROPN	_	Case=Loc|Number=Sing	10	obl	_	CSPoint=Netflix§'de|DeCase=Dat|LangID=MIXED
+8	Netflix'de	Netflix	PROPN	_	Case=Loc|Number=Sing	10	obl	_	CSPoint=Netflix§'de|LangID=MIXED
 9	anschauen	anschauen	VERB	_	VerbForm=Inf	10	compound:lvc	_	LangID=DE
 10	yapmıştım	yap	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=1|Tense=Pqp	0	root	_	LangID=TR|SpaceAfter=No
 11	.	.	PUNCT	_	_	10	punct	_	LangID=OTHER
@@ -16295,8 +16293,8 @@
 12	Vorurteil	Vorurteil	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	10	conj	_	LangID=DE|SpaceAfter=No
 13	"	"	PUNCT	_	_	10	punct	_	LangID=OTHER
 14	galiba	galiba	ADV	_	_	17	advmod	_	LangID=TR
-15	Keira	Keira	PROPN	_	Foreign=Yes	17	nsubj	_	LangID=LANG3
-16	Kneightley	Kneightley	PROPN	_	Foreign=Yes	15	flat	_	LangID=LANG3
+15	Keira	Keira	PROPN	_	Foreign=Yes	17	nsubj	_	LangID=LANG3|Lang=en
+16	Kneightley	Kneightley	PROPN	_	Foreign=Yes	15	flat	_	LangID=LANG3|Lang=en
 17	Schauspielersı	Schauspieler	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	conj	_	CSPoint=Schauspieler§sı|DeCase=Nom|DeGender=Masc|LangID=MIXED|SpaceAfter=No
 18	.	.	PUNCT	_	_	7	punct	_	LangID=OTHER
 
@@ -16304,14 +16302,14 @@
 # text = Autornun adı Jane Austen "Stolz und Vorurteil"ın ve Jane Austen'nın da bir film yani hakkında da bir film var.
 1	Autornun	Autor	NOUN	_	Case=Gen|Number=Sing	2	nmod	_	CSPoint=Autor§nun|DeCase=Gen|DeGender=Masc|LangID=MIXED
 2	adı	ad	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	LangID=TR
-3	Jane	Jane	PROPN	_	Foreign=Yes	2	nsubj	_	LangID=LANG3
-4	Austen	Austen	PROPN	_	Foreign=Yes	3	flat	_	LangID=LANG3
+3	Jane	Jane	PROPN	_	Foreign=Yes	2	nsubj	_	LangID=LANG3|Lang=en
+4	Austen	Austen	PROPN	_	Foreign=Yes	3	flat	_	LangID=LANG3|Lang=en
 5	"	"	PUNCT	_	_	20	punct	_	LangID=OTHER|SpaceAfter=No
 6	Stolz	Stolz	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	16	nmod	_	LangID=DE
 7	und	und	CCONJ	_	_	8	cc	_	LangID=DE
 8	Vorurteil"ın	Vorurteil	NOUN	_	Case=Nom|Number=Sing	6	conj	_	CSPoint=Vorurteil§"ın|DeCase=Nom|DeGender=Neut|LangID=MIXED
 9	ve	ve	CCONJ	_	_	10	cc	_	LangID=TR
-10	Jane	Jane	PROPN	_	Foreign=Yes	6	conj	_	LangID=LANG3
+10	Jane	Jane	PROPN	_	Foreign=Yes	6	conj	_	LangID=LANG3|Lang=en
 11	Austen'nın	Austen	PROPN	_	Case=Gen|Number=Sing	10	flat	_	CSPoint=Austen§'nın|DeCase=Gen|LangID=MIXED
 12	da	de	ADV	_	_	11	advmod:emph	_	LangID=TR
 13	bir	bir	DET	_	Definite=Ind	14	det	_	LangID=TR
@@ -16333,8 +16331,8 @@
 5	Schauspieler	Schauspieler	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	8	nsubj	_	LangID=DE
 6	da	de	ADV	_	_	5	advmod:emph	_	LangID=TR
 7	işte	işte	INTJ	_	_	5	discourse	_	LangID=TR
-8	Anne	Anne	PROPN	_	Foreign=Yes	0	root	_	LangID=LANG3
-9	Hatheway	Hatheway	PROPN	_	Foreign=Yes	8	flat	_	LangID=LANG3|SpaceAfter=No
+8	Anne	Anne	PROPN	_	Foreign=Yes	0	root	_	LangID=LANG3|Lang=en
+9	Hatheway	Hatheway	PROPN	_	Foreign=Yes	8	flat	_	Lang=en|LangID=LANG3|SpaceAfter=No
 10	.	.	PUNCT	_	_	8	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S17-0074
@@ -16592,20 +16590,19 @@
 17	.	.	PUNCT	_	_	5	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S17-0091
-# text = Sadece bir yerinde her halde aniden iniyordu und dann erschrickt man sich.
-1	Sadece	sadece	ADV	_	_	7	advmod	_	LangID=TR
+# text = Sadece bir yerinde herhalde aniden iniyordu und dann erschrickt man sich.
+1	Sadece	sadece	ADV	_	_	6	advmod	_	LangID=TR
 2	bir	bir	DET	_	Definite=Ind	3	det	_	LangID=TR
-3	yerinde	yer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	7	obl	_	LangID=TR
-4	her	her	DET	_	Definite=Def	5	det	_	LangID=TR
-5	halde	hal	NOUN	_	Case=Loc|Number=Sing	7	obl	_	LangID=TR
-6	aniden	ani	ADV	_	_	7	advmod	_	LangID=TR
-7	iniyordu	in	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	LangID=TR
-8	und	und	CCONJ	_	_	10	cc	_	LangID=DE
-9	dann	dann	ADV	_	_	10	advmod	_	LangID=DE
-10	erschrickt	erschrecken	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	7	conj	_	LangID=DE
-11	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	LangID=DE
-12	sich	er|es|sie	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	10	expl:pv	_	LangID=DE|SpaceAfter=No
-13	.	.	PUNCT	_	_	7	punct	_	LangID=OTHER
+3	yerinde	yer	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	6	obl	_	LangID=TR
+4	herhalde	herhalde	ADV	_	_	6	advmod	_	LangID=TR
+5	aniden	ani	ADV	_	_	6	advmod	_	LangID=TR
+6	iniyordu	in	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	0	root	_	LangID=TR
+7	und	und	CCONJ	_	_	9	cc	_	LangID=DE
+8	dann	dann	ADV	_	_	9	advmod	_	LangID=DE
+9	erschrickt	erschrecken	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	conj	_	LangID=DE
+10	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	9	nsubj	_	LangID=DE
+11	sich	er|es|sie	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs|Reflex=Yes	9	expl:pv	_	LangID=DE|SpaceAfter=No
+12	.	.	PUNCT	_	_	6	punct	_	LangID=OTHER
 
 # sent_id = TRDE-CS-S17-0092
 # text = Galiba böyle vorne gidiyor bir kere, ondan sonra geri normalleşiyor.
