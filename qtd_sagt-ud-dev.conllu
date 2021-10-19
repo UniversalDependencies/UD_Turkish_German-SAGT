@@ -935,7 +935,7 @@
 10	zu	zu	ADP	_	_	12	case	_	LangID=DE
 11	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	LangID=DE
 12	Beispiel	Beispiel	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	13	nmod	_	LangID=DE
-13	Action	Action	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	LangID=LANG3|Lang=en
+13	Action	Action	NOUN	_	Foreign=Yes	5	obj	_	LangID=LANG3|Lang=en
 14	oder	oder	CCONJ	_	_	17	cc	_	LangID=DE
 15	auch	auch	ADV	_	_	17	advmod	_	LangID=DE
 16	solche	solch	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	17	det	_	LangID=DE

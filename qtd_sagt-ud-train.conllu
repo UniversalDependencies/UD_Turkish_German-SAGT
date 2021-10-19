@@ -8179,7 +8179,7 @@
 # text = Hast du Audible, o App var bende.
 1	Hast	haben	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	LangID=DE
 2	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	1	nsubj	_	LangID=DE
-3	Audible	Audible	PROPN	_	Case=Acc|Number=Sing	1	obj	_	Lang=en|LangID=LANG3|SpaceAfter=No
+3	Audible	Audible	PROPN	_	Foreign=Yes	1	obj	_	Lang=en|LangID=LANG3|SpaceAfter=No
 4	,	,	PUNCT	_	_	7	punct	_	LangID=OTHER
 5	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	6	nmod	_	LangID=TR
 6	App	Applikation	NOUN	_	_	7	nsubj	_	LangID=DE
@@ -11510,7 +11510,7 @@
 # sent_id = TRDE-CS-U11-0020
 # text = Mesela potion motion içerek Tranklarla o içeceklerle yükseltebilirsin işte permanent değil ama yani belli bir zaman için veyahut da bazı özel kıyafetler var die geben dir die Möglichkeit mehr Sachen zu tragen.
 1	Mesela	mesela	ADV	_	_	8	advmod	_	LangID=TR
-2	potion	potion	NOUN	_	Case=Acc|Foreign=Yes|Number=Sing	4	nsubj	_	LangID=LANG3|Lang=en
+2	potion	potion	NOUN	_	Foreign=Yes	4	nsubj	_	LangID=LANG3|Lang=en
 3	motion	potion	NOUN	_	Case=Acc|Number=Sing|Typo=Yes	2	compound:redup	_	LangID=MIXED|CorrectForm=potion
 4	içerek	iç	VERB	_	VerbForm=Conv	8	advcl	_	LangID=TR
 5	Tranklarla	Trank	NOUN	_	Case=Ins|Number=Plur	8	obl	_	CSPoint=Trank§larla|DeCase=Dat|DeGender=Masc|LangID=MIXED
@@ -11808,7 +11808,7 @@
 16	small	small	ADJ	_	Foreign=Yes	17	amod	_	LangID=LANG3|Lang=en
 17	chance	chance	NOUN	_	Foreign=Yes	14	obj	_	LangID=LANG3|Lang=en
 18	to	to	PART	_	Foreign=Yes	20	mark	_	LangID=LANG3|Lang=en
-19	instantly	instantly	ADV	_	_	20	advmod	_	LangID=LANG3|Lang=en
+19	instantly	instantly	ADV	_	Foreign=Yes	20	advmod	_	LangID=LANG3|Lang=en
 20	kill	kill	VERB	_	Foreign=Yes	14	xcomp	_	LangID=LANG3|Lang=en
 21	yani	yani	ADV	_	_	28	discourse	_	LangID=TR
 22	vurduğun	vur	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=2|Tense=Past|VerbForm=Part	23	acl	_	LangID=TR
