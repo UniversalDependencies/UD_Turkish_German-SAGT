@@ -1729,7 +1729,7 @@
 # sent_id = TRDE-CS-C04-0005
 # text = Ähm Nufringen'deydi Tiefbau Schulte'de Export departmanında yaptım.
 1	Ähm	Ähm	INTJ	_	_	8	discourse	_	CSID=DE|Lang=de
-2-3	Nufringen'deydi	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd
+2-3	Nufringen'deydi	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Nufringen§'deydi|Lang=qtd
 2	Nufringen'de	Nufringen	PROPN	_	Case=Loc|Number=Sing	8	obl	_	CSID=MIXED|CSPoint=Nufringen§'de|DeCase=Dat|Lang=qtd
 3	ydi	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	2	cop	_	CSID=TR|Lang=tr
 4	Tiefbau	Tiefbau	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	8	obl	_	CSID=DE|Lang=de
@@ -6216,7 +6216,7 @@
 7	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
 8	hani	hani	ADV	_	_	10	advmod	_	CSID=TR|Lang=tr
 9	ekstra	ekstra	ADJ	_	_	10	amod	_	CSID=TR|Lang=tr
-10-11	liveken	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd
+10-11	liveken	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=live§ken|Lang=qtd
 10	live	live	ADJ	_	_	12	advcl	_	CSID=MIXED|CSPoint=live§|Lang=qtd
 11	ken	i	AUX	_	Number=Sing|Person=3|VerbForm=Conv	10	cop	_	CSID=TR|Lang=tr
 12	yapalım	yap	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Plur|Person=1|Tense=Pres	5	parataxis	_	CSID=TR|Lang=tr
@@ -6773,7 +6773,7 @@
 1	Yani	yani	ADV	_	_	12	advmod	_	CSID=TR|Lang=tr
 2	başka	başka	ADJ	_	_	4	amod	_	CSID=TR|Lang=tr
 3	bir	bir	DET	_	Definite=Ind	4	det	_	CSID=TR|Lang=tr
-4-5	multiverse'deki	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd
+4-5	multiverse'deki	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=multiverse§'deki|Lang=qtd
 4	multiverse'de	multiverse	PROPN	_	Case=Loc|Number=Sing	7	nmod	_	CSID=MIXED|CSPoint=multiverse§'de|Lang=qtd
 5	ki	ki	ADP	_	Case=Nom|Number=Sing	4	case	_	CSID=TR|Lang=tr
 6	bir	bir	DET	_	Definite=Ind	7	det	_	CSID=TR|Lang=tr
@@ -7433,7 +7433,7 @@
 14	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	16	nmod	_	CSID=TR|Lang=tr
 15	sonra	sonra	ADP	_	_	14	case	_	CSID=TR|Lang=tr
 16	Apple	Apple	PROPN	_	Case=Nom|Number=Sing	9	conj	_	CSID=TR|Lang=tr
-17-18	Apple'inkiler	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=?|Lang=qtd
+17-18	Apple'inkiler	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Apple§'inkiler|Lang=qtd
 17	Apple'in	Apple	PROPN	_	Case=Gen|Number=Sing	9	conj	_	CSID=MIXED|CSPoint=Apple§'in|Lang=qtd
 18	kiler	ki	ADP	_	Case=Nom|Number=Plur	17	case	_	CSID=TR|Lang=tr
 19	falan	falan	ADV	_	_	20	compound:redup	_	CSID=TR|Lang=tr
@@ -9282,7 +9282,7 @@
 10	Uni	Uni	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	CSID=DE|Lang=de
 11	Wuppertal'da	Wuppertal	PROPN	_	Case=Loc|Number=Sing	10	flat	_	CSID=MIXED|CSPoint=Wuppertal§'da|DeCase=Dat|Lang=qtd
 12	aşırı	aşırı	ADJ	_	_	13	advmod	_	CSID=TR|Lang=tr
-13-14	kollektivdik	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd|SpaceAfter=No
+13-14	kollektivdik	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=kollektiv§dik|Lang=qtd|SpaceAfter=No
 13	kollektiv	kollektiv	ADJ	_	_	7	conj	_	CSID=DE|CSPoint=kollektiv§|Lang=de
 14	dik	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Past	13	cop	_	CSID=TR|Lang=tr
 15	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER

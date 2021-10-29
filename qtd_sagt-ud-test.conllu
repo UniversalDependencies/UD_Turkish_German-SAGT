@@ -555,7 +555,7 @@
 3	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	CSID=TR|Lang=tr
 4	momentan	momentan	ADJ	_	_	6	advmod	_	CSID=DE|Lang=de
 5	ikinci	iki	ADJ	_	_	6	amod	_	CSID=TR|Lang=tr
-6-7	Semesterdeyim	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|DeGender=Neut|Lang=qtd|SpaceAfter=No
+6-7	Semesterdeyim	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Semester§deyim|DeGender=Neut|Lang=qtd|SpaceAfter=No
 6	Semesterde	Semester	NOUN	_	Case=Loc|Number=Sing	0	root	_	CSID=MIXED|CSPoint=Semester§de|DeCase=Dat|DeGender=Neut|Lang=qtd
 7	yim	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	cop	_	CSID=TR|Lang=tr
 8	.	.	PUNCT	_	_	6	punct	_	CSID=OTHER
@@ -1149,7 +1149,7 @@
 4	äh	äh	INTJ	_	_	7	discourse	_	CSID=DE|Lang=de
 5	aslında	aslında	ADV	_	_	7	advmod	_	CSID=TR|Lang=tr
 6	benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	7	det	_	CSID=TR|Lang=tr
-7-8	Hauptzielimdi	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|DeGender=Neut|Lang=qtd
+7-8	Hauptzielimdi	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Hauptziel§imdi|DeGender=Neut|Lang=qtd
 7	Hauptzielim	Hauptziel	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	0	root	_	CSID=MIXED|CSPoint=Hauptziel§im|DeCase=Nom|DeGender=Neut|Lang=qtd
 8	di	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	7	cop	_	CSID=TR|Lang=tr
 9	ama	ama	CCONJ	_	_	23	cc	_	CSID=TR|Lang=tr
@@ -11262,7 +11262,7 @@
 
 # sent_id = TRDE-CS-S11-0004
 # text = Grundschuledeydim.
-1-2	Grundschuledeydim	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|DeGender=Fem|Lang=qtd|SpaceAfter=No
+1-2	Grundschuledeydim	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Grundschule§deydim|DeGender=Fem|Lang=qtd|SpaceAfter=No
 1	Grundschulede	Grundschule	NOUN	_	Case=Loc|Number=Sing	0	root	_	CSID=MIXED|CSPoint=Grundschule§de|DeCase=Dat|DeGender=Fem|Lang=qtd
 2	ydim	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past	1	cop	_	CSID=TR|Lang=tr
 3	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
@@ -11358,7 +11358,7 @@
 # text = Ondan sonra Gymnasiumdaydım.
 1	Ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	3	obl	_	CSID=TR|Lang=tr
 2	sonra	sonra	ADP	_	_	1	case	_	CSID=TR|Lang=tr
-3-4	Gymnasiumdaydım	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|DeGender=Neut|Lang=qtd|SpaceAfter=No
+3-4	Gymnasiumdaydım	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Gymnasium§daydım|DeGender=Neut|Lang=qtd|SpaceAfter=No
 3	Gymnasiumda	Gymnasium	NOUN	_	Case=Loc|Number=Sing	0	root	_	CSID=MIXED|CSPoint=Gymnasium§da|DeCase=Dat|DeGender=Neut|Lang=qtd
 4	ydım	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past	3	cop	_	CSID=TR|Lang=tr
 5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER

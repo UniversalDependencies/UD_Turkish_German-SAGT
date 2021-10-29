@@ -4042,7 +4042,7 @@
 11	mesela	mesela	ADV	_	_	14	advmod	_	CSID=TR|Lang=tr
 12	ganz	ganz	ADV	_	_	13	advmod	_	CSID=DE|Lang=de
 13	anderer	andere	ADJ	_	Case=Acc|Gender=Masc|Number=Sing	14	amod	_	CSID=DE|Lang=de
-14-15	Bereichdayım	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd
+14-15	Bereichdayım	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Bereich§dayım|Lang=qtd
 14	Bereichda	Bereich	NOUN	_	Case=Loc|Number=Sing	8	conj	_	CSID=MIXED|CSPoint=Bereich§da|DeCase=Dat|DeGender=Masc|Lang=qtd
 15	yım	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	14	cop	_	CSID=TR|Lang=tr
 16	yani	yani	ADV	_	_	14	advmod	_	CSID=TR|Lang=tr|SpaceAfter=No
@@ -7508,7 +7508,7 @@
 1	Hafta	hafta	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	CSID=TR|Lang=tr
 2	sonu	son	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	4	nsubj	_	CSID=TR|Lang=tr
 3	çok	çok	ADV	_	_	4	advmod	_	CSID=TR|Lang=tr
-4-5	spannenddi	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd|SpaceAfter=No
+4-5	spannenddi	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=spannend§di|Lang=qtd|SpaceAfter=No
 4	spannend	spannend	ADJ	_	_	0	root	_	CSID=DE|CSPoint=spannend§|Lang=de
 5	di	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	CSID=TR|Lang=tr
 6	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
@@ -8102,7 +8102,7 @@
 1	Also	also	ADV	_	_	4	advmod	_	CSID=DE|Lang=de
 2	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	CSID=TR|Lang=tr
 3	hala	hala	ADV	_	_	4	advmod	_	CSID=TR|Lang=tr
-4-5	saueryum	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd
+4-5	saueryum	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=sauer§yum|Lang=qtd
 4	sauer	sauer	ADJ	_	_	0	root	_	CSID=DE|CSPoint=sauer§|Lang=de
 5	yum	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	cop	_	CSID=TR|Lang=tr
 6	ganz	ganz	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
@@ -8877,7 +8877,7 @@
 # text = Bugün Allah'tan Frühschichtdim.
 1	Bugün	bugün	NOUN	_	Case=Nom|Number=Sing	3	obl	_	CSID=TR|Lang=tr
 2	Allah'tan	Allah	PROPN	_	Case=Abl|Number=Sing	3	obl	_	CSID=TR|Lang=tr
-3-4	Frühschichtdim	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd|SpaceAfter=No
+3-4	Frühschichtdim	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Frühschicht§dim|Lang=qtd|SpaceAfter=No
 3	Frühschicht	Frühschicht	NOUN	_	Case=Nom|Number=Sing	0	root	_	CSID=MIXED|CSPoint=Frühschicht§|DeCase=Nom|DeGender=Fem|Lang=qtd
 4	dim	i	ADP	_	_	3	case	_	CSID=TR|Lang=tr
 5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -8950,7 +8950,7 @@
 # sent_id = TRDE-CS-V05-0030
 # text = O Flächedeki üstleri başları abscannen yapacaklar.
 1	O	o	DET	_	Definite=Def	2	det	_	CSID=TR|Lang=tr
-2-3	Flächedeki	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|DeGender=Fem|Lang=qtd
+2-3	Flächedeki	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Fläche§deki|DeGender=Fem|Lang=qtd
 2	Flächede	Fläche	NOUN	_	Case=Loc|Number=Sing	7	obl	_	CSID=MIXED|CSPoint=Fläche§de|DeCase=Dat|DeGender=Fem|Lang=qtd
 3	ki	ki	ADP	_	Case=Nom|Number=Sing	2	case	_	CSID=TR|Lang=tr
 4	üstleri	üst	NOUN	_	Case=Acc|Number=Plur	7	obj	_	CSID=TR|Lang=tr
@@ -9000,7 +9000,7 @@
 3	dedim	de	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	CSID=TR|Lang=tr
 4	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	CSID=TR|Lang=tr
 5	de	de	ADV	_	_	4	advmod:emph	_	CSID=TR|Lang=tr
-6-7	Kreissparkasse'deyim	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd|SpaceAfter=No
+6-7	Kreissparkasse'deyim	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Kreissparkasse§'deyim|Lang=qtd|SpaceAfter=No
 6	Kreissparkasse'de	Kreissparkasse	PROPN	_	Case=Loc|Number=Sing	3	ccomp	_	CSID=MIXED|CSPoint=Kreissparkasse§'de|DeCase=Dat|Lang=qtd
 7	yim	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	6	cop	_	CSID=TR|Lang=tr
 8	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -11084,7 +11084,7 @@
 # text = Ehm Profilfachım Ernährungswissenschaft'dı.
 1	Ehm	ehm	INTJ	_	_	3	discourse	_	CSID=DE|Lang=de
 2	Profilfachım	Profilfach	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=1	3	nsubj	_	CSID=MIXED|CSPoint=Profilfach§ım|DeCase=Nom|DeGender=Neut|Lang=qtd
-3-4	Ernährungswissenschaft'dı	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd|SpaceAfter=No
+3-4	Ernährungswissenschaft'dı	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Ernährungswissenschaft§'dı|Lang=qtd|SpaceAfter=No
 3	Ernährungswissenschaft'	Ernährungswissenschaft	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	CSID=DE|CSPoint=Ernährungswissenschaft§'|Lang=de
 4	dı	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	3	cop	_	CSID=TR|Lang=tr
 5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -11598,7 +11598,7 @@
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	4	nsubj	_	CSID=TR|Lang=tr
 2	eh	eh	INTJ	_	_	4	discourse	_	CSID=TR|Lang=tr
 3	Stuttgart	Stuttgart	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	4	nmod	_	CSID=DE|Lang=de
-4-5	Jugendamtdayım	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|DeGender=Neut|Lang=qtd|SpaceAfter=No
+4-5	Jugendamtdayım	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Jugendamt§dayım|DeGender=Neut|Lang=qtd|SpaceAfter=No
 4	Jugendamtda	Jugendamt	NOUN	_	Case=Loc|Number=Sing	0	root	_	CSID=MIXED|CSPoint=Jugendamt§da|DeCase=Dat|DeGender=Neut|Lang=qtd
 5	yım	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	4	cop	_	CSID=TR|Lang=tr
 6	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
@@ -11626,7 +11626,7 @@
 6	dönemlerinde	dönem	NOUN	_	Case=Loc|Number=Plur|Number[psor]=Plur|Person[psor]=3	7	nmod	_	CSID=TR|Lang=tr
 7	gelişimle	gelişim	NOUN	_	Case=Ins|Number=Sing	8	obl	_	CSID=TR|Lang=tr
 8	ilgili	ilgili	ADJ	_	_	17	acl	_	CSID=TR|Lang=tr
-9-10	Kindergartendeki	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|DeGender=Masc|Lang=qtd|SpaceAfter=No
+9-10	Kindergartendeki	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Kindergarten§deki|DeGender=Masc|Lang=qtd|SpaceAfter=No
 9	Kindergartende	Kindergarten	NOUN	_	Case=Loc|Number=Sing	14	nmod	_	CSID=MIXED|CSPoint=Kindergarten§de|DeCase=Dat|DeGender=Masc|Lang=qtd
 10	ki	ki	ADP	_	Case=Nom|Number=Sing	9	case	_	CSID=TR|Lang=tr
 11	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
@@ -12644,7 +12644,7 @@
 
 # sent_id = TRDE-CS-S12-0049
 # text = Berlin'deki gibi yine insanların değişik yaşam tarzını gördük.
-1-2	Berlin'deki	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=.|Lang=qtd
+1-2	Berlin'deki	_	_	_	_	_	_	_	CSID=MIXED|CSPoint=Berlin§'deki|Lang=qtd
 1	Berlin'de	Berlin	PROPN	_	Case=Loc|Number=Sing	9	obl	_	CSID=MIXED|CSPoint=Berlin§'de|DeCase=Dat|Lang=qtd
 2	ki	ki	ADP	_	Case=Nom|Number=Sing	1	case	_	CSID=TR|Lang=tr
 3	gibi	gibi	ADP	_	_	1	case	_	CSID=TR|Lang=tr
