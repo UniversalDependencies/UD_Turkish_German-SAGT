@@ -31,6 +31,26 @@ The data is split into train, development, and test sets, paying attention to co
 <tr><td>test       </td><td>16</td><td>805</td><td>14092</td></tr>
 </table>
 
+# Language IDs
+
+The treebank annotates two types of language IDs. The first one is stored as the `CSID` feature in the MISC column and follows the tag set of Çetinoğlu (2016). Each token has one of the following tags:
+
+- TR: Turkish
+- DE: German
+- LANG3: Third language
+- MIXED: Intra-word code-switching
+- OTHER: Punctuation, numbers, emoticons, symbols etc.
+
+The second type of language ID is stored as the `Lang` feature in the MISC column. With this feature, it is possible to use the UD validator to check language-specific constraints. The value of the feature is the ISO 639 code of the token's language in UD. It corresponds to
+
+- 'tr' for TR tokens
+- 'de' for DE tokens
+- corresponding ISO codes for LANG3 tokens (e.g., 'en' for English)
+- qtd, the language code of the SAGT treebank, for MIXED tokens
+- no `Lang` feature for OTHER tokens
+
+
+
 # Contributors
 
 * Özlem Çetinoğlu -- IMS, University of Stuttgart
@@ -42,16 +62,25 @@ The treebank development is funded by DFG via project CE 326/1-1 “Computationa
 
 ## References
 For the treebank:
-* Özlem Çetinoğlu and Çağrı Çöltekin (2019). "Challenges of Annotating a Code-Switching Treebank". In _Proceedings of the 18th International Workshop on Treebanks and Linguistic Theories (TLT, SyntaxFest 2019)_
+* Özlem Çetinoğlu and Çağrı Çöltekin (2019). "Challenges of Annotating a Code-Switching Treebank". In _Proceedings of the 18th International Workshop on Treebanks and Linguistic Theories (TLT, SyntaxFest 2019)_.
 <https://www.aclweb.org/anthology/W19-7809.pdf>
 
 For the speech collection (Note that the paper describes a separate speech corpus but the methodology is parallel.)
-* Özlem Çetinoğlu (2017). "A Code-Switching Corpus of Turkish-German Conversations". In _Proceedings of the 11th Linguistic Annotation Workshop_
+* Özlem Çetinoğlu (2017). "A Code-Switching Corpus of Turkish-German Conversations". In _Proceedings of the 11th Linguistic Annotation Workshop_.
 <https://www.aclweb.org/anthology/W17-0804.pdf>
+
+For language IDs:
+* Özlem Çetinoğlu (2016). "A Turkish-German Code-Switching Corpus". In _Proceedings of the 10th edition of the Language Resources and Evaluation Conference_.
+<http://www.lrec-conf.org/proceedings/lrec2016/pdf/1151_Paper.pdf>
 
 
 # Changelog
-
+* 2021-11-15 v2.9
+  * The `LangID` feature is renamed as `CSID`, and the `Lang` feature is introduced.
+  
+* 2020-05-15 v2.8
+  * The full set of training data is released.
+  
 * 2020-11-15 v2.7
   * Initial release in Universal Dependencies.
 
