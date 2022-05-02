@@ -63,7 +63,7 @@
 8	auch	auch	ADV	_	_	17	advmod	_	CSID=DE|Lang=de
 9	ähm	ähm	INTJ	_	_	17	discourse	_	CSID=DE|Lang=de
 10	wenn	wenn	SCONJ	_	_	17	mark	_	CSID=DE|Lang=de
-11	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	17	nsubj	_	CSID=DE|Lang=de
+11	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	17	nsubj	_	CSID=DE|Lang=de
 12	bir	bir	DET	_	Definite=Ind	13	det	_	CSID=TR|Lang=tr
 13	di--	dili	NOUN	_	Case=Acc|Number=Sing|Typo=Yes	16	reparandum	_	CSID=TR|Lang=tr|CorrectForm=dili
 14	hani	hani	ADV	_	_	17	advmod	_	CSID=TR|Lang=tr
@@ -71,7 +71,7 @@
 16	dili	dil	NOUN	_	Case=Acc|Number=Sing	17	obj	_	CSID=TR|Lang=tr
 17	öğrenirken	öğren	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Tense=Pres|VerbForm=Conv	22	advcl	_	CSID=TR|Lang=tr
 18	sollte	sollen	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	aux	_	CSID=DE|Lang=de
-19	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	22	nsubj	_	CSID=DE|Lang=de
+19	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	22	nsubj	_	CSID=DE|Lang=de
 20	das	der	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	22	obj	_	CSID=DE|Lang=de
 21	immer	immer	ADV	_	_	22	advmod	_	CSID=DE|Lang=de
 22	machen	machen	VERB	_	VerbForm=Inf	2	parataxis	_	CSID=DE|Lang=de
@@ -90,7 +90,7 @@
 8	nasıl	nasıl	ADV	_	_	9	advmod	_	CSID=TR|Lang=tr
 9	konuşulduğunu	konuş	VERB	_	Case=Acc|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part|Voice=Pass	7	ccomp	_	CSID=TR|Lang=tr
 10	wie	wie	SCONJ	_	_	13	mark	_	CSID=DE|Lang=de
-11	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	13	nsubj	_	CSID=DE|Lang=de
+11	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	CSID=DE|Lang=de
 12	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	13	expl	_	CSID=DE|Lang=de
 13	betont	betonen	VERB	_	VerbForm=Part	8	conj	_	CSID=DE|Lang=de
 14	und	und	CCONJ	_	_	16	cc	_	CSID=DE|Lang=de
@@ -121,8 +121,8 @@
 39	için	için	ADP	_	_	38	case	_	CSID=TR|Lang=tr
 40	ähm	ähm	INTJ	_	_	44	discourse	_	CSID=DE|Lang=de
 41	sollte	sollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	44	aux	_	CSID=DE|Lang=de
-42	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	44	nsubj	_	CSID=DE|Lang=de
-43	alles	alle	PRON	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	44	obj	_	CSID=DE|Lang=de
+42	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	44	nsubj	_	CSID=DE|Lang=de
+43	alles	alle	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	44	obj	_	CSID=DE|Lang=de
 44	machen	machen	VERB	_	VerbForm=Inf	32	advcl	_	CSID=DE|Lang=de|SpaceAfter=No
 45	.	.	PUNCT	_	_	7	punct	_	CSID=OTHER
 
@@ -137,7 +137,7 @@
 7	öğrenirken	öğren	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Tense=Pres|VerbForm=Conv	13	advcl	_	CSID=TR|Lang=tr
 8	bence	bence	ADV	_	_	13	advmod	_	CSID=TR|Lang=tr
 9	hep	hep	ADV	_	_	13	advmod	_	CSID=TR|Lang=tr
-10	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	13	nsubj	_	CSID=DE|Lang=de
+10	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	CSID=DE|Lang=de
 11	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	aux	_	CSID=DE|Lang=de
 12	immer	immer	ADV	_	_	13	advmod	_	CSID=DE|Lang=de
 13	hören	hören	VERB	_	VerbForm=Inf	4	ccomp	_	CSID=DE|Lang=de
@@ -152,7 +152,7 @@
 22	öyle	öyle	ADV	_	_	31	advmod	_	CSID=TR|Lang=tr
 23	ähm	ähm	INTJ	_	_	31	discourse	_	CSID=DE|Lang=de
 24	kann	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	31	aux	_	CSID=DE|Lang=de
-25	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	31	nsubj	_	CSID=DE|Lang=de
+25	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	31	nsubj	_	CSID=DE|Lang=de
 26	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	27	det	_	CSID=DE|Lang=de
 27	Sprache	Sprache	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	31	obj	_	CSID=DE|Lang=de
 28	denke	denken	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	4	parataxis	_	CSID=DE|Lang=de
@@ -258,7 +258,7 @@
 # sent_id = TRDE-CS-C19-0011
 # text = Wenn man in dem Ausland sage ich jetzt mal lebt ya da em bir seneliğine gidiliyorsa ya da iki üç haftalığına kurs için gidiliyorsa bir yabancı bir ülkeye mesela İngilizce için ya da oder ähm Spanisch oder welche Sprache auch immer ähm tam o zaman işte aslında orada öğreniyorsun wie man es ausspricht wie man lernt ähm auch gleich noch die Kultur noch dazu.
 1	Wenn	wenn	SCONJ	_	_	10	mark	_	CSID=DE|Lang=de
-2	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
+2	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
 3	in	in	ADP	_	_	5	case	_	CSID=DE|Lang=de
 4	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	5	det	_	CSID=DE|Lang=de
 5	Ausland	Ausland	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	10	obl	_	CSID=DE|Lang=de
@@ -309,11 +309,11 @@
 49	orada	ora	PRON	_	Case=Loc|Number=Sing	50	obl	_	CSID=TR|Lang=tr
 50	öğreniyorsun	öğren	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	CSID=TR|Lang=tr
 51	wie	wie	SCONJ	_	_	54	mark	_	CSID=DE|Lang=de
-52	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	54	nsubj	_	CSID=DE|Lang=de
+52	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	54	nsubj	_	CSID=DE|Lang=de
 53	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	54	expl	_	CSID=DE|Lang=de
 54	ausspricht	aussprechen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	50	ccomp	_	CSID=DE|Lang=de
 55	wie	wie	SCONJ	_	_	57	mark	_	CSID=DE|Lang=de
-56	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	57	nsubj	_	CSID=DE|Lang=de
+56	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	57	nsubj	_	CSID=DE|Lang=de
 57	lernt	lernen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	54	conj	_	CSID=DE|Lang=de
 58	ähm	ähm	INTJ	_	_	57	discourse	_	CSID=DE|Lang=de
 59	auch	auch	ADV	_	_	57	advmod	_	CSID=DE|Lang=de
@@ -328,7 +328,7 @@
 # sent_id = TRDE-CS-C19-0012
 # text = Wenn man jetzt ähm Englisch lernt em en iyisi İngiltere çünkü ana vatanı orası.
 1	Wenn	wenn	SCONJ	_	_	6	mark	_	CSID=DE|Lang=de
-2	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj	_	CSID=DE|Lang=de
+2	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	CSID=DE|Lang=de
 3	jetzt	jetzt	ADV	_	_	6	advmod	_	CSID=DE|Lang=de
 4	ähm	ähm	INTJ	_	_	6	discourse	_	CSID=DE|Lang=de
 5	Englisch	Englisch	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	CSID=DE|Lang=de
@@ -387,7 +387,7 @@
 # text = Oder wenn man eine Kommunikation führt hep hani em ana dilde olanlarla em konuşmak lazım ki çünkü hani em wenn man mit den Muttersprachlern redet die haben den Grammatik ja drauf.
 1	Oder	oder	CCONJ	_	_	6	cc	_	CSID=DE|Lang=de
 2	wenn	wenn	SCONJ	_	_	6	mark	_	CSID=DE|Lang=de
-3	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nsubj	_	CSID=DE|Lang=de
+3	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	6	nsubj	_	CSID=DE|Lang=de
 4	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	5	det	_	CSID=DE|Lang=de
 5	Kommunikation	Kommunikation	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	CSID=DE|Lang=de
 6	führt	führen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	advcl	_	CSID=DE|Lang=de
@@ -405,7 +405,7 @@
 18	hani	hani	ADV	_	_	25	advmod	_	CSID=TR|Lang=tr
 19	em	em	INTJ	_	_	25	discourse	_	CSID=TR|Lang=tr
 20	wenn	wenn	SCONJ	_	_	25	mark	_	CSID=DE|Lang=de
-21	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	25	nsubj	_	CSID=DE|Lang=de
+21	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	25	nsubj	_	CSID=DE|Lang=de
 22	mit	mit	ADP	_	_	24	case	_	CSID=DE|Lang=de
 23	den	der	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	24	det	_	CSID=DE|Lang=de
 24	Muttersprachlern	Mutter	NOUN	_	Case=Dat|Gender=Masc|Number=Plur	25	obl	_	CSID=DE|Lang=de
@@ -589,7 +589,7 @@
 # sent_id = TRDE-CS-C19-0025
 # text = Aber was dich halt an dem sage ich jetzt mal dich wach hält ist nicht irgendwie dein Kaffee oder sonst noch was sondern ähm yani o işte o spor.
 1	Aber	aber	CCONJ	_	_	13	cc	_	CSID=DE|Lang=de
-2	was	was	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	13	nsubj	_	CSID=DE|Lang=de
+2	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Ind	13	nsubj	_	CSID=DE|Lang=de
 3	dich	du	PRON	_	Case=Acc|Number=Sing|Person=2|PronType=Prs	11	reparandum	_	CSID=DE|Lang=de
 4	halt	halt	ADV	_	_	13	advmod	_	CSID=DE|Lang=de
 5	an	an	ADP	_	_	6	case	_	CSID=DE|Lang=de
@@ -652,7 +652,7 @@
 # text = Ja kann man, aber Sport ist halt hat halt für mich eine höhere Position hani konsantrasyon için ya da ders için filan hani bunu bir herkes bir denemesi lazım.
 1	Ja	ja	INTJ	_	_	2	discourse	_	CSID=DE|Lang=de
 2	kann	können	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
-3	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nsubj	_	CSID=DE|Lang=de|SpaceAfter=No
+3	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	CSID=DE|Lang=de|SpaceAfter=No
 4	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
 5	aber	aber	ADV	_	_	9	advmod	_	CSID=DE|Lang=de
 6	Sport	Sport	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	9	nsubj	_	CSID=DE|Lang=de
@@ -697,12 +697,12 @@
 11	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	nsubj	_	CSID=DE|Lang=de
 12	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	CSID=DE|Lang=de
 13	wenn	wenn	SCONJ	_	_	14	mark	_	CSID=DE|Lang=de
-14	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	24	reparandum	_	CSID=DE|Lang=de
+14	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	24	reparandum	_	CSID=DE|Lang=de
 15	halt	halt	ADV	_	_	14	advmod	_	CSID=DE|Lang=de
 16	ähm	ähm	INTJ	_	_	14	discourse	_	CSID=DE|Lang=de
 17	dann	dann	ADV	_	_	24	advmod	_	CSID=DE|Lang=de
 18	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	24	aux	_	CSID=DE|Lang=de
-19	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	24	nsubj	_	CSID=DE|Lang=de
+19	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	24	nsubj	_	CSID=DE|Lang=de
 20	wirklich	wirklich	ADV	_	_	24	advmod	_	CSID=DE|Lang=de
 21	so	so	ADV	_	_	24	advmod	_	CSID=DE|Lang=de
 22	richtig	richtig	ADV	_	_	24	advmod	_	CSID=DE|Lang=de
@@ -857,7 +857,7 @@
 1	Ähm	Ähm	INTJ	_	_	7	discourse	_	CSID=DE|Lang=de
 2	dann	dann	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 3	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	CSID=DE|Lang=de
-4	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	7	nsubj	_	CSID=DE|Lang=de
+4	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	CSID=DE|Lang=de
 5	da	de	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 6	so	so	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 7	sicherer	sicher	ADJ	_	_	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -909,7 +909,7 @@
 31	"	"	PUNCT	_	_	36	punct	_	CSID=OTHER|SpaceAfter=No
 32	Oh	oh	INTJ	_	_	36	discourse	_	CSID=DE|Lang=de
 33	Gott	Gott	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	36	discourse	_	CSID=DE|Lang=de
-34	was	was	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	36	discourse	_	CSID=DE|Lang=de
+34	was	was	PRON	_	Case=Nom|Number=Sing|PronType=Ind	36	discourse	_	CSID=DE|Lang=de
 35	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	36	nsubj	_	CSID=DE|Lang=de
 36	habe	haben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	29	parataxis	_	CSID=DE|Lang=de
 37	jetzt	jetzt	ADV	_	_	36	advmod	_	CSID=DE|Lang=de
@@ -1135,7 +1135,7 @@
 9	um	um	ADP	_	_	10	case	_	CSID=DE|Lang=de
 10	Weltmeisterschaft	Weltmeisterschaft	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	13	obl	_	CSID=DE|Lang=de
 11	oder	oder	CCONJ	_	_	12	cc	_	CSID=DE|Lang=de
-12	sowas	sowas	PRON	_	Case=Dat|Definite=Ind|Number=Sing|PronType=Ind	10	conj	_	CSID=DE|Lang=de
+12	sowas	sowas	PRON	_	Case=Dat|Number=Sing|PronType=Ind	10	conj	_	CSID=DE|Lang=de
 13	geht	gehen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
 14	hani	hani	ADV	_	_	22	advmod	_	CSID=TR|Lang=tr
 15	Basketball	Basketball	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	22	obj	_	CSID=DE|Lang=de
@@ -1166,7 +1166,7 @@
 11	da	de	ADV	_	_	17	advmod	_	CSID=DE|Lang=de
 12	würde	werden	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	17	aux	_	CSID=DE|Lang=de
 13	jetzt	jetzt	ADV	_	_	17	advmod	_	CSID=DE|Lang=de
-14	jeder	jede	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	CSID=DE|Lang=de
+14	jeder	jede	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	17	nsubj	_	CSID=DE|Lang=de
 15	das	der	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	det	_	CSID=DE|Lang=de
 16	Spiel	Spiel	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	17	obj	_	CSID=DE|Lang=de
 17	angucken	angucken	VERB	_	VerbForm=Inf	10	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -1194,14 +1194,14 @@
 14	Stuttgart	Stuttgart	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	13	flat	_	CSID=DE|Lang=de
 15	dann	dann	ADV	_	_	21	reparandum	_	CSID=DE|Lang=de
 16	ist	sein	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	23	reparandum	_	CSID=DE|Lang=de
-17	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	24	reparandum	_	CSID=DE|Lang=de
+17	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	24	reparandum	_	CSID=DE|Lang=de
 18	eigentlich	eigentlich	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 19	auch	auch	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 20	automatisch	automatisch	ADJ	_	_	28	advmod	_	CSID=DE|Lang=de
 21	dann	dann	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 22	halt	halt	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 23	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	28	aux	_	CSID=DE|Lang=de
-24	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	28	nsubj	_	CSID=DE|Lang=de
+24	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	28	nsubj	_	CSID=DE|Lang=de
 25	dann	dann	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 26	mit	mit	ADP	_	_	27	case	_	CSID=DE|Lang=de
 27	Fußball	Fußball	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	28	obl	_	CSID=DE|Lang=de
@@ -1215,7 +1215,7 @@
 2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	CSID=DE|Lang=de
 3	finde	finden	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
 4	also	also	ADV	_	_	6	advmod	_	CSID=DE|Lang=de
-5	manche	manch	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	6	nsubj	_	CSID=DE|Lang=de
+5	manche	manch	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	6	nsubj	_	CSID=DE|Lang=de
 6	übertreiben	übertreiben	VERB	_	Person=3|Tense=Pres|VerbForm=Inf	3	ccomp	_	CSID=DE|Lang=de
 7	das	der	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	6	obj	_	CSID=DE|Lang=de
 8	auch	auch	ADV	_	_	6	advmod	_	CSID=DE|Lang=de
@@ -1371,7 +1371,7 @@
 20	zu	zu	ADP	_	_	22	case	_	CSID=DE|Lang=de
 21	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	22	det	_	CSID=DE|Lang=de
 22	Beispiel	Beispiel	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	26	obl	_	CSID=DE|Lang=de
-23	alle	alle	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	26	nsubj	_	CSID=DE|Lang=de
+23	alle	alle	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Ind	26	nsubj	_	CSID=DE|Lang=de
 24	kein	kein	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	25	det	_	CSID=DE|Lang=de
 25	Fußball	Fußball	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	26	obj	_	CSID=DE|Lang=de
 26	angucken	angucken	VERB	_	VerbForm=Inf	8	ccomp	_	CSID=DE|Lang=de
@@ -1453,7 +1453,7 @@
 3	nicht	nicht	PART	_	Polarity=Neg	2	advmod	_	CSID=DE|Lang=de
 4	also	also	ADV	_	_	11	advmod	_	CSID=DE|Lang=de
 5	die	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	6	det	_	CSID=DE|Lang=de
-6	Meisten	meist	PRON	_	Case=Nom|Definite=Ind|Number=Plur|PronType=Ind	11	nsubj	_	CSID=DE|Lang=de
+6	Meisten	meist	PRON	_	Case=Nom|Number=Plur|PronType=Ind	11	nsubj	_	CSID=DE|Lang=de
 7	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	11	cop	_	CSID=DE|Lang=de
 8	dann	dann	ADV	_	_	11	advmod	_	CSID=DE|Lang=de
 9	für	für	ADP	_	_	11	case	_	CSID=DE|Lang=de
@@ -1541,7 +1541,7 @@
 4	kann	können	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	aux	_	CSID=DE|Lang=de
 5	sein	sein	AUX	_	VerbForm=Inf	3	cop	_	CSID=DE|Lang=de
 6	dass	dass	SCONJ	_	_	10	mark	_	CSID=DE|Lang=de
-7	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
+7	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
 8	in	in	ADP	_	_	9	case	_	CSID=DE|Lang=de
 9	Deutschland	Deutschland	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	10	obl	_	CSID=DE|Lang=de
 10	geboren	gebären	VERB	_	VerbForm=Part	3	ccomp	_	CSID=DE|Lang=de
@@ -1563,7 +1563,7 @@
 25	em	em	INTJ	_	_	30	discourse	_	CSID=TR|Lang=tr
 26	dann	dann	ADV	_	_	29	reparandum	_	CSID=DE|Lang=de
 27	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	34	cop	_	CSID=DE|Lang=de
-28	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	34	nsubj	_	CSID=DE|Lang=de
+28	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	34	nsubj	_	CSID=DE|Lang=de
 29	dann	dann	ADV	_	_	34	advmod	_	CSID=DE|Lang=de
 30	glaube	glauben	VERB	_	Mood=Sub|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	22	advcl	_	CSID=DE|Lang=de
 31	automatisch	automatisch	ADJ	_	_	34	advmod	_	CSID=DE|Lang=de
@@ -1885,7 +1885,7 @@
 26	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	CSID=DE|Lang=de
 27	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	30	nsubj	_	CSID=DE|Lang=de
 28	dir	du	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	30	iobj	_	CSID=DE|Lang=de
-29	etwas	etwas	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	30	obj	_	CSID=DE|Lang=de
+29	etwas	etwas	PRON	_	Case=Acc|Number=Sing|PronType=Ind	30	obj	_	CSID=DE|Lang=de
 30	gebracht	bringen	VERB	_	VerbForm=Part	24	conj	_	CSID=DE|Lang=de
 31	in	in	ADP	_	_	33	case	_	CSID=DE|Lang=de
 32	deinem	deine	PRON	_	Case=Dat|Gender=Neut|Number=Sing	33	nmod	_	CSID=DE|Lang=de
@@ -1898,7 +1898,7 @@
 39	egal	egal	ADV	_	_	24	conj	_	CSID=DE|Lang=de
 40	dass	dass	SCONJ	_	_	44	mark	_	CSID=DE|Lang=de
 41	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	44	nsubj	_	CSID=DE|Lang=de
-42	mehrere	mehrere	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	43	det	_	CSID=DE|Lang=de
+42	mehrere	mehrere	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	43	det	_	CSID=DE|Lang=de
 43	Sprachen	Sprache	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	44	obj	_	CSID=DE|Lang=de
 44	konntest	können	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Past	39	ccomp	_	CSID=DE|Lang=de|SpaceAfter=No
 45	?	?	PUNCT	_	_	6	punct	_	CSID=OTHER
@@ -2192,7 +2192,7 @@
 23	ähm	ähm	INTJ	_	_	29	discourse	_	CSID=DE|Lang=de
 24	ja	ja	INTJ	_	_	29	discourse	_	CSID=DE|Lang=de
 25	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	26	reparandum	_	CSID=DE|Lang=de
-26	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	29	nsubj	_	CSID=DE|Lang=de
+26	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	29	nsubj	_	CSID=DE|Lang=de
 27	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	CSID=DE|Lang=de
 28	schon	schon	ADV	_	_	29	advmod	_	CSID=DE|Lang=de
 29	gesehen	sehen	VERB	_	VerbForm=Part	6	conj	_	CSID=DE|Lang=de
@@ -2365,8 +2365,8 @@
 4	çünkü	çünkü	SCONJ	_	_	6	reparandum	_	CSID=TR|Lang=tr
 5	ehm	ehm	INTJ	_	_	16	discourse	_	CSID=TR|Lang=tr
 6	da	de	SCONJ	_	_	16	mark	_	CSID=DE|Lang=de
-7	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	16	nsubj	_	CSID=DE|Lang=de
-8	jeden	jed	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	CSID=DE|Lang=de
+7	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	CSID=DE|Lang=de
+8	jeden	jed	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	9	det	_	CSID=DE|Lang=de
 9	Tag	Tag	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	16	obl	_	CSID=DE|Lang=de
 10	ja	ja	INTJ	_	_	16	discourse	_	CSID=DE|Lang=de
 11	äh	äh	INTJ	_	_	16	discourse	_	CSID=DE|Lang=de
@@ -2490,7 +2490,7 @@
 24	lazım	lazım	ADJ	_	_	11	conj	_	CSID=TR|Lang=tr
 25	da	de	ADV	_	_	30	advmod	_	CSID=DE|Lang=de
 26	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	30	aux	_	CSID=DE|Lang=de
-27	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	30	nsubj	_	CSID=DE|Lang=de
+27	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	30	nsubj	_	CSID=DE|Lang=de
 28	schon	schon	ADV	_	_	30	advmod	_	CSID=DE|Lang=de
 29	viel	viel	ADV	_	_	30	advmod	_	CSID=DE|Lang=de
 30	zutun	zutun	VERB	_	VerbForm=Inf	24	conj	_	CSID=DE|Lang=de
@@ -2596,7 +2596,7 @@
 48	so	so	ADV	_	_	46	conj	_	CSID=DE|Lang=de
 49	mal	mal	ADV	_	_	51	advmod	_	CSID=DE|Lang=de
 50	was	was	PRON	_	Case=Acc|Number=Sing|PronType=Int	51	nmod	_	CSID=DE|Lang=de
-51	anderes	andere	PRON	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	46	conj	_	CSID=DE|Lang=de|SpaceAfter=No
+51	anderes	andere	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	46	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 52	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = TRDE-CS-C09-0006
@@ -2702,7 +2702,7 @@
 1	Äh	ÄH	INTJ	_	_	6	discourse	_	CSID=DE|Lang=de
 2	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	aux	_	CSID=DE|Lang=de
 3	auch	auch	ADV	_	_	6	advmod	_	CSID=DE|Lang=de
-4	viel	viel	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	CSID=DE|Lang=de
+4	viel	viel	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	5	det	_	CSID=DE|Lang=de
 5	Spaß	Spaß	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	6	obj	_	CSID=DE|Lang=de
 6	gemacht	machen	VERB	_	VerbForm=Part	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
 7	,	,	PUNCT	_	_	14	punct	_	CSID=OTHER
@@ -2726,7 +2726,7 @@
 25	oft	oft	ADV	_	_	26	advmod	_	CSID=DE|Lang=de
 26	schwimmen	schwimmen	VERB	_	VerbForm=Inf	17	parataxis	_	CSID=DE|Lang=de
 27	fast	fast	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
-28	jeden	jed	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	29	det	_	CSID=DE|Lang=de
+28	jeden	jed	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	29	det	_	CSID=DE|Lang=de
 29	Tag	Tag	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	26	obl	_	CSID=DE|Lang=de|SpaceAfter=No
 30	,	,	PUNCT	_	_	32	punct	_	CSID=OTHER
 31	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	32	nsubj	_	CSID=DE|Lang=de
@@ -2763,7 +2763,7 @@
 62	Male	Mallorca	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	6	parataxis	_	CSID=DE|Lang=de
 63	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	67	aux	_	CSID=DE|Lang=de
 64	auch	auch	ADV	_	_	67	advmod	_	CSID=DE|Lang=de
-65	viel	viel	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	66	det	_	CSID=DE|Lang=de
+65	viel	viel	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	66	det	_	CSID=DE|Lang=de
 66	Spaß	Spaß	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	67	obj	_	CSID=DE|Lang=de
 67	gemacht	machen	VERB	_	VerbForm=Part	62	parataxis	_	CSID=DE|Lang=de
 68	äh	äh	INTJ	_	_	71	discourse	_	CSID=DE|Lang=de
@@ -2837,7 +2837,7 @@
 16	eigentlich	eigentlich	ADV	_	_	25	advmod	_	CSID=DE|Lang=de
 17	ps	ps	INTJ	_	_	25	discourse	_	CSID=DE|Lang=de
 18	die	der	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	20	det	_	CSID=DE|Lang=de
-19	meiste	meist	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	20	amod	_	CSID=DE|Lang=de
+19	meiste	meist	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	20	amod	_	CSID=DE|Lang=de
 20	Verwandtschaft	Verwandtschaft	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	25	nsubj	_	CSID=DE|Lang=de
 21	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	25	cop	_	CSID=DE|Lang=de
 22	in	in	ADP	_	_	23	reparandum	_	CSID=DE|Lang=de
@@ -3007,7 +3007,7 @@
 18	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	19	det	_	CSID=DE|Lang=de
 19	Familie	Familie	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	15	obj	_	CSID=DE|Lang=de
 20	und	und	CCONJ	_	_	21	cc	_	CSID=DE|Lang=de
-21	alles	alle	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	19	conj	_	CSID=DE|Lang=de
+21	alles	alle	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	19	conj	_	CSID=DE|Lang=de
 22	ja	ja	INTJ	_	_	21	discourse	_	CSID=DE|Lang=de|SpaceAfter=No
 23	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -3095,7 +3095,7 @@
 23	,	,	PUNCT	_	_	29	punct	_	CSID=OTHER
 24	das	der	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Dem	29	obj	_	CSID=DE|Lang=de
 25	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	29	aux	_	CSID=DE|Lang=de
-26	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	29	nsubj	_	CSID=DE|Lang=de
+26	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	29	nsubj	_	CSID=DE|Lang=de
 27	sich	er|es|sie	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	29	iobj	_	CSID=DE|Lang=de
 28	mal	mal	ADV	_	_	29	advmod	_	CSID=DE|Lang=de
 29	vorstellen	vorstellen	VERB	_	VerbForm=Inf	22	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -3279,7 +3279,7 @@
 40	Komma	Komma	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	39	compound	_	CSID=DE|Lang=de
 41	Eins	eins	NUM	_	NumType=Card	39	compound	_	CSID=DE|Lang=de
 42	oder	oder	CCONJ	_	_	43	cc	_	CSID=DE|Lang=de
-43	sowas	sowas	PRON	_	Case=Dat|Definite=Ind|Number=Sing|PronType=Ind	39	conj	_	CSID=DE|Lang=de
+43	sowas	sowas	PRON	_	Case=Dat|Number=Sing|PronType=Ind	39	conj	_	CSID=DE|Lang=de
 44	çok	çok	ADV	_	_	45	advmod	_	CSID=TR|Lang=tr
 45-46	iyiydim	_	_	_	_	_	_	_	CSID=TR|Lang=tr
 45	iyi	iyi	ADJ	_	_	35	conj	_	CSID=TR|Lang=tr
@@ -3354,7 +3354,7 @@
 5	Probleme	Problem	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	6	obj	_	CSID=DE|Lang=de
 6	hattest	haben	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Past	11	advcl	_	CSID=DE|Lang=de
 7	in	in	ADP	_	_	9	case	_	CSID=DE|Lang=de
-8	manchen	manch	DET	_	Case=Dat|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	CSID=DE|Lang=de
+8	manchen	manch	DET	_	Case=Dat|Gender=Neut|Number=Plur|PronType=Ind	9	det	_	CSID=DE|Lang=de
 9	Fächern	Fach	NOUN	_	Case=Dat|Gender=Neut|Number=Plur	6	obl	_	CSID=DE|Lang=de
 10	ne	ne	PRON	_	Case=Nom|Number=Sing	11	obj	_	CSID=TR|Lang=tr
 11	yaptın	yap	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Past	0	root	_	CSID=TR|Lang=tr|SpaceAfter=No
@@ -3538,7 +3538,7 @@
 # text = Ich habe sowas von kein Talent in Englisch das ist so schwer ich kriege das einfach nicht auf die Reihe bir türlü aklım almıyor onu.
 1	Ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	CSID=DE|Lang=de
 2	habe	haben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
-3	sowas	sowas	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nmod	_	CSID=DE|Lang=de
+3	sowas	sowas	PRON	_	Case=Nom|Number=Sing|PronType=Ind	6	nmod	_	CSID=DE|Lang=de
 4	von	von	ADP	_	_	3	fixed	_	CSID=DE|Lang=de
 5	kein	kein	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	6	det	_	CSID=DE|Lang=de
 6	Talent	Talent	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	2	obj	_	CSID=DE|Lang=de
@@ -3618,7 +3618,7 @@
 51	mit	mit	ADP	_	_	52	case	_	CSID=DE|Lang=de
 52	Mathe	Mathe	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	47	obl	_	CSID=DE|Lang=de
 53	und	und	CCONJ	_	_	54	cc	_	CSID=DE|Lang=de
-54	alles	alle	PRON	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	52	conj	_	CSID=DE|Lang=de
+54	alles	alle	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	52	conj	_	CSID=DE|Lang=de
 55	und	und	CCONJ	_	_	56	cc	_	CSID=DE|Lang=de
 56	technisch	technisch	ADJ	_	_	52	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 57	,	,	PUNCT	_	_	64	punct	_	CSID=OTHER
@@ -3688,11 +3688,11 @@
 2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	CSID=DE|Lang=de
 3	kann	können	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	CSID=DE|Lang=de
 4	ja	ja	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
-5	irgendwelche	irgendwelch	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	7	nmod	_	CSID=DE|Lang=de
+5	irgendwelche	irgendwelch	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	7	nmod	_	CSID=DE|Lang=de
 6	so	so	ADV	_	_	10	discourse	_	CSID=DE|Lang=de
 7	Forschungen	Forschung	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	CSID=DE|Lang=de
 8	und	und	CCONJ	_	_	9	cc	_	CSID=DE|Lang=de
-9	sowas	sowas	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	7	conj	_	CSID=DE|Lang=de
+9	sowas	sowas	PRON	_	Case=Acc|Number=Sing|PronType=Ind	7	conj	_	CSID=DE|Lang=de
 10	machen	machen	VERB	_	VerbForm=Inf	0	root	_	CSID=DE|Lang=de
 11	aber	aber	CCONJ	_	_	20	cc	_	CSID=DE|Lang=de
 12	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	det	_	CSID=DE|Lang=de
@@ -3709,7 +3709,7 @@
 # sent_id = TRDE-CS-C14-0003
 # text = Hani irgendeine Firma und.
 1	Hani	hani	ADV	_	_	3	discourse	_	CSID=TR|Lang=tr
-2	irgendeine	irgendein	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	3	nmod	_	CSID=DE|Lang=de
+2	irgendeine	irgendein	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Ind	3	nmod	_	CSID=DE|Lang=de
 3	Firma	Firma	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	CSID=DE|Lang=de
 4	und	und	CCONJ	_	_	3	cc	_	CSID=DE|Lang=de|SpaceAfter=No
 5	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
@@ -3718,7 +3718,7 @@
 # text = Ich glaube man kann sich an dem Fraunhofer Institut bewerben değil mi mit Maschineller Sprachverarbeitung.
 1	Ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	CSID=DE|Lang=de
 2	glaube	glauben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
-3	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
+3	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
 4	kann	können	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	10	aux	_	CSID=DE|Lang=de
 5	sich	er|es|sie	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	10	expl:pv	_	CSID=DE|Lang=de
 6	an	an	ADP	_	_	9	case	_	CSID=DE|Lang=de
@@ -3768,7 +3768,7 @@
 9	Fraunhofer	Fraunhofer	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	10	nmod	_	CSID=DE|Lang=de
 10	Institut	Institut	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	6	obj	_	CSID=DE|Lang=de
 11	und	und	CCONJ	_	_	12	cc	_	CSID=DE|Lang=de
-12	sowas	sowas	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	10	conj	_	CSID=DE|Lang=de|SpaceAfter=No
+12	sowas	sowas	PRON	_	Case=Acc|Number=Sing|PronType=Ind	10	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 13	,	,	PUNCT	_	_	15	punct	_	CSID=OTHER
 14	Daimler	Daimler	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	15	nsubj	_	CSID=DE|Lang=de
 15	bietet	bieten	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis	_	CSID=DE|Lang=de
@@ -3811,7 +3811,7 @@
 16	die	der	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Dem	20	nsubj	_	CSID=DE|Lang=de
 17	auch	auch	ADV	_	_	20	advmod	_	CSID=DE|Lang=de
 18	immer	immer	ADV	_	_	20	advmod	_	CSID=DE|Lang=de
-19	sowas	sowas	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	20	obj	_	CSID=DE|Lang=de
+19	sowas	sowas	PRON	_	Case=Acc|Number=Sing|PronType=Ind	20	obj	_	CSID=DE|Lang=de
 20	verlangt	verlangen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
 21	,	,	PUNCT	_	_	26	punct	_	CSID=OTHER
 22	ob	ob	SCONJ	_	_	26	mark	_	CSID=DE|Lang=de
@@ -3842,7 +3842,7 @@
 2	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	3	nsubj	_	CSID=DE|Lang=de
 3	transformiert	transformieren	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	CSID=DE|Lang=de
 4	sich	er|es|sie	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs|Reflex=Yes	3	expl:pv	_	CSID=DE|Lang=de
-5	alles	alle	PRON	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	2	appos	_	CSID=DE|Lang=de
+5	alles	alle	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	2	appos	_	CSID=DE|Lang=de
 6	gerade	gerade	ADV	_	_	3	advmod	_	CSID=DE|Lang=de
 7	also	also	ADV	_	_	3	advmod	_	CSID=DE|Lang=de
 8	und	und	CCONJ	_	_	16	cc	_	CSID=DE|Lang=de
@@ -3874,7 +3874,7 @@
 34	Augen	Auge	NOUN	_	Case=Gen|Gender=Neut|Number=Plur	26	obl	_	CSID=DE|Lang=de
 35	oder	oder	CCONJ	_	_	37	cc	_	CSID=DE|Lang=de
 36	deiner	deine	PRON	_	Case=Gen|Gender=Neut|Number=Plur	37	nmod	_	CSID=DE|Lang=de
-37	irgendwas	irgendwas	PRON	_	Case=Gen|Definite=Ind|Gender=Fem|Number=Sing|PronType=Ind	34	conj	_	CSID=DE|Lang=de
+37	irgendwas	irgendwas	PRON	_	Case=Gen|Gender=Fem|Number=Sing|PronType=Ind	34	conj	_	CSID=DE|Lang=de
 38	ab	ab	ADP	_	_	26	compound:prt	_	CSID=DE|Lang=de
 39	ob	ob	SCONJ	_	_	42	mark	_	CSID=DE|Lang=de
 40	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	42	nsubj	_	CSID=DE|Lang=de
@@ -3885,7 +3885,7 @@
 45	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	46	det	_	CSID=DE|Lang=de
 46	Autofahren	Auto	NOUN	_	Case=Dat|Gender=Neut|Number=Sing	42	obl	_	CSID=DE|Lang=de
 47	oder	oder	CCONJ	_	_	48	cc	_	CSID=DE|Lang=de
-48	sowas	sowas	PRON	_	Case=Dat|Definite=Ind|Number=Sing|PronType=Ind	42	conj	_	CSID=DE|Lang=de|SpaceAfter=No
+48	sowas	sowas	PRON	_	Case=Dat|Number=Sing|PronType=Ind	42	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 49	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = TRDE-CS-C14-0011
@@ -3896,7 +3896,7 @@
 4	schon	schon	ADV	_	_	3	advmod	_	CSID=DE|Lang=de
 5	bulursunuz	bul	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Plur|Person=2|Tense=Pres	3	xcomp	_	CSID=TR|Lang=tr
 6	bence	bence	ADV	_	_	5	advmod	_	CSID=TR|Lang=tr
-7	alle	alle	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	5	nsubj	_	CSID=DE|Lang=de|SpaceAfter=No
+7	alle	alle	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	5	nsubj	_	CSID=DE|Lang=de|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 9	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	10	nsubj	_	CSID=DE|Lang=de
 10	frage	fragen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	3	parataxis	_	CSID=DE|Lang=de
@@ -3916,7 +3916,7 @@
 5	machst	machen	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
 6	ja	ja	ADV	_	_	5	advmod	_	CSID=DE|Lang=de
 7	auch	auch	ADV	_	_	5	advmod	_	CSID=DE|Lang=de
-8	viele	viel	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	10	det	_	CSID=DE|Lang=de
+8	viele	viel	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	10	det	_	CSID=DE|Lang=de
 9	so	so	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
 10	Praktika	Praktikum	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	5	obj	_	CSID=DE|Lang=de
 11	bilmem	bil	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=1|Polarity=Neg|Tense=Pres	10	conj	_	CSID=TR|Lang=tr
@@ -4124,7 +4124,7 @@
 21	da	de	ADV	_	_	22	advmod	_	CSID=DE|Lang=de
 22	steht	stehen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	advcl	_	CSID=DE|Lang=de
 23	dass	dass	SCONJ	_	_	28	mark	_	CSID=DE|Lang=de
-24	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	28	nsubj	_	CSID=DE|Lang=de
+24	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	28	nsubj	_	CSID=DE|Lang=de
 25	irgendwie	irgendwie	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 26	so	so	ADV	_	_	28	discourse	_	CSID=DE|Lang=de
 27	Wirtschaftsinformatik	Wirtschaftsinformatik	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	28	obj	_	CSID=DE|Lang=de
@@ -4159,7 +4159,7 @@
 18	Wirtschaftsinformatik	Wirtschaftsinformatik	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	conj	_	CSID=DE|Lang=de
 19	oder	oder	CCONJ	_	_	21	cc	_	CSID=DE|Lang=de
 20	sonst	sonst	ADV	_	_	21	advmod	_	CSID=DE|Lang=de
-21	irgendwas	irgendwas	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	15	conj	_	CSID=DE|Lang=de
+21	irgendwas	irgendwas	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	15	conj	_	CSID=DE|Lang=de
 22	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	CSID=DE|Lang=de
 23	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	CSID=DE|Lang=de
 24	keines	kein	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	27	nmod	_	CSID=DE|Lang=de
@@ -4211,7 +4211,7 @@
 12	Anmeldungsphase	Anmeldungsphase	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	17	nsubj	_	CSID=DE|Lang=de
 13	und	und	CCONJ	_	_	15	cc	_	CSID=DE|Lang=de
 14	so	so	ADV	_	_	15	advmod	_	CSID=DE|Lang=de
-15	etwas	etwas	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	12	conj	_	CSID=DE|Lang=de
+15	etwas	etwas	PRON	_	Case=Nom|Number=Sing|PronType=Ind	12	conj	_	CSID=DE|Lang=de
 16	çok	çok	ADV	_	_	17	advmod	_	CSID=TR|Lang=tr
 17	kolay	kolay	ADJ	_	_	9	advcl	_	CSID=TR|Lang=tr
 18	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	20	nmod	_	CSID=TR|Lang=tr
@@ -4280,7 +4280,7 @@
 2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	CSID=DE|Lang=de
 3	könnte	können	AUX	_	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	CSID=DE|Lang=de
 4	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	iobj	_	CSID=DE|Lang=de
-5	jeden	jede	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	CSID=DE|Lang=de
+5	jeden	jede	DET	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	6	det	_	CSID=DE|Lang=de
 6	Tag	Tag	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	9	obl	_	CSID=DE|Lang=de
 7	mit	mit	ADP	_	_	8	case	_	CSID=DE|Lang=de
 8	Physik	Physik	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	9	obl	_	CSID=DE|Lang=de
@@ -4439,7 +4439,7 @@
 7	so	so	ADV	_	_	0	root	_	CSID=DE|Lang=de
 8	aber	aber	CCONJ	_	_	12	cc	_	CSID=DE|Lang=de
 9	nicht	nicht	PART	_	Polarity=Neg	10	advmod	_	CSID=DE|Lang=de
-10	jeder	jede	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	CSID=DE|Lang=de
+10	jeder	jede	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	12	nsubj	_	CSID=DE|Lang=de
 11	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	CSID=DE|Lang=de
 12	so	so	ADV	_	_	7	conj	_	CSID=DE|Lang=de
 13	wie	wie	ADP	_	_	14	case	_	CSID=DE|Lang=de
@@ -4518,7 +4518,7 @@
 4	Leute	Leute	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	CSID=DE|Lang=de
 5	die	der	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Rel	9	nsubj	_	CSID=DE|Lang=de
 6	dir	dir	PRON	_	Case=Dat|Number=Sing|Person=2	9	iobj	_	CSID=DE|Lang=de
-7	paar	paar	PRON	_	Case=Acc|Definite=Ind|Number=Plur|PronType=Ind	8	nmod	_	CSID=DE|Lang=de
+7	paar	paar	PRON	_	Case=Acc|Number=Plur|PronType=Ind	8	nmod	_	CSID=DE|Lang=de
 8	Sachen	Sache	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	9	obj	_	CSID=DE|Lang=de
 9	schicken	schicken	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	CSID=DE|Lang=de
 10	falan	falan	ADV	_	_	9	advmod	_	CSID=TR|Lang=tr|SpaceAfter=No
@@ -4622,7 +4622,7 @@
 17	gemacht	machen	VERB	_	VerbForm=Part	7	acl	_	CSID=DE|Lang=de
 18	wir	wir	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	22	nsubj	_	CSID=DE|Lang=de
 19	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	22	aux	_	CSID=DE|Lang=de
-20	alle	alle	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	21	det	_	CSID=DE|Lang=de
+20	alle	alle	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	21	det	_	CSID=DE|Lang=de
 21	Theorieaufgaben	Theorieaufgabe	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	22	obj	_	CSID=DE|Lang=de
 22	gemacht	machen	VERB	_	VerbForm=Part	17	conj	_	CSID=DE|Lang=de
 23-24	öylelikle	_	_	_	_	_	_	_	CSID=TR|Lang=tr
@@ -4729,7 +4729,7 @@
 19	sagen	sagen	VERB	_	VerbForm=Inf	4	parataxis	_	CSID=DE|Lang=de
 20	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	21	obj	_	CSID=DE|Lang=de
 21	kann	können	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	19	ccomp	_	CSID=DE|Lang=de
-22	jeder	jede	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	CSID=DE|Lang=de
+22	jeder	jede	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	21	nsubj	_	CSID=DE|Lang=de
 23	hani	hani	ADV	_	_	27	discourse	_	CSID=TR|Lang=tr
 24	Abitur	Abitur	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	25	obj	_	CSID=DE|Lang=de
 25	yapmadan	yap	VERB	_	_	27	advcl	_	CSID=TR|Lang=tr
@@ -4804,7 +4804,7 @@
 2	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	CSID=DE|Lang=de
 3	glaube	glauben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
 4	wenn	wenn	SCONJ	_	_	7	mark	_	CSID=DE|Lang=de
-5	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	7	nsubj	_	CSID=DE|Lang=de
+5	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	7	nsubj	_	CSID=DE|Lang=de
 6	da	de	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 7	drin	drin	ADV	_	_	3	ccomp	_	CSID=DE|Lang=de
 8	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	CSID=DE|Lang=de
@@ -4977,7 +4977,7 @@
 9	Philosophie	Philosophie	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	obj	_	CSID=DE|Lang=de
 10	oder	oder	CCONJ	_	_	12	cc	_	CSID=DE|Lang=de
 11	irgendwie	irgendwie	ADV	_	_	12	advmod	_	CSID=DE|Lang=de
-12	sowas	sowas	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	9	conj	_	CSID=DE|Lang=de
+12	sowas	sowas	PRON	_	Case=Nom|Number=Sing|PronType=Ind	9	conj	_	CSID=DE|Lang=de
 13	ama	ama	CCONJ	_	_	17	cc	_	CSID=TR|Lang=tr
 14	onu	o	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	17	obj	_	CSID=TR|Lang=tr
 15	bir	bir	DET	_	Definite=Ind	16	det	_	CSID=TR|Lang=tr
@@ -5003,7 +5003,7 @@
 35	Informatik	Informatik	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	32	nsubj	_	CSID=DE|Lang=de
 36	und	und	CCONJ	_	_	38	cc	_	CSID=DE|Lang=de
 37	noch	noch	ADV	_	_	38	advmod	_	CSID=DE|Lang=de
-38	irgendetwas	irgendetwas	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	35	conj	_	CSID=DE|Lang=de|SpaceAfter=No
+38	irgendetwas	irgendetwas	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	35	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 39	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
 # sent_id = TRDE-CS-E04-0043
@@ -5050,7 +5050,7 @@
 6	so	so	ADV	_	_	2	advmod	_	CSID=DE|Lang=de
 7	schlimm	schlimm	ADJ	_	_	2	advmod	_	CSID=DE|Lang=de
 8	weil	weil	SCONJ	_	_	10	mark	_	CSID=DE|Lang=de
-9	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
+9	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
 10	arbeitet	arbeiten	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	advcl	_	CSID=DE|Lang=de
 11	eh	eh	INTJ	_	_	10	discourse	_	CSID=DE|Lang=de
 12	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	CSID=DE|Lang=de
@@ -5157,7 +5157,7 @@
 4	sieht	sehen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	parataxis:discourse	_	CSID=DE|Lang=de
 5	aus	aus	ADP	_	_	4	compound:prt	_	CSID=DE|Lang=de
 6	wie	wie	ADP	_	_	4	mark	_	CSID=DE|Lang=de
-7	ein	ein	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	4	obj	_	CSID=DE|Lang=de|SpaceAfter=No
+7	ein	ein	PRON	_	Case=Acc|Number=Sing|PronType=Ind	4	obj	_	CSID=DE|Lang=de|SpaceAfter=No
 8	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
 9	so	so	ADV	_	_	11	advmod	_	CSID=DE|Lang=de
 10	Çinli'ye	Çinli	PROPN	_	Case=Dat|Number=Sing	11	obl	_	CSID=TR|Lang=tr
@@ -5489,7 +5489,7 @@
 8	werde	werden	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	14	aux	_	CSID=DE|Lang=de
 9	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	14	nsubj	_	CSID=DE|Lang=de
 10	auf	auf	ADP	_	_	12	case	_	CSID=DE|Lang=de
-11	jeden	jed	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	CSID=DE|Lang=de
+11	jeden	jed	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	12	det	_	CSID=DE|Lang=de
 12	Fall	Fall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	14	obl	_	CSID=DE|Lang=de
 13	Zumba	Zumba	PROPN	_	Case=Nom|Gender=Masc|Number=Sing	14	obj	_	CSID=DE|Lang=de
 14	machen	machen	VERB	_	VerbForm=Inf	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -5604,7 +5604,7 @@
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
 3	keine	kein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	4	det	_	CSID=DE|Lang=de
 4	Ahnung	Ahnung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	nmod	_	CSID=DE|Lang=de
-5	irgendwelche	irgendwelch	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	6	nmod	_	CSID=DE|Lang=de
+5	irgendwelche	irgendwelch	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	6	nmod	_	CSID=DE|Lang=de
 6	Dinger	Ding	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	0	root	_	CSID=DE|Lang=de
 7	so	so	ADV	_	_	8	advmod	_	CSID=DE|Lang=de
 8	inşaatçı	inşaatçı	NOUN	_	Case=Nom|Number=Sing	6	dislocated	_	CSID=TR|Lang=tr|DislocateHead=6
@@ -5755,7 +5755,7 @@
 7	halt	halt	ADV	_	_	12	advmod	_	CSID=DE|Lang=de
 8	nur	nur	ADV	_	_	12	advmod	_	CSID=DE|Lang=de
 9	in	in	ADP	_	_	11	case	_	CSID=DE|Lang=de
-10	irgendwelchen	irgendwelche	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	CSID=DE|Lang=de
+10	irgendwelchen	irgendwelche	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	11	nmod	_	CSID=DE|Lang=de
 11	Hip-Hop-Medien	Hip-Hop-Medien	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	CSID=DE|Lang=de
 12	mitbekommen	mitbekommen	VERB	_	VerbForm=Part	3	parataxis	_	CSID=DE|Lang=de
 13	da	de	ADV	_	_	12	advmod:emph	_	CSID=TR|Lang=tr
@@ -5800,7 +5800,7 @@
 
 # sent_id = TRDE-CS-S14-0008
 # text = Bisschen Beef, Illuminati Milluminati, masonlar falan filan, ortalık karışıyor.
-1	Bisschen	bisschen	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nmod	_	CSID=DE|Lang=de
+1	Bisschen	bisschen	PRON	_	Case=Nom|Number=Sing|PronType=Ind	2	nmod	_	CSID=DE|Lang=de
 2	Beef	Beef	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
 3	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 4	Illuminati	Illuminati	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	CSID=DE|Lang=de
@@ -5899,7 +5899,7 @@
 
 # sent_id = TRDE-CS-S14-0014
 # text = Man muss es halt anonymisieren falan.
-1	Man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	5	nsubj	_	CSID=DE|Lang=de
+1	Man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	5	nsubj	_	CSID=DE|Lang=de
 2	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	CSID=DE|Lang=de
 3	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	5	obj	_	CSID=DE|Lang=de
 4	halt	halt	ADV	_	_	5	advmod	_	CSID=DE|Lang=de
@@ -5925,7 +5925,7 @@
 14	aber	aber	CCONJ	_	_	18	cc	_	CSID=DE|Lang=de
 15	auch	auch	ADV	_	_	18	advmod	_	CSID=DE|Lang=de
 16	so	so	ADV	_	_	18	advmod	_	CSID=DE|Lang=de
-17	irgendwelche	irgendwelch	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	18	nmod	_	CSID=DE|Lang=de
+17	irgendwelche	irgendwelch	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	18	nmod	_	CSID=DE|Lang=de
 18	Kolonialleute	Kolonialleute	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	5	conj	_	CSID=DE|Lang=de
 19	so	so	ADV	_	_	18	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
 20	,	,	PUNCT	_	_	35	punct	_	CSID=OTHER
@@ -6183,7 +6183,7 @@
 4	şey	şey	NOUN	_	Case=Nom|Number=Sing	0	root	_	CSID=TR|Lang=tr|SpaceAfter=No
 5	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 6	dass	dass	SCONJ	_	_	7	mark	_	CSID=DE|Lang=de
-7	alles	alle	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	reparandum	_	CSID=DE|Lang=de
+7	alles	alle	PRON	_	Case=Nom|Number=Sing|PronType=Ind	10	reparandum	_	CSID=DE|Lang=de
 8	einfach	einfach	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 9	da	da	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
 10	schauen	schauen	VERB	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	4	acl	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -6191,7 +6191,7 @@
 12	keine	kein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	det	_	CSID=DE|Lang=de
 13	Ahnung	Ahnung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	nmod	_	CSID=DE|Lang=de
 14	wie	wie	ADP	_	_	15	case	_	CSID=DE|Lang=de
-15	viele	viel	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	18	nmod	_	CSID=DE|Lang=de|SpaceAfter=No
+15	viele	viel	PRON	_	Case=Nom|Gender=Neut|Number=Plur|PronType=Ind	18	nmod	_	CSID=DE|Lang=de|SpaceAfter=No
 16	,	,	PUNCT	_	_	15	punct	_	CSID=OTHER
 17	tausend	tausend	NUM	_	NumType=Card	18	nummod	_	CSID=DE|Lang=de
 18	Leute	Leute	NOUN	_	Case=Nom|Gender=Neut|Number=Plur	10	nsubj	_	CSID=DE|Lang=de
@@ -6202,7 +6202,7 @@
 23	Live	live	ADV	_	_	24	advmod	_	CSID=DE|Lang=de
 24	passiert	passieren	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	10	advcl	_	CSID=DE|Lang=de
 25	so	so	ADV	_	_	26	advmod	_	CSID=DE|Lang=de
-26	etwas	etwas	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	24	nsubj	_	CSID=DE|Lang=de|SpaceAfter=No
+26	etwas	etwas	PRON	_	Case=Nom|Number=Sing|PronType=Ind	24	nsubj	_	CSID=DE|Lang=de|SpaceAfter=No
 27	.	.	PUNCT	_	_	4	punct	_	CSID=OTHER
 
 # sent_id = TRDE-CS-S14-0028
@@ -6236,7 +6236,7 @@
 1	Könnte	können	AUX	_	Mood=Sub|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	aux	_	CSID=DE|Lang=de
 2	aber	aber	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 3	auch	auch	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
-4	alles	alle	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	7	nsubj	_	CSID=DE|Lang=de
+4	alles	alle	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	7	nsubj	_	CSID=DE|Lang=de
 5	komplett	komplett	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 6	auch	auch	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 7	Promo	Promo	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	CSID=DE|Lang=de
@@ -6260,13 +6260,13 @@
 10	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	9	nsubj	_	CSID=DE|Lang=de|SpaceAfter=No
 11	,	,	PUNCT	_	_	21	punct	_	CSID=OTHER
 12	weil	weil	SCONJ	_	_	21	mark	_	CSID=DE|Lang=de
-13	einer	ein	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	21	nsubj	_	CSID=DE|Lang=de
+13	einer	ein	PRON	_	Case=Nom|Number=Sing|PronType=Ind	21	nsubj	_	CSID=DE|Lang=de
 14	von	von	ADP	_	_	16	case	_	CSID=DE|Lang=de
 15	den	der	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	16	det	_	CSID=DE|Lang=de
 16	Seiten	Seite	NOUN	_	Case=Dat|Gender=Fem|Number=Plur	13	nmod	_	CSID=DE|Lang=de
 17	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	21	aux	_	CSID=DE|Lang=de
 18	auf	auf	ADP	_	_	20	case	_	CSID=DE|Lang=de
-19	jeden	jed	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	20	det	_	CSID=DE|Lang=de
+19	jeden	jed	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	20	det	_	CSID=DE|Lang=de
 20	Fall	Fall	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	21	obl	_	CSID=DE|Lang=de
 21	verloren	verlieren	VERB	_	VerbForm=Part	1	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 22	.	.	PUNCT	_	_	1	punct	_	CSID=OTHER
@@ -6332,7 +6332,7 @@
 11	,	,	PUNCT	_	_	16	punct	_	CSID=OTHER
 12	da	da	ADV	_	_	16	advmod	_	CSID=DE|Lang=de
 13	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	16	reparandum	_	CSID=DE|Lang=de
-14	jemand	jemand	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	16	nsubj	_	CSID=DE|Lang=de
+14	jemand	jemand	PRON	_	Case=Nom|Number=Sing|PronType=Ind	16	nsubj	_	CSID=DE|Lang=de
 15	sinemaya	sinema	NOUN	_	Case=Dat|Number=Sing	16	obl	_	CSID=TR|Lang=tr
 16	gitmiş	git	VERB	_	Aspect=Perf|Evident=Nfh|Mood=Ind|Number=Sing|Person=3|Tense=Past	10	parataxis	_	CSID=TR|Lang=tr
 17	John	John	PROPN	_	Foreign=Yes	20	nmod	_	CSID=LANG3|Lang=en
@@ -6457,7 +6457,7 @@
 12	heißt	heißen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	3	conj	_	CSID=DE|Lang=de
 13	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	20	nsubj	_	CSID=DE|Lang=de
 14	wird	werden	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	20	aux	_	CSID=DE|Lang=de
-15	irgendeinen	irgendeine	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	16	nmod	_	CSID=DE|Lang=de
+15	irgendeinen	irgendeine	PRON	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	16	nmod	_	CSID=DE|Lang=de
 16	Superhelden	Superhelden	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	CSID=DE|Lang=de
 17	von	von	ADP	_	_	19	case	_	CSID=DE|Lang=de
 18	eh	eh	INTJ	_	_	19	discourse	_	CSID=DE|Lang=de
@@ -6485,7 +6485,7 @@
 16	şey	şey	NOUN	_	Case=Nom|Number=Sing	17	obj	_	CSID=TR|Lang=tr
 17	versinler	ver	VERB	_	Mood=Imp|Number=Plur|Person=3	11	conj	_	CSID=TR|Lang=tr|SpaceAfter=No
 18	,	,	PUNCT	_	_	25	punct	_	CSID=OTHER
-19	mehrere	mehrere	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	20	det	_	CSID=DE|Lang=de
+19	mehrere	mehrere	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	20	det	_	CSID=DE|Lang=de
 20	Filme	Film	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	25	obj	_	CSID=DE|Lang=de
 21	will	wollen	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	25	aux	_	CSID=DE|Lang=de
 22	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	CSID=DE|Lang=de
@@ -6884,7 +6884,7 @@
 27	viel	viel	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 28	kindlicher	kindlich	ADJ	_	_	25	advmod	_	CSID=DE|Lang=de
 29	und	und	CCONJ	_	_	31	cc	_	CSID=DE|Lang=de
-30	mehr	mehr	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	31	det	_	CSID=DE|Lang=de
+30	mehr	mehr	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	31	det	_	CSID=DE|Lang=de
 31	Mainstream	Mainstream	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	28	conj	_	CSID=DE|Lang=de
 32	aus	aus	ADP	_	_	25	compound:prt	_	CSID=DE|Lang=de
 
@@ -7234,7 +7234,7 @@
 7	hast	haben	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	12	aux	_	CSID=DE|Lang=de
 8	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	12	nsubj	_	CSID=DE|Lang=de
 9	so	so	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
-10	etwas	etwas	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	12	obj	_	CSID=DE|Lang=de
+10	etwas	etwas	PRON	_	Case=Acc|Number=Sing|PronType=Ind	12	obj	_	CSID=DE|Lang=de
 11	mal	mal	ADV	_	_	12	advmod	_	CSID=DE|Lang=de
 12	gesehen	sehen	VERB	_	VerbForm=Part	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
 13	?	?	PUNCT	_	_	12	punct	_	CSID=OTHER
@@ -7319,7 +7319,7 @@
 9	iyi	iyi	ADJ	_	_	0	root	_	CSID=TR|Lang=tr|SpaceAfter=No
 10	,	,	PUNCT	_	_	17	punct	_	CSID=OTHER
 11	dass	dass	SCONJ	_	_	14	mark	_	CSID=DE|Lang=de
-12	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	CSID=DE|Lang=de
+12	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	CSID=DE|Lang=de
 13	halt	halt	ADV	_	_	14	advmod	_	CSID=DE|Lang=de
 14	eigentlich	eigentlich	ADV	_	_	17	reparandum	_	CSID=DE|Lang=de
 15	pahalı	pahalı	ADJ	_	_	17	amod	_	CSID=TR|Lang=tr
@@ -7333,7 +7333,7 @@
 1	Bir	bir	ADV	_	_	5	advmod	_	CSID=TR|Lang=tr
 2	de	de	ADV	_	_	1	advmod:emph	_	CSID=TR|Lang=tr
 3	so	so	ADV	_	_	4	advmod	_	CSID=DE|Lang=de
-4	etwas	etwas	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	13	reparandum	_	CSID=DE|Lang=de
+4	etwas	etwas	PRON	_	Case=Acc|Number=Sing|PronType=Ind	13	reparandum	_	CSID=DE|Lang=de
 5	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
 6	sie	sie	PRON	_	Case=Nom|Number=Plur|Person=3|PronType=Prs	5	nsubj	_	CSID=DE|Lang=de
 7	einfach	einfach	ADV	_	_	5	advmod	_	CSID=DE|Lang=de
@@ -7522,7 +7522,7 @@
 7	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	CSID=DE|Lang=de
 8	mir	ich	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs|Reflex=Yes	11	expl:pv	_	CSID=DE|Lang=de
 9	so	so	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
-10	etwas	etwas	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	11	obj	_	CSID=DE|Lang=de
+10	etwas	etwas	PRON	_	Case=Acc|Number=Sing|PronType=Ind	11	obj	_	CSID=DE|Lang=de
 11	anschaue	anschauen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres	13	advcl	_	CSID=DE|Lang=de|SpaceAfter=No
 12	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
 13	denke	denken	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	5	acl	_	CSID=DE|Lang=de
@@ -7758,7 +7758,7 @@
 6	onunla	o	PRON	_	Case=Ins|Number=Sing|Person=3|PronType=Prs	12	obl	_	CSID=TR|Lang=tr
 7	gerçekten	gerçekten	ADV	_	_	12	advmod	_	CSID=TR|Lang=tr
 8	gezielt	gezielt	ADJ	_	_	12	advmod	_	CSID=DE|Lang=de
-9	mehrere	mehrere	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	10	det	_	CSID=DE|Lang=de
+9	mehrere	mehrere	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	10	det	_	CSID=DE|Lang=de
 10	insanları	insan	NOUN	_	Case=Acc|Number=Plur	12	obj	_	CSID=TR|Lang=tr
 11	yok	yok	ADJ	_	_	12	advmod	_	CSID=TR|Lang=tr
 12	ediyorsun	et	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=2|Tense=Pres	4	acl	_	CSID=TR|Lang=tr
@@ -7883,7 +7883,7 @@
 
 # sent_id = TRDE-CS-S19-0007
 # text = Irgendwas für die Uni machen geht nicht, ich habe das ein paar Mal versucht, olmadı.
-1	Irgendwas	irgendwas	PRON	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	CSID=DE|Lang=de
+1	Irgendwas	irgendwas	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	5	obj	_	CSID=DE|Lang=de
 2	für	für	ADP	_	_	4	case	_	CSID=DE|Lang=de
 3	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	det	_	CSID=DE|Lang=de
 4	Uni	Uni	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	nmod	_	CSID=DE|Lang=de
@@ -7895,7 +7895,7 @@
 10	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	15	aux	_	CSID=DE|Lang=de
 11	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	obj	_	CSID=DE|Lang=de
 12	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	13	det	_	CSID=DE|Lang=de
-13	paar	paar	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nmod	_	CSID=DE|Lang=de
+13	paar	paar	PRON	_	Case=Nom|Number=Sing|PronType=Ind	14	nmod	_	CSID=DE|Lang=de
 14	Mal	Mal	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	15	obl	_	CSID=DE|Lang=de
 15	versucht	versuchen	VERB	_	VerbForm=Part	6	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
 16	,	,	PUNCT	_	_	17	punct	_	CSID=OTHER
@@ -7929,7 +7929,7 @@
 # sent_id = TRDE-CS-S19-0009
 # text = Hat man keine Lust, değil mi?
 1	Hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
-2	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	1	nsubj	_	CSID=DE|Lang=de
+2	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	1	nsubj	_	CSID=DE|Lang=de
 3	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	4	det	_	CSID=DE|Lang=de
 4	Lust	Lust	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	obj	_	CSID=DE|Lang=de|SpaceAfter=No
 5	,	,	PUNCT	_	_	6	punct	_	CSID=OTHER
@@ -8303,7 +8303,7 @@
 15	,	,	PUNCT	_	_	24	punct	_	CSID=OTHER
 16	und	und	CCONJ	_	_	24	cc	_	CSID=DE|Lang=de
 17	dass	dass	SCONJ	_	_	24	mark	_	CSID=DE|Lang=de
-18	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	24	nsubj	_	CSID=DE|Lang=de
+18	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	24	nsubj	_	CSID=DE|Lang=de
 19	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	24	obj	_	CSID=DE|Lang=de
 20	eigentlich	eigentlich	ADV	_	_	24	advmod	_	CSID=DE|Lang=de
 21	mit	mit	ADP	_	_	23	case	_	CSID=DE|Lang=de
@@ -8365,12 +8365,12 @@
 
 # sent_id = TRDE-CS-S19-0033
 # text = Man verspricht irgendwie marketingtechnisch so viele Projekte ama hiç uygulanmıyor.
-1	Man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	2	nsubj	_	CSID=DE|Lang=de
+1	Man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	2	nsubj	_	CSID=DE|Lang=de
 2	verspricht	versprechen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
 3	irgendwie	irgendwie	ADV	_	_	2	advmod	_	CSID=DE|Lang=de
 4	marketingtechnisch	marketingtechnisch	ADJ	_	_	2	advmod	_	CSID=DE|Lang=de
 5	so	so	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
-6	viele	viel	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	CSID=DE|Lang=de
+6	viele	viel	DET	_	Case=Acc|Gender=Neut|Number=Plur|PronType=Ind	7	det	_	CSID=DE|Lang=de
 7	Projekte	Projekt	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	CSID=DE|Lang=de
 8	ama	ama	CCONJ	_	_	10	cc	_	CSID=TR|Lang=tr
 9	hiç	hiç	ADV	_	_	10	advmod	_	CSID=TR|Lang=tr
@@ -8456,12 +8456,12 @@
 3	echt	echt	ADJ	_	_	2	advmod	_	CSID=DE|Lang=de
 4	so	so	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 5	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	7	det	_	CSID=DE|Lang=de
-6	paar	paar	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	7	nmod	_	CSID=DE|Lang=de
+6	paar	paar	PRON	_	Case=Acc|Number=Sing|PronType=Ind	7	nmod	_	CSID=DE|Lang=de
 7	Produkte	Produkt	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	2	obj	_	CSID=DE|Lang=de|SpaceAfter=No
 8	,	,	PUNCT	_	_	13	punct	_	CSID=OTHER
-9	was	was	PRON	_	Case=Acc|Definite=Ind|Number=Sing|PronType=Ind	13	obj	_	CSID=DE|Lang=de
+9	was	was	PRON	_	Case=Acc|Number=Sing|PronType=Ind	13	obj	_	CSID=DE|Lang=de
 10	vor	vor	ADP	_	_	11	case	_	CSID=DE|Lang=de
-11	allem	alle	PRON	_	Case=Dat|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	13	obl	_	CSID=DE|Lang=de
+11	allem	alle	PRON	_	Case=Dat|Gender=Neut|Number=Sing|PronType=Ind	13	obl	_	CSID=DE|Lang=de
 12	Ernährung	Ernährung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	13	obj	_	CSID=DE|Lang=de
 13	angeht	angehen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	acl	_	CSID=DE|Lang=de
 14	süt	süt	NOUN	_	Case=Nom|Number=Sing	12	nmod	_	CSID=TR|Lang=tr
@@ -8662,7 +8662,7 @@
 8	belebt	belebt	ADJ	_	_	2	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 9	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
 10	voll	voll	ADV	_	_	11	advmod	_	CSID=DE|Lang=de
-11	viele	viel	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	CSID=DE|Lang=de
+11	viele	viel	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	12	det	_	CSID=DE|Lang=de
 12	Menschen	Mensch	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	2	conj	_	CSID=DE|Lang=de
 13	so	so	ADV	_	_	12	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
 14	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
@@ -8754,7 +8754,7 @@
 2	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	CSID=DE|Lang=de
 3	halt	halt	ADV	_	_	6	advmod	_	CSID=DE|Lang=de
 4	sehr	sehr	ADV	_	_	6	advmod	_	CSID=DE|Lang=de
-5	viele	viel	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	CSID=DE|Lang=de
+5	viele	viel	DET	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	6	det	_	CSID=DE|Lang=de
 6	Familien	Familie	NOUN	_	Case=Nom|Gender=Fem|Number=Plur	0	root	_	CSID=DE|Lang=de
 7	und	und	CCONJ	_	_	9	cc	_	CSID=DE|Lang=de
 8	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	9	nsubj	_	CSID=DE|Lang=de
@@ -8886,7 +8886,7 @@
 10	dass	dass	SCONJ	_	_	15	mark	_	CSID=DE|Lang=de
 11	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	CSID=DE|Lang=de
 12	mit	mit	ADP	_	_	13	case	_	CSID=DE|Lang=de
-13	Vielen	viel	PRON	_	Case=Dat|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	15	obj	_	CSID=DE|Lang=de
+13	Vielen	viel	PRON	_	Case=Dat|Gender=Masc|Number=Plur|PronType=Ind	15	obj	_	CSID=DE|Lang=de
 14	so	so	ADV	_	_	15	advmod	_	CSID=DE|Lang=de
 15	abgehangen	abgehängen	VERB	_	VerbForm=Part	8	ccomp	_	CSID=DE|Lang=de
 16	bin	sein	AUX	_	Number=Sing	15	aux	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -8897,7 +8897,7 @@
 21	Einem	ein	PRON	_	Case=Dat|Definite=Ind|Number=Sing|PronType=Art	20	iobj	_	CSID=DE|Lang=de
 22	schon	schon	ADV	_	_	20	advmod	_	CSID=DE|Lang=de
 23	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	24	det	_	CSID=DE|Lang=de
-24	bisschen	bisschen	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	20	obl	_	CSID=DE|Lang=de|SpaceAfter=No
+24	bisschen	bisschen	PRON	_	Case=Nom|Number=Sing|PronType=Ind	20	obl	_	CSID=DE|Lang=de|SpaceAfter=No
 25	.	.	PUNCT	_	_	2	punct	_	CSID=OTHER
 
 # sent_id = TRDE-CS-S19-0062
@@ -8967,7 +8967,7 @@
 8	Lokal	Lokal	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	obj	_	CSID=DE|Lang=de|SpaceAfter=No
 9	,	,	PUNCT	_	_	14	punct	_	CSID=OTHER
 10	wo	wo	ADV	_	_	14	advmod	_	CSID=DE|Lang=de
-11	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	14	nsubj	_	CSID=DE|Lang=de
+11	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	14	nsubj	_	CSID=DE|Lang=de
 12	sehr	sehr	ADV	_	_	13	advmod	_	CSID=DE|Lang=de
 13	gut	gut	ADJ	_	_	14	advmod	_	CSID=DE|Lang=de
 14	frühstücken	frühstücken	VERB	_	VerbForm=Inf	8	acl	_	CSID=DE|Lang=de
@@ -8997,7 +8997,7 @@
 13	hier	hier	ADV	_	_	17	advmod	_	CSID=DE|Lang=de
 14	nicht	nicht	PART	_	Polarity=Neg	16	advmod	_	CSID=DE|Lang=de
 15	so	so	ADV	_	_	16	advmod	_	CSID=DE|Lang=de
-16	viele	viel	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	17	det	_	CSID=DE|Lang=de
+16	viele	viel	DET	_	Case=Nom|Gender=Masc|Number=Plur|PronType=Ind	17	det	_	CSID=DE|Lang=de
 17	Türken	Türke	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	10	ccomp	_	CSID=DE|Lang=de
 18	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	17	cop	_	CSID=DE|Lang=de|SpaceAfter=No
 19	,	,	PUNCT	_	_	22	punct	_	CSID=OTHER
@@ -9097,7 +9097,7 @@
 2	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	7	aux	_	CSID=DE|Lang=de
 3	mal	mal	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 4	ein	ein	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	6	det	_	CSID=DE|Lang=de
-5	paar	paar	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	6	nmod	_	CSID=DE|Lang=de
+5	paar	paar	PRON	_	Case=Nom|Number=Sing|PronType=Ind	6	nmod	_	CSID=DE|Lang=de
 6	Mal	Mal	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	7	obl	_	CSID=DE|Lang=de
 7	versucht	versuchen	VERB	_	VerbForm=Part	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
@@ -9222,7 +9222,7 @@
 7	nicht	nicht	PART	_	Polarity=Neg	2	advmod	_	CSID=DE|Lang=de
 8	wirklich	wirklich	ADJ	_	_	2	advmod	_	CSID=DE|Lang=de
 9	so	so	ADV	_	_	11	advmod	_	CSID=DE|Lang=de
-10	viele	viel	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	CSID=DE|Lang=de
+10	viele	viel	DET	_	Case=Acc|Gender=Masc|Number=Plur|PronType=Ind	11	det	_	CSID=DE|Lang=de
 11	Freunde	Freund	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	2	obj	_	CSID=DE|Lang=de
 12	o	o	DET	_	Definite=Def	13	det	_	CSID=TR|Lang=tr
 13	yüzden	yüz	NOUN	_	Case=Abl|Number=Sing	14	obl	_	CSID=TR|Lang=tr
@@ -9291,7 +9291,7 @@
 # text = Auch wenn jeder alleine gelernt hat, hepimiz birlikte yapıyorduk her şeyi.
 1	Auch	auch	ADV	_	_	5	advmod	_	CSID=DE|Lang=de
 2	wenn	wenn	SCONJ	_	_	5	mark	_	CSID=DE|Lang=de
-3	jeder	jede	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	CSID=DE|Lang=de
+3	jeder	jede	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Ind	5	nsubj	_	CSID=DE|Lang=de
 4	alleine	alleine	ADV	_	_	5	advmod	_	CSID=DE|Lang=de
 5	gelernt	lernen	VERB	_	VerbForm=Part	10	advcl	_	CSID=DE|Lang=de
 6	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	aux	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -9351,7 +9351,7 @@
 8	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
 9	wie	wie	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
 10	nennt	nennen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	parataxis:discourse	_	CSID=DE|Lang=de
-11	man	man	PRON	_	Case=Nom|Definite=Ind|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
+11	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
 12	die	der	PRON	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Dem	10	obj	_	CSID=DE|Lang=de|SpaceAfter=No
 13	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 14	Orientierungsprüfungen	Orientierungsprüfung	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	15	obj	_	CSID=DE|Lang=de
@@ -9407,7 +9407,7 @@
 
 # sent_id = TRDE-CS-S20-0006
 # text = Jeden Montag komme ich hierher und dann seid ihr die Einzigen, die ich wiedererkenne yani güzel bir his oluyor.
-1	Jeden	jede	DET	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	CSID=DE|Lang=de
+1	Jeden	jede	DET	_	Case=Acc|Gender=Masc|Number=Sing|PronType=Ind	2	det	_	CSID=DE|Lang=de
 2	Montag	Montag	PROPN	_	Case=Acc|Gender=Masc|Number=Sing	3	obl	_	CSID=DE|Lang=de
 3	komme	kommen	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
 4	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	CSID=DE|Lang=de
@@ -9830,7 +9830,7 @@
 13	,	,	PUNCT	_	_	20	punct	_	CSID=OTHER
 14	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	20	aux	_	CSID=DE|Lang=de
 15	auf	auf	ADP	_	_	17	case	_	CSID=DE|Lang=de
-16	jeder	jede	DET	_	Case=Dat|Definite=Ind|Gender=Masc|Number=Sing|PronType=Ind	17	det	_	CSID=DE|Lang=de
+16	jeder	jede	DET	_	Case=Dat|Gender=Masc|Number=Sing|PronType=Ind	17	det	_	CSID=DE|Lang=de
 17	Seite	Seite	NOUN	_	Case=Dat|Gender=Fem|Number=Sing	19	nmod	_	CSID=DE|Lang=de
 18	die	der	DET	_	Case=Acc|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	19	det	_	CSID=DE|Lang=de
 19	Fehler	Fehler	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	20	obj	_	CSID=DE|Lang=de
@@ -9957,7 +9957,7 @@
 5	auch	auch	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
 6	des	der	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	det	_	CSID=DE|Lang=de
 7	Öfteren	Öfteren	NOUN	_	Case=Gen|Gender=Neut|Number=Sing	10	obl	_	CSID=DE|Lang=de
-8	solche	solch	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	CSID=DE|Lang=de
+8	solche	solch	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	9	det	_	CSID=DE|Lang=de
 9	Nachrichten	Nachricht	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	10	obj	_	CSID=DE|Lang=de
 10	bekommen	bekommen	VERB	_	VerbForm=Inf	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
 11	,	,	PUNCT	_	_	18	punct	_	CSID=OTHER
@@ -10251,7 +10251,7 @@
 # text = Ich muss jedes Mal Pause machen, um das zu verstehen, çünkü çok hızlı gidiyor.
 1	Ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	CSID=DE|Lang=de
 2	muss	müssen	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	6	aux	_	CSID=DE|Lang=de
-3	jedes	jede	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	4	det	_	CSID=DE|Lang=de
+3	jedes	jede	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	4	det	_	CSID=DE|Lang=de
 4	Mal	Mal	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	6	obl	_	CSID=DE|Lang=de
 5	Pause	Pause	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	obj	_	CSID=DE|Lang=de
 6	machen	machen	VERB	_	VerbForm=Inf	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -10932,7 +10932,7 @@
 6	eigentlich	eigentlich	ADV	_	_	3	advmod	_	CSID=DE|Lang=de
 7	nicht	nicht	PART	_	Polarity=Neg	3	advmod	_	CSID=DE|Lang=de
 8	so	so	ADV	_	_	3	advmod	_	CSID=DE|Lang=de
-9	viele	viel	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	CSID=DE|Lang=de
+9	viele	viel	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	10	det	_	CSID=DE|Lang=de
 10	Möglichkeiten	Möglichkeit	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	3	obj	_	CSID=DE|Lang=de|SpaceAfter=No
 11	,	,	PUNCT	_	_	16	punct	_	CSID=OTHER
 12	zu	zu	ADP	_	_	14	case	_	CSID=DE|Lang=de
@@ -11048,12 +11048,12 @@
 18	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	22	cop	_	CSID=DE|Lang=de
 19	zu	zu	ADP	_	_	21	case	_	CSID=DE|Lang=de
 20	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	21	det	_	CSID=DE|Lang=de
-21	Einen	ein	PRON	_	Case=Dat|Definite=Ind|Number=Sing|PronType=Ind	22	obl	_	CSID=DE|Lang=de
+21	Einen	ein	PRON	_	Case=Dat|Number=Sing|PronType=Ind	22	obl	_	CSID=DE|Lang=de
 22	dunkel	dunkel	ADJ	_	_	3	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 23	,	,	PUNCT	_	_	38	punct	_	CSID=OTHER
 24	zu	zu	ADP	_	_	26	case	_	CSID=DE|Lang=de
 25	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	26	det	_	CSID=DE|Lang=de
-26	Anderen	andere	PRON	_	Case=Dat|Definite=Ind|Number=Plur|PronType=Ind	38	obl	_	CSID=DE|Lang=de
+26	Anderen	andere	PRON	_	Case=Dat|Number=Plur|PronType=Ind	38	obl	_	CSID=DE|Lang=de
 27	wollte	wollen	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	38	aux	_	CSID=DE|Lang=de
 28	er	er	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Person=3|PronType=Prs	38	nsubj	_	CSID=DE|Lang=de
 29	so	so	ADV	_	_	38	advmod	_	CSID=DE|Lang=de
@@ -11579,7 +11579,7 @@
 6	weißt	wissen	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	2	parataxis	_	CSID=DE|Lang=de
 7	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	6	nsubj	_	CSID=DE|Lang=de
 8	weil	weil	SCONJ	_	_	15	mark	_	CSID=DE|Lang=de
-9	alles	alle	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	10	nmod	_	CSID=DE|Lang=de
+9	alles	alle	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	10	nmod	_	CSID=DE|Lang=de
 10	was	was	PRON	_	Case=Nom|Gender=Neut|Number=Sing	15	obj	_	CSID=DE|Lang=de
 11	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	CSID=DE|Lang=de
 12	in	in	ADP	_	_	14	case	_	CSID=DE|Lang=de
@@ -11590,9 +11590,9 @@
 17	kannst	können	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	21	aux	_	CSID=DE|Lang=de
 18	ja	ja	ADV	_	_	21	advmod	_	CSID=DE|Lang=de
 19	nicht	nicht	PART	_	Polarity=Neg	21	advmod	_	CSID=DE|Lang=de
-20	alles	alle	PRON	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Ind	21	obj	_	CSID=DE|Lang=de
+20	alles	alle	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Ind	21	obj	_	CSID=DE|Lang=de
 21	wegschmeißen	wegschmeißen	VERB	_	VerbForm=Inf	15	parataxis	_	CSID=DE|Lang=de
-22	manche	manch	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Plur|PronType=Ind	23	det	_	CSID=DE|Lang=de
+22	manche	manch	DET	_	Case=Acc|Gender=Fem|Number=Plur|PronType=Ind	23	det	_	CSID=DE|Lang=de
 23	Sachen	Sache	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	24	obj	_	CSID=DE|Lang=de
 24	behältst	behalten	VERB	_	Number=Sing|Person=2|Tense=Pres	15	parataxis	_	CSID=DE|Lang=de
 25	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	24	nsubj	_	CSID=DE|Lang=de
