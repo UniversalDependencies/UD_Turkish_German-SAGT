@@ -432,7 +432,7 @@
 3	işte	işte	INTJ	_	_	9	discourse	_	CSID=TR|Lang=tr
 4	o	o	PRON	_	Case=Nom|Number=Sing|Person=3|PronType=Prs	9	nsubj	_	CSID=TR|Lang=tr
 5	ähm	ähm	INTJ	_	_	9	discourse	_	CSID=TR|Lang=tr
-6	das	der	PRON	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	appos:trans	_	CSID=DE|Lang=de
+6	das	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	4	appos:trans	_	CSID=DE|Lang=de
 7	ja	ja	INTJ	_	_	9	discourse	_	CSID=DE|Lang=de
 8	die	der	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	9	det	_	CSID=DE|Lang=de
 9	Zeit	Zeit	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	0	root	_	CSID=DE|Lang=de
@@ -2697,7 +2697,7 @@
 2	Kalk	kalk	VERB	_	Mood=Imp|Number=Sing|Person=2	5	csubj	_	CSID=TR|Lang=tr
 3	Gidelim	git	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Plur|Person=1|Tense=Pres	2	conj	_	CSID=TR|Lang=tr
 4	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	5	cop	_	CSID=DE|Lang=de
-5	das	der	PRON	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	0	root	_	CSID=DE|Lang=de
+5	das	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	0	root	_	CSID=DE|Lang=de
 6	eh	eh	INTJ	_	_	5	discourse	_	CSID=DE|Lang=de|SpaceAfter=No
 7	?	?	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -3705,7 +3705,7 @@
 11	wirst	werden	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	15	aux	_	CSID=DE|Lang=de
 12	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	15	nsubj	_	CSID=DE|Lang=de
 13	dir	du	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	15	iobj	_	CSID=DE|Lang=de
-14	das	der	PRON	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	obj	_	CSID=DE|Lang=de
+14	das	der	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	15	obj	_	CSID=DE|Lang=de
 15	erreichen	erreichen	VERB	_	VerbForm=Inf	7	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
 16	?	?	PUNCT	_	_	7	punct	_	CSID=OTHER
 
@@ -4860,7 +4860,7 @@
 11	,	,	PUNCT	_	_	16	punct	_	CSID=OTHER
 12	hast	haben	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres|VerbForm=Fin	16	aux	_	CSID=DE|Lang=de
 13	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	16	nsubj	_	CSID=DE|Lang=de
-14	das	der	PRON	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	obj	_	CSID=DE|Lang=de
+14	das	der	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	16	obj	_	CSID=DE|Lang=de
 15	schon	schon	ADV	_	_	16	advmod	_	CSID=DE|Lang=de
 16	gemerkt	merken	VERB	_	VerbForm=Part	9	advcl	_	CSID=DE|Lang=de
 17	also	also	ADV	_	_	26	advmod	_	CSID=DE|Lang=de
@@ -5074,7 +5074,7 @@
 6	de	de	CCONJ	_	_	5	fixed	_	CSID=TR|Lang=tr
 7	ähm	ähm	INTJ	_	_	12	discourse	_	CSID=DE|Lang=de
 8	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	12	cop	_	CSID=DE|Lang=de
-9	das	der	PRON	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	nsubj	_	CSID=DE|Lang=de
+9	das	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	nsubj	_	CSID=DE|Lang=de
 10	so	so	ADV	_	_	12	advmod	_	CSID=DE|Lang=de
 11	das	der	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	12	det	_	CSID=DE|Lang=de
 12	Problem	Problem	NOUN	_	Case=Acc|Gender=Neut|Number=Sing	3	ccomp	_	CSID=DE|Lang=de
@@ -7004,14 +7004,14 @@
 3	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	2	nsubj	_	CSID=DE|Lang=de
 4	ja	ja	ADV	_	_	2	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
 5	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
-6	die	der	PRON	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	obj	_	CSID=DE|Lang=de
+6	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	obj	_	CSID=DE|Lang=de
 7	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	11	aux	_	CSID=DE|Lang=de
 8	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	11	nsubj	_	CSID=DE|Lang=de
 9	euch	ihr	PRON	_	Case=Dat|Number=Plur|Person=2|PronType=Prs	11	iobj	_	CSID=DE|Lang=de
 10	ja	ja	ADV	_	_	11	advmod	_	CSID=DE|Lang=de
 11	geschickt	schicken	VERB	_	Number=Sing|Person=1|VerbForm=Part	2	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
 12	,	,	PUNCT	_	_	18	punct	_	CSID=OTHER
-13	die	der	PRON	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	nsubj	_	CSID=DE|Lang=de
+13	die	der	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	14	nsubj	_	CSID=DE|Lang=de
 14	heißt	heißen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	18	ccomp	_	CSID=DE|Lang=de
 15	"	"	PUNCT	_	_	16	punct	_	CSID=OTHER|SpaceAfter=No
 16	Huzur	Huzur	PROPN	_	Case=Nom|Number=Sing	14	parataxis	_	CSID=TR|Lang=tr|SpaceAfter=No
@@ -7024,7 +7024,7 @@
 # text = Genau, die heißt "Huzur".
 1	Genau	genau	ADJ	_	_	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
 2	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
-3	die	der	PRON	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	nsubj	_	CSID=DE|Lang=de
+3	die	der	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	4	nsubj	_	CSID=DE|Lang=de
 4	heißt	heißen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	parataxis	_	CSID=DE|Lang=de
 5	"	"	PUNCT	_	_	6	punct	_	CSID=OTHER|SpaceAfter=No
 6	Huzur	Huzur	PROPN	_	Case=Nom|Number=Sing	4	parataxis	_	CSID=TR|Lang=tr|SpaceAfter=No
@@ -7861,7 +7861,7 @@
 3	mir	ich	PRON	_	Case=Dat|Number=Sing|Person=1|PronType=Prs	10	obl	_	CSID=DE|Lang=de
 4	bitte	bitte	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
 5	auch	auch	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
-6	das	der	PRON	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	obj	_	CSID=DE|Lang=de
+6	das	der	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	10	obj	_	CSID=DE|Lang=de
 7	von	von	ADP	_	_	8	case	_	CSID=DE|Lang=de
 8	dir	du	PRON	_	Case=Dat|Number=Sing|Person=2|PronType=Prs	6	nmod	_	CSID=DE|Lang=de
 9	nochmal	nochmal	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
@@ -7938,7 +7938,7 @@
 2	und	und	CCONJ	_	_	8	cc	_	CSID=DE|Lang=de
 3	ehm	ehm	INTJ	_	_	8	discourse	_	CSID=DE|Lang=de
 4	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	8	cop	_	CSID=DE|Lang=de
-5	das	der	PRON	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	nsubj	_	CSID=DE|Lang=de
+5	das	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	8	nsubj	_	CSID=DE|Lang=de
 6	nicht	nicht	PART	_	Polarity=Neg	8	advmod	_	CSID=DE|Lang=de
 7	irgendwie	irgendwie	ADV	_	_	8	advmod	_	CSID=DE|Lang=de
 8	so	so	ADV	_	_	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -8771,7 +8771,7 @@
 4	olmuyor	ol	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	CSID=TR|Lang=tr
 5	Sabiha	Sabiha	PROPN	_	Case=Nom|Number=Sing	8	nsubj	_	CSID=TR|Lang=tr
 6	hat	haben	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	aux	_	CSID=DE|Lang=de
-7	des	der	PRON	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art|Typo=Yes	8	obj	_	CSID=DE|Lang=de|CorrectForm=das
+7	des	der	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Sing|PronType=Art|Typo=Yes	8	obj	_	CSID=DE|Lang=de|CorrectForm=das
 8	gemacht	machen	VERB	_	VerbForm=Part	4	parataxis	_	CSID=DE|Lang=de
 9	und	und	CCONJ	_	_	13	cc	_	CSID=DE|Lang=de
 10	die	der	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Sing|PronType=Art	11	det	_	CSID=DE|Lang=de
@@ -9159,7 +9159,7 @@
 3	de	de	ADV	_	_	2	advmod:emph	_	CSID=TR|Lang=tr
 4	wie	wie	ADV	_	_	6	nsubj	_	CSID=DE|Lang=de
 5	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	6	cop	_	CSID=DE|Lang=de
-6	des	der	PRON	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art|Typo=Yes	2	parataxis	_	CSID=DE|Lang=de|CorrectForm=das
+6	des	der	DET	_	Case=Gen|Definite=Def|Gender=Neut|Number=Sing|PronType=Art|Typo=Yes	2	parataxis	_	CSID=DE|Lang=de|CorrectForm=das
 7	dann	dann	ADV	_	_	6	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
 8	?	?	PUNCT	_	_	2	punct	_	CSID=OTHER
 

@@ -56,7 +56,7 @@
 1	Äh	Äh	INTJ	_	_	2	discourse	_	CSID=DE|Lang=de
 2	denkst	denken	VERB	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	0	root	_	CSID=DE|Lang=de
 3	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	2	nsubj	_	CSID=DE|Lang=de
-4	das	der	PRON	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	nsubj	_	CSID=DE|Lang=de
+4	das	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	nsubj	_	CSID=DE|Lang=de
 5	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	7	cop	_	CSID=DE|Lang=de
 6	allgemein	allgemein	ADJ	_	_	7	advmod	_	CSID=DE|Lang=de
 7	hilfreich	hilfreich	ADJ	_	_	2	ccomp	_	CSID=DE|Lang=de
@@ -4546,7 +4546,7 @@
 1	Und	und	CCONJ	_	_	7	cc	_	CSID=DE|Lang=de
 2	in	in	ADP	_	_	3	case	_	CSID=DE|Lang=de
 3	DSA	DSA	PROPN	_	Case=Nom|Gender=Fem|Number=Sing	7	obl	_	CSID=DE|Lang=de
-4	das	der	PRON	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	nsubj	_	CSID=DE|Lang=de
+4	das	der	DET	_	Case=Nom|Definite=Def|Gender=Neut|Number=Sing|PronType=Art	7	nsubj	_	CSID=DE|Lang=de
 5	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	7	cop	_	CSID=DE|Lang=de
 6	mal	mal	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 7	so	so	ADV	_	_	0	root	_	CSID=DE|Lang=de
@@ -8894,7 +8894,7 @@
 18	ama	ama	CCONJ	_	_	20	cc	_	CSID=TR|Lang=tr
 19	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	20	nsubj	_	CSID=DE|Lang=de
 20	fehlt	fehlen	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	2	conj	_	CSID=DE|Lang=de
-21	Einem	ein	PRON	_	Case=Dat|Definite=Ind|Number=Sing|PronType=Art	20	iobj	_	CSID=DE|Lang=de
+21	Einem	ein	DET	_	Case=Dat|Definite=Ind|Number=Sing|PronType=Art	20	iobj	_	CSID=DE|Lang=de
 22	schon	schon	ADV	_	_	20	advmod	_	CSID=DE|Lang=de
 23	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Art	24	det	_	CSID=DE|Lang=de
 24	bisschen	bisschen	PRON	_	Case=Nom|Number=Sing|PronType=Ind	20	obl	_	CSID=DE|Lang=de|SpaceAfter=No
