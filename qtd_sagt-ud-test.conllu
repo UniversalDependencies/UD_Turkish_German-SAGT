@@ -6637,7 +6637,7 @@
 8	gidiyoruz	git	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Pres	3	conj	_	CSID=TR|Lang=tr|SpaceAfter=No
 9	,	,	PUNCT	_	_	11	punct	_	CSID=OTHER
 10	von	von	ADP	_	_	11	case	_	CSID=DE|Lang=de
-11	dem	der	PRON	_	Case=Dat|Definite=Def|Gender=Neut|Number=Sing|PronType=Dem	3	parataxis:discourse	_	CSID=DE|Lang=de
+11	dem	der	PRON	_	Case=Dat|Gender=Neut|Number=Sing|PronType=Dem	3	parataxis:discourse	_	CSID=DE|Lang=de
 12	her	her	ADP	_	_	11	case	_	CSID=DE|Lang=de|SpaceAfter=No
 13	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
@@ -12723,7 +12723,7 @@
 2	der	der	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	6	nsubj	_	CSID=DE|Lang=de
 3	war	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Past|VerbForm=Fin	6	cop	_	CSID=DE|Lang=de
 4	auch	auch	ADV	_	_	6	advmod	_	CSID=DE|Lang=de
-5	kein	kein	PRON	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	6	nmod	_	CSID=DE|Lang=de
+5	kein	kein	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	6	nmod	_	CSID=DE|Lang=de
 6	Dings	Ding	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	CSID=DE|Lang=de
 7	yazar	yazar	NOUN	_	Case=Nom|Number=Sing	6	dislocated	_	CSID=TR|Lang=tr|DislocateHead=6
 8	sondern	sondern	CCONJ	_	_	10	cc	_	CSID=DE|Lang=de

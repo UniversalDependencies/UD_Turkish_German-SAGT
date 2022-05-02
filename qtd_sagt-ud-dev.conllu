@@ -5640,7 +5640,7 @@
 9	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	CSID=DE|Lang=de
 10	musst	müssen	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	13	aux	_	CSID=DE|Lang=de
 11	aber	aber	CCONJ	_	_	13	cc	_	CSID=DE|Lang=de
-12	keins	kein	PRON	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	13	obj	_	CSID=DE|Lang=de
+12	keins	kein	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	13	obj	_	CSID=DE|Lang=de
 13	haben	haben	VERB	_	VerbForm=Inf	5	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -5762,7 +5762,7 @@
 6	sich	er|es|sie	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	iobj	_	CSID=DE|Lang=de
 7	da	da	ADV	_	_	5	advmod	_	CSID=DE|Lang=de
 8	gar	gar	ADV	_	_	9	advmod	_	CSID=DE|Lang=de
-9	keine	kein	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	5	obj	_	CSID=DE|Lang=de
+9	keine	kein	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	5	obj	_	CSID=DE|Lang=de
 10	so	so	ADV	_	_	5	discourse	_	CSID=DE|Lang=de|SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -13116,7 +13116,7 @@
 24	ama	ama	CCONJ	_	_	26	cc	_	CSID=TR|Lang=tr
 25	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	CSID=DE|Lang=de
 26	habe	haben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	CSID=DE|Lang=de
-27	keine	kein	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	28	nmod	_	CSID=DE|Lang=de
+27	keine	kein	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	28	nmod	_	CSID=DE|Lang=de
 28	Zeit	Zeit	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	CSID=DE|Lang=de
 29	dafür	dafür	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 30	çok	çok	ADV	_	_	32	advmod	_	CSID=TR|Lang=tr
@@ -15546,7 +15546,7 @@
 3	öğretir	öğret	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	CSID=TR|Lang=tr
 4	o	o	DET	_	Definite=Def	5	det	_	CSID=TR|Lang=tr
 5	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	3	obl	_	CSID=TR|Lang=tr
-6	keine	kein	PRON	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	7	nmod	_	CSID=DE|Lang=de
+6	keine	kein	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	7	nmod	_	CSID=DE|Lang=de
 7	Ahnung	Ahnung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
 9	wie	wie	ADV	_	_	7	acl	_	CSID=DE|Lang=de

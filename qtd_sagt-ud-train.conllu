@@ -4162,7 +4162,7 @@
 21	irgendwas	irgendwas	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Ind	15	conj	_	CSID=DE|Lang=de
 22	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	28	nsubj	_	CSID=DE|Lang=de
 23	habe	haben	AUX	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	28	aux	_	CSID=DE|Lang=de
-24	keines	kein	PRON	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	27	nmod	_	CSID=DE|Lang=de
+24	keines	kein	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	27	nmod	_	CSID=DE|Lang=de
 25	von	von	ADP	_	_	27	case	_	CSID=DE|Lang=de
 26	den	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	27	det	_	CSID=DE|Lang=de
 27	Sachen	Sache	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	28	obj	_	CSID=DE|Lang=de
@@ -6040,7 +6040,7 @@
 2	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
 3	hoffentlich	hoffentlich	ADV	_	_	4	advmod	_	CSID=DE|Lang=de
 4	stirbt	sterben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	1	conj	_	CSID=DE|Lang=de
-5	keiner	kein	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	4	nsubj	_	CSID=DE|Lang=de
+5	keiner	kein	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	4	nsubj	_	CSID=DE|Lang=de
 6	in	in	ADP	_	_	9	case	_	CSID=DE|Lang=de
 7	dem	der	DET	_	Case=Dat|Definite=Def|Gender=Masc|Number=Sing|PronType=Art	9	det	_	CSID=DE|Lang=de
 8	türkischen	türkisch	ADJ	_	Case=Dat|Gender=Masc|Number=Sing	9	amod	_	CSID=DE|Lang=de
@@ -6287,7 +6287,7 @@
 1	Ja	ja	INTJ	_	_	2	discourse	_	CSID=DE|Lang=de
 2	wirklich	wirklich	ADV	_	_	5	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
 3	,	,	PUNCT	_	_	2	punct	_	CSID=OTHER
-4	keiner	kein	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	5	nsubj	_	CSID=DE|Lang=de
+4	keiner	kein	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	5	nsubj	_	CSID=DE|Lang=de
 5	hält	halten	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	0	root	_	CSID=DE|Lang=de
 6	zu	zu	ADP	_	_	8	case	_	CSID=DE|Lang=de
 7	den	der	DET	_	Case=Dat|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	CSID=DE|Lang=de
@@ -6312,7 +6312,7 @@
 3	beraber	beraber	ADV	_	_	8	advmod	_	CSID=TR|Lang=tr
 4	haben	haben	AUX	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	8	aux	_	CSID=DE|Lang=de
 5	wir	wir	PRON	_	Case=Nom|Number=Plur|Person=1|PronType=Prs	8	nsubj	_	CSID=DE|Lang=de
-6	keine	kein	PRON	_	Case=Acc|Definite=Ind|Number=Plur|Polarity=Neg|PronType=Neg	7	nmod	_	CSID=DE|Lang=de
+6	keine	kein	PRON	_	Case=Acc|Number=Plur|Polarity=Neg|PronType=Neg	7	nmod	_	CSID=DE|Lang=de
 7	Filme	Film	NOUN	_	Case=Acc|Gender=Masc|Number=Plur	8	obj	_	CSID=DE|Lang=de
 8	angeschaut	anschauen	VERB	_	VerbForm=Part	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
 9	.	.	PUNCT	_	_	8	punct	_	CSID=OTHER
@@ -7967,7 +7967,7 @@
 26	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	CSID=DE|Lang=de
 27	irgendwie	irgendwie	ADV	_	_	25	advmod	_	CSID=DE|Lang=de
 28	gar	gar	ADV	_	_	29	advmod	_	CSID=DE|Lang=de
-29	kein	kein	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	30	nmod	_	CSID=DE|Lang=de
+29	kein	kein	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	30	nmod	_	CSID=DE|Lang=de
 30	Bock	Bock	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	25	obj	_	CSID=DE|Lang=de
 31	mehr	mehr	ADV	_	_	25	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
 32	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
@@ -8529,7 +8529,7 @@
 4	vorbei	vorbei	ADV	_	_	8	advcl	_	CSID=DE|Lang=de
 5	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	4	cop	_	CSID=DE|Lang=de|SpaceAfter=No
 6	,	,	PUNCT	_	_	4	punct	_	CSID=OTHER
-7	keinen	kein	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	8	obj	_	CSID=DE|Lang=de
+7	keinen	kein	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	8	obj	_	CSID=DE|Lang=de
 8	juckt	jucken	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	0	root	_	CSID=DE|Lang=de
 9	es	es	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Person=3|PronType=Prs	8	expl	_	CSID=DE|Lang=de
 10	mehr	mehr	ADV	_	_	8	advmod	_	CSID=DE|Lang=de
@@ -9920,7 +9920,7 @@
 # text = Okay, kein Bock mehr, anderes Thema gibi.
 1	Okay	okay	INTJ	_	_	4	discourse	_	CSID=DE|Lang=de|SpaceAfter=No
 2	,	,	PUNCT	_	_	1	punct	_	CSID=OTHER
-3	kein	kein	PRON	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	CSID=DE|Lang=de
+3	kein	kein	PRON	_	Case=Nom|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	4	nmod	_	CSID=DE|Lang=de
 4	Bock	Bock	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	0	root	_	CSID=DE|Lang=de
 5	mehr	mehr	ADV	_	_	4	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
 6	,	,	PUNCT	_	_	8	punct	_	CSID=OTHER
@@ -10967,7 +10967,7 @@
 10	herhalde	herhalde	ADV	_	_	9	advmod	_	CSID=TR|Lang=tr
 11	der	der	PRON	_	Case=Nom|Gender=Masc|Number=Sing|PronType=Dem	12	nsubj	_	CSID=DE|Lang=de
 12	hat	haben	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	conj	_	CSID=DE|Lang=de
-13	kein	kein	PRON	_	Case=Acc|Definite=Ind|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	14	nmod	_	CSID=DE|Lang=de
+13	kein	kein	PRON	_	Case=Acc|Gender=Masc|Number=Sing|Polarity=Neg|PronType=Neg	14	nmod	_	CSID=DE|Lang=de
 14	Bock	Bock	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	12	obj	_	CSID=DE|Lang=de
 15	auf	auf	ADP	_	_	16	case	_	CSID=DE|Lang=de
 16	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	14	nmod	_	CSID=DE|Lang=de|SpaceAfter=No
