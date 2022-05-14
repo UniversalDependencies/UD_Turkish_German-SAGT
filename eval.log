@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 3478a99bb195eb8749c367af4f7b3fd357a12a4c
-Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue Nov 2 22:17:19 2021 +0100
+commit ba6fbf413cb14afa25145b931c79fb60ef9456e2
+Author: www-data (nschneid) <nschneid@github.com>
+Date:   Wed May 11 05:10:30 2022 +0200
 Evaluating the following revision of UD_Turkish_German-SAGT:
-commit d53f82c45c2f2bb89daec87f3057f11bb56c6727
-Merge: ac8d5fc ef9271c
+commit a3c8710391612105f602ff6305d8d36e60b467d8
+Merge: a5be758 50e9224
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 37227 of 37227 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.23406860892118.
