@@ -7667,7 +7667,7 @@
 7	,	,	PUNCT	_	_	15	punct	_	CSID=OTHER
 8	çünkü	çünkü	SCONJ	_	_	15	mark	_	CSID=TR|Lang=tr
 9	benim	ben	PRON	_	Case=Gen|Number=Sing|Person=1|PronType=Prs	10	det	_	CSID=TR|Lang=tr
-10	derslerim	ders	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	15	nsubj	_	CSID=TR|Lang=tr
+10	derslerim	ders	NOUN	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person[psor]=1	15	dislocated	_	CSID=TR|Lang=tr
 11	mesela	mesela	ADV	_	_	15	advmod	_	CSID=TR|Lang=tr
 12	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	15	nsubj	_	CSID=DE|Lang=de
 13	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	15	cop	_	CSID=DE|Lang=de
@@ -9252,7 +9252,7 @@
 5	sogar	sogar	ADV	_	_	9	advmod	_	CSID=DE|Lang=de
 6	araba	araba	NOUN	_	Case=Nom|Number=Sing	9	obl	_	CSID=TR|Lang=tr
 7	ile	ile	ADP	_	_	6	case	_	CSID=TR|Lang=tr
-8	getirmek	getir	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	9	csubj	_	CSID=TR|Lang=tr
+8	getirmek	getir	VERB	_	Case=Nom|Number=Sing|VerbForm=Vnoun	9	xcomp	_	CSID=TR|Lang=tr
 9-10	zorundaydı	_	_	_	_	_	_	_	CSID=TR|Lang=tr
 9	zorunda	zor	NOUN	_	Case=Loc|Number=Sing|Number[psor]=Sing|Person[psor]=3	0	root	_	CSID=TR|Lang=tr
 10	ydı	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	9	cop	_	CSID=TR|Lang=tr
@@ -13666,7 +13666,7 @@
 13	normal	normal	ADJ	_	_	14	xcomp	_	CSID=TR|Lang=tr
 14	olan	ol	VERB	_	Number=Sing|Tense=Pres|VerbForm=Part	16	acl	_	CSID=TR|Lang=tr
 15	bir	bir	DET	_	Definite=Ind	16	det	_	CSID=TR|Lang=tr
-16	şeyin	şey	NOUN	_	Case=Gen|Number=Sing	25	nsubj	_	CSID=TR|Lang=tr
+16	şeyin	şey	NOUN	_	Case=Gen|Number=Sing	25	nsubj:outer	_	CSID=TR|Lang=tr
 17	aslında	aslında	ADV	_	_	22	advmod	_	CSID=TR|Lang=tr
 18	insanların	insan	NOUN	_	Case=Gen|Number=Plur	22	reparandum	_	CSID=TR|Lang=tr
 19	eh	eh	INTJ	_	_	22	discourse	_	CSID=TR|Lang=tr
@@ -13730,7 +13730,7 @@
 8	jetzt	jetzt	ADV	_	_	13	advmod	_	CSID=DE|Lang=de
 9	darüber	darüber	PRON	_	Case=Acc|Number=Sing	13	obj	_	CSID=DE|Lang=de
 10	als	als	ADP	_	_	11	case	_	CSID=DE|Lang=de
-11	Autonormalbürger	Autonormalbürger	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	13	nsubj	_	CSID=DE|Lang=de
+11	Autonormalbürger	Autonormalbürger	NOUN	_	Case=Nom|Gender=Masc|Number=Plur	13	obl	_	CSID=DE|Lang=de
 12	Bescheid	Bescheid	NOUN	_	Case=Acc|Gender=Masc|Number=Sing	13	compound	_	CSID=DE|Lang=de
 13	wissen	wissen	VERB	_	Mood=Ind|Number=Plur|Person=1|Tense=Pres|VerbForm=Fin	4	conj	_	CSID=DE|Lang=de
 14	so	so	ADV	_	_	13	advmod	_	CSID=DE|Lang=de|SpaceAfter=No

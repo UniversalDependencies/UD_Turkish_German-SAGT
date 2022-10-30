@@ -5510,7 +5510,7 @@
 24	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	27	nsubj	_	CSID=DE|Lang=de
 25	hier	hier	ADV	_	_	27	advmod	_	CSID=DE|Lang=de
 26	so	so	ADV	_	_	27	advmod	_	CSID=DE|Lang=de
-27	bisschen	bisschen	PRON	_	Case=Nom|Number=Sing|PronType=Ind	21	csubj	_	CSID=DE|Lang=de
+27	bisschen	bisschen	PRON	_	Case=Nom|Number=Sing|PronType=Ind	21	ccomp	_	CSID=DE|Lang=de
 28	äh	äh	INTJ	_	_	35	discourse	_	CSID=DE|Lang=de
 29	dass	dass	SCONJ	_	_	35	mark	_	CSID=DE|Lang=de
 30	die	der	DET	_	Case=Acc|Definite=Def|Gender=Neut|Number=Plur|PronType=Art	31	det	_	CSID=DE|Lang=de
@@ -9180,7 +9180,7 @@
 13	die	der	DET	_	Case=Acc|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	14	det	_	CSID=DE|Lang=de
 14	Sachen	Sache	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	19	obj	_	CSID=DE|Lang=de
 15	was	was	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Int	19	obj	_	CSID=DE|Lang=de
-16	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	19	nsubj	_	CSID=DE|Lang=de
+16	ich	ich	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=1|PronType=Prs	19	dislocated	_	CSID=DE|Lang=de
 17	für	für	ADP	_	_	18	case	_	CSID=DE|Lang=de
 18	Ankara	Ankara	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	19	obl	_	CSID=DE|Lang=de
 19	eingepackt	einpacken	VERB	_	VerbForm=Part	7	ccomp	_	CSID=DE|Lang=de
@@ -10925,7 +10925,7 @@
 # sent_id = TRDE-CS-S08-0009
 # text = Eh bunun da Abgabesi var.
 1	Eh	eh	INTJ	_	_	5	discourse	_	CSID=TR|Lang=tr
-2	bunun	bu	PRON	_	Case=Gen|Number=Sing|PronType=Dem	5	nsubj	_	CSID=TR|Lang=tr
+2	bunun	bu	PRON	_	Case=Gen|Number=Sing|PronType=Dem	5	obl	_	CSID=TR|Lang=tr
 3	da	de	ADV	_	_	2	advmod:emph	_	CSID=TR|Lang=tr
 4	Abgabesi	Abgabe	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3	5	nsubj	_	CSID=MIXED|CSPoint=Abgabe§si|DeCase=Acc|DeGender=Fem|Lang=qtd
 5	var	var	ADJ	_	_	0	root	_	CSID=TR|Lang=tr|SpaceAfter=No
@@ -11714,7 +11714,7 @@
 2	bir	bir	DET	_	Definite=Ind	3	det	_	CSID=TR|Lang=tr
 3	tane	tane	NOUN	_	Case=Nom|Number=Sing	5	nmod	_	CSID=TR|Lang=tr
 4	Makedon	Makedon	PROPN	_	Case=Nom|Number=Sing	5	nmod	_	CSID=TR|Lang=tr
-5	aile	aile	NOUN	_	Case=Nom|Number=Sing	27	nsubj	_	CSID=TR|Lang=tr|SpaceAfter=No
+5	aile	aile	NOUN	_	Case=Nom|Number=Sing	27	dislocated	_	CSID=TR|Lang=tr|SpaceAfter=No
 6	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
 7	orada	ora	PRON	_	Case=Loc|Number=Sing	16	obl	_	CSID=TR|Lang=tr
 8	da	de	ADV	_	_	7	advmod:emph	_	CSID=TR|Lang=tr
@@ -12459,7 +12459,7 @@
 8	,	,	PUNCT	_	_	17	punct	_	CSID=OTHER
 9	ama	ama	CCONJ	_	_	17	cc	_	CSID=TR|Lang=tr
 10	yani	yani	ADV	_	_	17	advmod	_	CSID=TR|Lang=tr
-11	onun	o	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	nsubj	_	CSID=TR|Lang=tr
+11	onun	o	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	17	obl	_	CSID=TR|Lang=tr
 12	da	da	ADV	_	_	11	advmod:emph	_	CSID=TR|Lang=tr
 13	bir	bir	ADV	_	_	15	advmod	_	CSID=TR|Lang=tr
 14	ayrı	ayrı	ADJ	_	_	15	amod	_	CSID=TR|Lang=tr
