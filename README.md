@@ -125,6 +125,10 @@ For language IDs:
 ```
 
 # Changelog
+
+* 2023-05-15 v2.12
+  * The `Polarity=Neg` feature is not used together with `PronType=Neg` (German _kein_).
+
 * 2021-11-15 v2.9
   * The `LangID` feature is renamed as `CSID`, and the `Lang` feature is introduced.
   

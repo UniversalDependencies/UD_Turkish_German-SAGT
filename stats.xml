@@ -80,7 +80,7 @@
     <feat name="Person[psor]" value="1" upos="ADP,NOUN,PRON,PROPN,VERB">408</feat><!-- benim, dediğim, bizim, hoşuma, yapmam, kendimi, aklıma, annem, annemle, arkadaşım -->
     <feat name="Person[psor]" value="2" upos="ADP,NOUN,PRON,PROPN,VERB">183</feat><!-- üzerine, geçen, istediğin, kendin, yaptığın, hepsini, senin, bildiğin, hoşuna, Kundelerin -->
     <feat name="Person[psor]" value="3" upos="ADP,NOUN,NUM,PRON,PROPN,VERB">509</feat><!-- şeyi, adı, içinde, hakkında, yemeği, burası, iyisi, adını, alakası, başında -->
-    <feat name="Polarity" value="Neg" upos="DET,PART,PRON,VERB">562</feat><!-- nicht, keine, bilmiyorum, kein, bilmem, gelmedi, etmeye, görmedim, istemiyorum, yapmıyorsun -->
+    <feat name="Polarity" value="Neg" upos="PART,VERB">510</feat><!-- nicht, bilmiyorum, bilmem, gelmedi, etmeye, görmedim, istemiyorum, yapmıyorsun, başlamadım, duymadım -->
     <feat name="Polarity" value="Pos" upos="VERB">1</feat><!-- gitti -->
     <feat name="Poss" value="Yes" upos="PRON">91</feat><!-- mein, meine, dein, meinem, meiner, unsere, meinen, deinen, seine, ihren -->
     <feat name="PronType" value="Art" upos="DET">968</feat><!-- dem, die, der, ein, das, eine, den, einen, einem, des -->

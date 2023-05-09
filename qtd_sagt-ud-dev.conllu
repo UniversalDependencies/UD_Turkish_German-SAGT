@@ -803,7 +803,7 @@
 8	detektif	detektif	NOUN	_	Case=Nom|Number=Sing	7	obj	_	CSID=TR|Lang=tr
 9	obwohl	obwohl	SCONJ	_	_	13	mark	_	CSID=DE|Lang=de
 10	sie	sie	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Person=3|PronType=Prs	13	nsubj	_	CSID=DE|Lang=de
-11	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	det	_	CSID=DE|Lang=de
+11	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Neg	13	det	_	CSID=DE|Lang=de
 12	De--	Detektivin	NOUN	_	Case=Acc|Gender=Fem|Number=Sing|Typo=Yes	13	reparandum	_	CSID=DE|Lang=de|CorrectForm=Detektivin
 13	Detektivin	Detektivin	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	7	conj	_	CSID=DE|Lang=de
 14	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	13	cop	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -854,7 +854,7 @@
 9	es	es	PRON	_	Case=Nom|Gender=Neut|Number=Sing|Person=3|PronType=Prs	0	root	_	CSID=DE|Lang=de
 10	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	9	cop	_	CSID=DE|Lang=de
 11	eigentlich	eigentlich	ADV	_	_	9	advmod	_	CSID=DE|Lang=de
-12	kein	kein	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	13	det	_	CSID=DE|Lang=de
+12	kein	kein	DET	_	Case=Acc|Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	13	det	_	CSID=DE|Lang=de
 13	Problem	Problem	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	9	nsubj	_	CSID=DE|Lang=de
 14	für	für	ADP	_	_	15	case	_	CSID=DE|Lang=de
 15	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	9	obl	_	CSID=DE|Lang=de
@@ -1923,7 +1923,7 @@
 9	Fast	Fast	PROPN	_	_	6	ccomp	_	CSID=DE|Lang=de
 10	Food	Food	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	9	flat	_	CSID=DE|Lang=de
 11	so	so	ADV	_	_	13	advmod	_	CSID=DE|Lang=de
-12	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	13	det	_	CSID=DE|Lang=de
+12	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Neg	13	det	_	CSID=DE|Lang=de
 13	Ahnung	Ahnung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	6	discourse	_	CSID=DE|Lang=de
 14	so	so	ADV	_	_	16	advmod	_	CSID=DE|Lang=de
 15	ein	ein	DET	_	Case=Nom|Definite=Ind|Gender=Masc|Number=Sing|PronType=Art	16	det	_	CSID=DE|Lang=de
@@ -2370,7 +2370,7 @@
 14	gewisse	gewiss	ADJ	_	Case=Acc|Gender=Fem|Number=Plur	15	amod	_	CSID=DE|Lang=de
 15	Menge	Menge	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	18	nmod	_	CSID=DE|Lang=de
 16	an	an	ADP	_	_	18	case	_	CSID=DE|Lang=de
-17	keine	kein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	18	det	_	CSID=DE|Lang=de
+17	keine	kein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Neg	18	det	_	CSID=DE|Lang=de
 18	Ahnung	Ahnung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	23	obl	_	CSID=DE|Lang=de
 19	was	was	PRON	_	Case=Acc|Number=Sing|PronType=Rel	23	obj	_	CSID=DE|Lang=de
 20	ähm	ähm	INTJ	_	_	23	discourse	_	CSID=DE|Lang=de
@@ -3637,7 +3637,7 @@
 11	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	12	nsubj	_	CSID=DE|Lang=de
 12	hatte	haben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	7	ccomp	_	CSID=DE|Lang=de
 13	überhaupt	überhaupt	ADV	_	_	12	advmod	_	CSID=DE|Lang=de
-14	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	15	det	_	CSID=DE|Lang=de
+14	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Neg	15	det	_	CSID=DE|Lang=de
 15	Schwierigkeiten	Schwierigkeit	NOUN	_	Case=Acc|Gender=Fem|Number=Plur	12	obj	_	CSID=DE|Lang=de
 16	oder	oder	CCONJ	_	_	20	cc	_	CSID=DE|Lang=de
 17	so	so	ADV	_	_	20	advmod	_	CSID=DE|Lang=de
@@ -4023,7 +4023,7 @@
 21	Polizist	Polizist	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	19	conj	_	CSID=DE|Lang=de
 22	oder	oder	CCONJ	_	_	25	cc	_	CSID=DE|Lang=de
 23	äh	äh	INTJ	_	_	25	discourse	_	CSID=DE|Lang=de
-24	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	25	det	_	CSID=DE|Lang=de
+24	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Neg	25	det	_	CSID=DE|Lang=de
 25	Ahnung	Ahnung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	19	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 26	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
 
@@ -5640,7 +5640,7 @@
 9	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	13	nsubj	_	CSID=DE|Lang=de
 10	musst	müssen	AUX	_	Mood=Ind|Number=Sing|Person=2|Tense=Pres	13	aux	_	CSID=DE|Lang=de
 11	aber	aber	CCONJ	_	_	13	cc	_	CSID=DE|Lang=de
-12	keins	kein	PRON	_	Case=Acc|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	13	obj	_	CSID=DE|Lang=de
+12	keins	kein	PRON	_	Case=Acc|Gender=Neut|Number=Sing|PronType=Neg	13	obj	_	CSID=DE|Lang=de
 13	haben	haben	VERB	_	VerbForm=Inf	5	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
 14	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -5762,7 +5762,7 @@
 6	sich	er|es|sie	PRON	_	Case=Dat|Number=Plur|Person=3|PronType=Prs	5	iobj	_	CSID=DE|Lang=de
 7	da	da	ADV	_	_	5	advmod	_	CSID=DE|Lang=de
 8	gar	gar	ADV	_	_	9	advmod	_	CSID=DE|Lang=de
-9	keine	kein	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	5	obj	_	CSID=DE|Lang=de
+9	keine	kein	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	5	obj	_	CSID=DE|Lang=de
 10	so	so	ADV	_	_	5	discourse	_	CSID=DE|Lang=de|SpaceAfter=No
 11	.	.	PUNCT	_	_	5	punct	_	CSID=OTHER
 
@@ -6044,7 +6044,7 @@
 50	du	du	PRON	_	Case=Nom|Number=Sing|Person=2|PronType=Prs	55	nsubj	_	CSID=DE|Lang=de
 51	ja	ja	ADV	_	_	55	advmod	_	CSID=DE|Lang=de
 52	auch	auch	ADV	_	_	55	advmod	_	CSID=DE|Lang=de
-53	kein	kein	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|Polarity=Neg|PronType=Neg	54	det	_	CSID=DE|Lang=de
+53	kein	kein	DET	_	Case=Nom|Definite=Ind|Gender=Neut|Number=Sing|PronType=Neg	54	det	_	CSID=DE|Lang=de
 54	Englisch	Englisch	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	55	obj	_	CSID=DE|Lang=de
 55	sprechen	sprechen	VERB	_	VerbForm=Inf	40	conj	_	CSID=DE|Lang=de
 56	oder	oder	CCONJ	_	_	59	cc	_	CSID=DE|Lang=de
@@ -7048,7 +7048,7 @@
 13	man	man	PRON	_	Case=Nom|Number=Sing|PronType=Ind	1	reparandum	_	CSID=DE|Lang=de
 14	so	so	ADV	_	_	1	reparandum	_	CSID=DE|Lang=de|SpaceAfter=No
 15	,	,	PUNCT	_	_	17	punct	_	CSID=OTHER
-16	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	17	det	_	CSID=DE|Lang=de
+16	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Neg	17	det	_	CSID=DE|Lang=de
 17	Ahnung	Ahnung	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	1	parataxis:discourse	_	CSID=DE|Lang=de
 18	so	so	ADV	_	_	17	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
 19	,	,	PUNCT	_	_	23	punct	_	CSID=OTHER
@@ -9818,7 +9818,7 @@
 23	bitte	bitte	ADV	_	_	22	advmod	_	CSID=DE|Lang=de
 24	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	25	nsubj	_	CSID=DE|Lang=de
 25	habe	haben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	19	ccomp	_	CSID=DE|Lang=de
-26	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	27	det	_	CSID=DE|Lang=de
+26	keine	kein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Neg	27	det	_	CSID=DE|Lang=de
 27	Lust	Lust	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	25	obj	_	CSID=DE|Lang=de
 28	darauf	darauf	ADV	_	_	27	nmod	_	CSID=DE|Lang=de|SpaceAfter=No
 29	.	.	PUNCT	_	_	9	punct	_	CSID=OTHER
@@ -13116,7 +13116,7 @@
 24	ama	ama	CCONJ	_	_	26	cc	_	CSID=TR|Lang=tr
 25	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	26	nsubj	_	CSID=DE|Lang=de
 26	habe	haben	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Pres|VerbForm=Fin	21	conj	_	CSID=DE|Lang=de
-27	keine	kein	PRON	_	Case=Acc|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	28	nmod	_	CSID=DE|Lang=de
+27	keine	kein	PRON	_	Case=Acc|Gender=Fem|Number=Sing|PronType=Neg	28	nmod	_	CSID=DE|Lang=de
 28	Zeit	Zeit	NOUN	_	Case=Acc|Gender=Fem|Number=Sing	26	obj	_	CSID=DE|Lang=de
 29	dafür	dafür	ADV	_	_	28	advmod	_	CSID=DE|Lang=de
 30	çok	çok	ADV	_	_	32	advmod	_	CSID=TR|Lang=tr
@@ -15546,7 +15546,7 @@
 3	öğretir	öğret	VERB	_	Aspect=Hab|Evident=Fh|Mood=Gen|Number=Sing|Person=3|Tense=Pres	0	root	_	CSID=TR|Lang=tr
 4	o	o	DET	_	Definite=Def	5	det	_	CSID=TR|Lang=tr
 5	zaman	zaman	NOUN	_	Case=Nom|Number=Sing	3	obl	_	CSID=TR|Lang=tr
-6	keine	kein	PRON	_	Case=Nom|Gender=Fem|Number=Sing|Polarity=Neg|PronType=Neg	7	nmod	_	CSID=DE|Lang=de
+6	keine	kein	PRON	_	Case=Nom|Gender=Fem|Number=Sing|PronType=Neg	7	nmod	_	CSID=DE|Lang=de
 7	Ahnung	Ahnung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	parataxis	_	CSID=DE|Lang=de|SpaceAfter=No
 8	,	,	PUNCT	_	_	9	punct	_	CSID=OTHER
 9	wie	wie	ADV	_	_	7	acl	_	CSID=DE|Lang=de
