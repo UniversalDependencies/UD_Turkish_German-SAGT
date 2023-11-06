@@ -1,10 +1,10 @@
 Running the following version of UD tools:
-commit 04abe686385f14a9a6f68784bd723a6b60ded594
+commit e9726a6a7d6913193d90edb45a4cb549235c5b16
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Tue May 9 00:14:39 2023 +0200
+Date:   Sat Nov 4 17:10:55 2023 +0100
 Evaluating the following revision of UD_Turkish_German-SAGT:
-commit b4b927ed69f206ff883760e3fe4c5109c53db2ba
-Merge: d085e5b 82aebfd
+commit 7fbde10ac957aa5f4efdf9a8871ffa585b763bae
+Merge: aa039da f6c5789
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
 Size: counted 37227 of 37227 words (nodes).
 Size: min(0, log((N/1000)**2)) = 7.23406860892118.
@@ -20,11 +20,13 @@ Features: source of annotation (from README) factor is 1.
 Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Udapi:
-               TOTAL       3518
-Udapi: found 3518 bugs.
+               TOTAL       3517
+Udapi: found 3517 bugs.
 Udapi: worst expected case (threshold) is one bug per 10 words. There are 37227 words.
 Genres: found 1 out of 17 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qtd --max-err=10 UD_Turkish_German-SAGT/qtd_sagt-ud-dev.conllu
+[Line 5166 Sent TRDE-CS-C18-0109 Node 5]: [L3 Warning fixed-gap] Gaps in fixed expression [5, 10] 'yüzde * * * * fünfzehn'
+Warnings: 1
 *** PASSED ***
 /net/work/people/zeman/unidep/tools/validate.py --lang qtd --max-err=10 UD_Turkish_German-SAGT/qtd_sagt-ud-test.conllu
 *** PASSED ***
@@ -37,8 +39,8 @@ Validity: 1
 (weight=0.256410256410256) * (score{size}=0.523619346427334) = 0.134261370878804
 (weight=0.0512820512820513) * (score{split}=1) = 0.0512820512820513
 (weight=0.0769230769230769) * (score{tags}=1) = 0.0769230769230769
-(weight=0.307692307692308) * (score{udapi}=0.0549869718215273) = 0.0169190682527776
+(weight=0.307692307692308) * (score{udapi}=0.0552555940580761) = 0.0170017212486388
 (weight=0.0769230769230769) * (score{udeprels}=0.891891891891892) = 0.0686070686070686
-(TOTAL score=0.50636367666776) * (availability=1) * (validity=1) = 0.50636367666776
+(TOTAL score=0.506446329663621) * (availability=1) * (validity=1) = 0.506446329663621
 STARS = 2.5
-UD_Turkish_German-SAGT	0.50636367666776	2.5
+UD_Turkish_German-SAGT	0.506446329663621	2.5
