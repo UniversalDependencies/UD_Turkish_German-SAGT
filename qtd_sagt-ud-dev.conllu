@@ -8974,10 +8974,10 @@
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	3	nsubj	_	CSID=TR|Lang=tr
 2	şeye	şey	NOUN	_	Case=Dat|Number=Sing	3	obl	_	CSID=TR|Lang=tr
 3	çalışıyorum	çalış	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	0	root	_	CSID=TR|Lang=tr|SpaceAfter=No
-4	,	,	PUNCT	_	_	5	punct	_	CSID=OTHER
-5	450	450	NUM	_	NumType=Card	3	dislocated	_	CSID=DE|Lang=de|DislocateHead=2
-6	Euro	Euro	PROPN	_	Case=Nom|Gender=Masc|Number=Plur	5	fixed	_	CSID=DE|Lang=de
-7	Basis	Basis	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	5	fixed	_	CSID=DE|Lang=de|SpaceAfter=No
+4	,	,	PUNCT	_	_	7	punct	_	CSID=OTHER
+5	450	450	NUM	_	NumType=Card	6	nummod	_	CSID=DE|Lang=de|DislocateHead=2
+6	Euro	Euro	PROPN	_	Case=Nom|Gender=Masc|Number=Plur	7	compound	_	CSID=DE|Lang=de
+7	Basis	Basis	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	3	dislocated	_	CSID=DE|Lang=de|SpaceAfter=No
 8	.	.	PUNCT	_	_	3	punct	_	CSID=OTHER
 
 # sent_id = TRDE-CS-V05-0033

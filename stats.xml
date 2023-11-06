@@ -125,7 +125,7 @@
     <dep name="case">1325</dep>
     <dep name="cc">1361</dep>
     <dep name="ccomp">528</dep>
-    <dep name="compound">136</dep>
+    <dep name="compound">137</dep>
     <dep name="compound:lvc">94</dep>
     <dep name="compound:prt">87</dep>
     <dep name="compound:redup">49</dep>
@@ -137,7 +137,7 @@
     <dep name="dislocated">117</dep>
     <dep name="expl">118</dep>
     <dep name="expl:pv">89</dep>
-    <dep name="fixed">137</dep>
+    <dep name="fixed">135</dep>
     <dep name="flat">57</dep>
     <dep name="iobj">64</dep>
     <dep name="mark">965</dep>
@@ -145,7 +145,7 @@
     <dep name="nsubj">3129</dep>
     <dep name="nsubj:outer">1</dep>
     <dep name="nsubj:pass">8</dep>
-    <dep name="nummod">239</dep>
+    <dep name="nummod">240</dep>
     <dep name="obj">1754</dep>
     <dep name="obl">2351</dep>
     <dep name="orphan">23</dep>
