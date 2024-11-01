@@ -3928,11 +3928,11 @@
 1	Ya	ya	INTJ	_	_	4	discourse	_	CSID=TR|Lang=tr
 2	hep	hep	ADV	_	_	4	advmod	_	CSID=TR|Lang=tr
 3	sizin	siz	PRON	_	Case=Nom|Number=Plur|Number[psor]=Sing|Person=2|Person[psor]=2|PronType=Prs	4	nmod	_	CSID=TR|Lang=tr
-4	sülaleniz	sülale	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	7	advcl	_	CSID=TR|Lang=tr
+4	sülaleniz	sülale	NOUN	_	Case=Nom|Number=Sing|Number[psor]=Plur|Person[psor]=2	10	nsubj	_	CSID=TR|Lang=tr
 5	bütün	bütün	ADJ	_	_	4	amod	_	CSID=TR|Lang=tr
 6	sind	sein	AUX	_	Mood=Ind|Number=Plur|Person=3|Tense=Pres|VerbForm=Fin	10	cop	_	CSID=DE|Lang=de
 7	die	der	DET	_	Case=Nom|Definite=Def|Gender=Fem|Number=Plur|PronType=Art	8	det	_	CSID=DE|Lang=de
-8	alle	alle	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	10	nsubj	_	CSID=DE|Lang=de
+8	alle	alle	PRON	_	Case=Nom|Gender=Fem|Number=Plur|PronType=Ind	4	appos	_	CSID=DE|Lang=de
 9	in	in	ADP	_	_	10	case	_	CSID=DE|Lang=de
 10	Deutschland	Deutschland	PROPN	_	Case=Dat|Gender=Neut|Number=Sing	0	root	_	CSID=DE|Lang=de
 11	oder	oder	CCONJ	_	_	12	cc	_	CSID=DE|Lang=de
@@ -9489,11 +9489,14 @@
 
 # sent_id = TRDE-CS-V03-0048
 # text = Das ist echt ein çok büyük bir problem benim gözümde.
+# NOTE: this neeeds a check: 'ein' and 'bir' are not two separate
+#       determinders, but one is repetition of the other. Originally, it was
+#       annotated with partaxis:trans, but replaced to keep the validator happy (2024-11-01).
 1	Das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Rel	8	nsubj	_	CSID=DE|Lang=de
 2	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	8	cop	_	CSID=DE|Lang=de
 3	echt	echt	ADJ	_	Case=Nom|Number=Sing	8	amod	_	CSID=DE|Lang=de
-4	ein	ein	PRON	_	Case=Nom|Number=Sing|PronType=Ind	7	parataxis:trans	_	CSID=DE|Lang=de
-5	çok	çok	ADV	_	_	8	advmod	_	CSID=TR|Lang=tr
+4	ein	ein	DET	_	Case=Nom|Number=Sing|PronType=Ind	8	det	_	CSID=DE|Lang=de
+5	çok	çok	ADV	_	_	6	advmod	_	CSID=TR|Lang=tr
 6	büyük	büyük	ADJ	_	_	8	amod	_	CSID=TR|Lang=tr
 7	bir	bir	DET	_	Definite=Ind	8	det	_	CSID=TR|Lang=tr
 8	problem	problem	NOUN	_	Case=Nom|Number=Sing	0	root	_	CSID=TR|Lang=tr
@@ -12948,8 +12951,8 @@
 5	so	so	ADV	_	_	15	advmod	_	CSID=DE|Lang=de
 6	"	"	PUNCT	_	_	7	punct	_	CSID=OTHER|SpaceAfter=No
 7	Herr	Herr	NOUN	_	Case=Nom|Gender=Masc|Number=Sing	12	nmod	_	CSID=DE|Lang=de
-8	der	der	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	7	det	_	CSID=DE|Lang=de
-9	Ringe	Ring	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	8	nmod	_	CSID=DE|Lang=de|SpaceAfter=No
+8	der	der	DET	_	Case=Gen|Definite=Def|Gender=Masc|Number=Plur|PronType=Art	9	det	_	CSID=DE|Lang=de
+9	Ringe	Ring	NOUN	_	Case=Gen|Gender=Masc|Number=Plur	7	nmod	_	CSID=DE|Lang=de|SpaceAfter=No
 10	"	"	PUNCT	_	_	7	punct	_	CSID=OTHER
 11	-	-	PUNCT	_	_	7	punct	_	CSID=OTHER
 12	Spracheyle	Sprache	NOUN	_	Case=Ins|Number=Sing	15	obl	_	CSID=MIXED|CSPoint=Sprache§yle|DeCase=Dat|DeGender=Fem|Lang=qtd
