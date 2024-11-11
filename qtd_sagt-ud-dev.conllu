@@ -5163,12 +5163,12 @@
 2	gibi	gibi	ADP	_	_	1	mark	_	CSID=TR|Lang=tr
 3	mesela	mesela	ADV	_	_	12	advmod	_	CSID=TR|Lang=tr
 4	o--	o	X	_	_	12	reparandum	_	CSID=TR|Lang=tr
-5	yüzde	yüz	NOUN	_	Case=Loc|Number=Sing	11	nummod	_	CSID=TR|Lang=tr
-6	şe--	şe	X	_	_	12	reparandum	_	CSID=TR|Lang=tr
+5	yüzde	yüz	NOUN	_	Case=Loc|Number=Sing	6	nummod	_	CSID=TR|Lang=tr
+6	şe--	şe	X	_	_	11	reparandum	_	CSID=TR|Lang=tr
 7	ya	ya	CCONJ	_	_	12	cc	_	CSID=TR|Lang=tr
 8	da	de	CCONJ	_	_	7	fixed	_	CSID=TR|Lang=tr
 9	ähm	ähm	INTJ	_	_	12	discourse	_	CSID=DE|Lang=de
-10	fünfzehn	fünfzehn	NUM	_	NumType=Card	5	fixed	_	CSID=DE|Lang=de
+10	fünfzehn	fünfzehn	NUM	_	NumType=Card	11	nummod	_	CSID=DE|Lang=de
 11	mal	mal	ADV	_	_	12	advmod	_	CSID=DE|Lang=de
 12	beworben	bewerben	VERB	_	VerbForm=Part	0	root	_	CSID=DE|Lang=de
 13	ähm	ähm	INTJ	_	_	12	discourse	_	CSID=DE|Lang=de
@@ -9716,13 +9716,13 @@
 1	Ne	ne	ADV	_	_	2	advmod	_	CSID=TR|Lang=tr
 2	bileyim	bil	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=1|Tense=Pres	0	root	_	CSID=TR|Lang=tr
 3	onları	o	PRON	_	Case=Acc|Number=Plur|Person=3|PronType=Prs	2	obj	_	CSID=TR|Lang=tr
-4	böyle	böyle	DET	_	_	5	det	_	CSID=TR|Lang=tr
+4	böyle	böyle	DET	_	_	6	advmod	_	CSID=TR|Lang=tr
 5	dieses	dies	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	6	det	_	CSID=DE|Lang=de
-6	A2	A2	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	3	nmod	_	CSID=DE|Lang=de
-7	B2	B2	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	6	appos	_	CSID=DE|Lang=de|SpaceAfter=No
+6	A2	A2	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	3	appos	_	CSID=DE|Lang=de
+7	B2	B2	PROPN	_	Case=Acc|Gender=Neut|Number=Sing	6	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 8	,	,	PUNCT	_	_	10	punct	_	CSID=OTHER
 9	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	10	nsubj	_	CSID=DE|Lang=de
-10	verwirrt	verwirren	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	6	acl	_	CSID=DE|Lang=de
+10	verwirrt	verwirren	VERB	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres	2	parataxis	_	CSID=DE|Lang=de
 11	mich	ich	PRON	_	Case=Acc|Number=Sing|Person=1|PronType=Prs	10	obj	_	CSID=DE|Lang=de
 12	immer	immer	ADV	_	_	10	advmod	_	CSID=DE|Lang=de
 13	total	total	ADV	_	_	10	advmod	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -15324,12 +15324,15 @@
 
 # sent_id = TRDE-CS-S18-0116
 # text = Ja ja o şeyle o dieses Sprachzentrum, da wird alles angeboten, alles.
+# NOTE: this neeeds a check: 'o/5' and 'dieses' are not two separate
+#     determinders, but one is repetition of the other. Originally, it was
+#     annotated with partaxis:trans, but replaced to keep the validator happy (2024-11-01).
 1	Ja	ja	INTJ	_	_	7	discourse	_	CSID=DE|Lang=de
 2	ja	ja	INTJ	_	_	7	discourse	_	CSID=DE|Lang=de
 3	o	o	DET	_	Definite=Def	4	det	_	CSID=TR|Lang=tr
 4	şeyle	şey	NOUN	_	Case=Ins|Number=Sing	7	reparandum	_	CSID=TR|Lang=tr
 5	o	o	DET	_	Definite=Def	7	det	_	CSID=TR|Lang=tr
-6	dieses	dies	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	5	parataxis:trans	_	CSID=DE|Lang=de
+6	dieses	dies	DET	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	7	det	_	CSID=DE|Lang=de
 7	Sprachzentrum	Sprachzentrum	NOUN	_	Case=Nom|Gender=Neut|Number=Sing	0	root	_	CSID=DE|Lang=de|SpaceAfter=No
 8	,	,	PUNCT	_	_	12	punct	_	CSID=OTHER
 9	da	da	ADV	_	_	12	advmod	_	CSID=DE|Lang=de
