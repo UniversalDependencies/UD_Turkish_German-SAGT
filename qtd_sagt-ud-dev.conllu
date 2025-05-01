@@ -454,7 +454,7 @@
 9	gittiği	git	VERB	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person[psor]=3|Tense=Past|VerbForm=Part	17	advcl	_	CSID=TR|Lang=tr
 10	için	için	ADP	_	_	9	mark	_	CSID=TR|Lang=tr
 11	äh	äh	INTJ	_	_	17	discourse	_	CSID=TR|Lang=tr
-12	ikide	iki	NOUN	_	Case=Loc|Number=Sing	17	advmod	_	CSID=TR|Lang=tr
+12	ikide	iki	NOUN	_	Case=Loc|ExtPos=ADV|Number=Sing	17	advmod	_	CSID=TR|Lang=tr
 13	bir	bir	NUM	_	Case=Nom|Number=Sing	12	fixed	_	CSID=TR|Lang=tr
 14	hep	hep	ADV	_	_	17	advmod	_	CSID=TR|Lang=tr
 15	o	o	DET	_	Definite=Def	16	det	_	CSID=TR|Lang=tr

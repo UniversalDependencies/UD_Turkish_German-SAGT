@@ -1368,7 +1368,7 @@
 10	zwei	zwei	NUM	_	NumType=Card	11	nummod	_	CSID=DE|Lang=de
 11	Jahre	Jahr	NOUN	_	Case=Acc|Gender=Neut|Number=Plur	12	obl	_	CSID=DE|Lang=de
 12	gearbeitet	arbeiten	VERB	_	VerbForm=Part	0	root	_	CSID=DE|Lang=de
-13	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	15	advmod	_	CSID=TR|Lang=tr
+13	ondan	o	PRON	_	Case=Abl|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	15	advmod	_	CSID=TR|Lang=tr
 14	sonra	sonra	ADV	_	_	13	fixed	_	CSID=TR|Lang=tr
 15	dachte	denken	VERB	_	Mood=Ind|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	12	conj	_	CSID=DE|Lang=de
 16	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	CSID=DE|Lang=de
@@ -2491,7 +2491,7 @@
 
 # sent_id = TRDE-CS-C20-0035
 # text = Bir tek işte geldim mi musst was zubereiten und da kannst echt Salat oder so wenn du jetzt irgendwie f-- ähm dich gesund ernähren möchtest oder so.
-1	Bir	bir	DET	_	Definite=Ind	4	mark	_	CSID=TR|Lang=tr
+1	Bir	bir	DET	_	Definite=Ind|ExtPos=ADV	4	advmod	_	CSID=TR|Lang=tr
 2	tek	tek	ADJ	_	_	1	fixed	_	CSID=TR|Lang=tr
 3	işte	işte	ADV	_	_	4	advmod	_	CSID=TR|Lang=tr
 4	geldim	gel	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Past	0	root	_	CSID=TR|Lang=tr
