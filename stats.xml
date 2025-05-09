@@ -34,7 +34,7 @@
     <tag name="X">47</tag><!-- be, bis, f, tschiu, şe, Leit, Medien, Nah, Prot, _ -->
   </tags>
   <!-- Statistics of features and values. The comments show the most frequent word forms. -->
-  <feats unique="74">
+  <feats unique="75">
     <feat name="Aspect" value="Hab" upos="VERB">252</feat><!-- olur, bilmem, olabilir, yaparken, derken, giderim, isterdim, isterim, yapabilirsin, yaparım -->
     <feat name="Aspect" value="Imp" upos="AUX,VERB">173</feat><!-- diyelim, bileyim, diyeyim, bakalım, etmeye, olsa, yapalım, gidelim, olmasa, olursa -->
     <feat name="Aspect" value="Perf" upos="AUX,VERB">984</feat><!-- dı, yaptım, di, dedim, ydi, geldi, geçti, başladım, dedi, ettim -->
@@ -52,6 +52,7 @@
     <feat name="Definite" value="Ind" upos="DET">548</feat><!-- bir, ein, eine, einen, keine, einem, birkaç, kein, einer, ne -->
     <feat name="Evident" value="Fh" upos="AUX,VERB">1930</feat><!-- dı, oluyor, diyelim, yaptım, bilmiyorum, di, gidiyor, olur, dedim, geliyor -->
     <feat name="Evident" value="Nfh" upos="AUX,VERB">199</feat><!-- olmuş, yapmışlar, demiş, olsa, gelmiş, gitmiştik, muş, özlemişim, etmişler, gelmişti -->
+    <feat name="ExtPos" value="ADV" upos="DET,NOUN,PRON">11</feat><!-- ondan, onun, Bir, ikide -->
     <feat name="Foreign" value="Yes" upos="ADJ,ADP,ADV,AUX,CCONJ,DET,INTJ,NOUN,NUM,PART,PRON,PROPN,VERB">175</feat><!-- of, King, Netflix, Cheeseburger, Iron, Keanu, Queens, The, action, Bachelor -->
     <feat name="Gender" value="Fem" upos="ADJ,DET,NOUN,PRON,PROPN">1659</feat><!-- die, der, eine, sie, keine, Zeit, Ahnung, Sachen, den, Prüfungen -->
     <feat name="Gender" value="Masc" upos="ADJ,DET,NOUN,PRON,PROPN">1252</feat><!-- dem, der, die, er, den, ein, einen, jeden, einem, Tag -->
@@ -114,7 +115,7 @@
   <deps unique="45">
     <dep name="acl">242</dep>
     <dep name="advcl">658</dep>
-    <dep name="advmod">6422</dep>
+    <dep name="advmod">6423</dep>
     <dep name="advmod:emph">445</dep>
     <dep name="amod">597</dep>
     <dep name="appos">68</dep>
@@ -140,7 +141,7 @@
     <dep name="fixed">134</dep>
     <dep name="flat">57</dep>
     <dep name="iobj">64</dep>
-    <dep name="mark">965</dep>
+    <dep name="mark">964</dep>
     <dep name="nmod">1047</dep>
     <dep name="nsubj">3129</dep>
     <dep name="nsubj:outer">1</dep>

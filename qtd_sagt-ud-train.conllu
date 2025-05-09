@@ -2166,7 +2166,7 @@
 
 # sent_id = TRDE-CS-C05-0004
 # text = Ondan sonra bir de tabii ada ehm eh hava güzeldi ehm insanlar waren sehr sehr gut, auch sehr gastfreundlich und ähm ja es man hat schon gesehen dass es eine Insel war.
-1	Ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	6	advmod	_	CSID=TR|Lang=tr
+1	Ondan	o	PRON	_	Case=Abl|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	6	advmod	_	CSID=TR|Lang=tr
 2	sonra	sonra	ADP	_	_	1	fixed	_	CSID=TR|Lang=tr
 3	bir	bir	CCONJ	_	_	6	cc	_	CSID=TR|Lang=tr
 4	de	de	CCONJ	_	_	3	fixed	_	CSID=TR|Lang=tr
@@ -2351,7 +2351,7 @@
 3	önce	önce	NOUN	_	Case=Nom|Number=Sing	2	obl	_	CSID=TR|Lang=tr
 4	kendi	kendi	DET	_	_	5	det	_	CSID=TR|Lang=tr
 5	dilleri	dil	NOUN	_	Case=Acc|Number=Plur	0	root	_	CSID=TR|Lang=tr
-6	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	9	advmod	_	CSID=TR|Lang=tr
+6	ondan	o	PRON	_	Case=Abl|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	9	advmod	_	CSID=TR|Lang=tr
 7	sonra	sonra	ADP	_	_	6	fixed	_	CSID=TR|Lang=tr
 8	eh	eh	INTJ	_	_	9	discourse	_	CSID=TR|Lang=tr
 9	Englisch	Englisch	PROPN	_	Case=Nom|Gender=Neut|Number=Sing	5	conj	_	CSID=DE|Lang=de|SpaceAfter=No
@@ -2393,7 +2393,7 @@
 11	İngilizce'yi	İngilizce	PROPN	_	Case=Acc|Number=Sing	12	obj	_	CSID=TR|Lang=tr
 12	konuşmaya	konuş	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=3|Polarity=Neg|Tense=Pres	13	xcomp	_	CSID=TR|Lang=tr
 13	başladık	başla	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Plur|Person=1|Tense=Past	5	advcl	_	CSID=TR|Lang=tr
-14	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	33	advmod	_	CSID=TR|Lang=tr
+14	ondan	o	PRON	_	Case=Abl|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	33	advmod	_	CSID=TR|Lang=tr
 15	sonra	sonra	ADP	_	_	14	fixed	_	CSID=TR|Lang=tr
 16	hep	hep	ADV	_	_	17	advmod	_	CSID=TR|Lang=tr
 17	konuşa	konuş	VERB	_	Aspect=Imp|Evident=Fh|Mood=Opt|Number=Sing|Person=3|Tense=Pres	18	compound	_	CSID=TR|Lang=tr
@@ -2478,7 +2478,7 @@
 12	mecbur	mecbur	ADJ	_	_	14	advmod	_	CSID=TR|Lang=tr
 13	onu	o	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	14	obj	_	CSID=TR|Lang=tr
 14	yapıyorum	yap	VERB	_	Aspect=Prog|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Tense=Pres	11	conj	_	CSID=TR|Lang=tr
-15	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	21	advmod	_	CSID=TR|Lang=tr
+15	ondan	o	PRON	_	Case=Abl|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	21	advmod	_	CSID=TR|Lang=tr
 16	sonra	sonra	ADV	_	_	15	fixed	_	CSID=TR|Lang=tr
 17	normalde	normal	ADJ	_	_	21	advmod	_	CSID=TR|Lang=tr
 18	ders	ders	NOUN	_	Case=Nom|Number=Sing	21	obj	_	CSID=TR|Lang=tr
@@ -2776,7 +2776,7 @@
 75	eine	ein	DET	_	Case=Acc|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	76	det	_	CSID=DE|Lang=de
 76	Partymeile	Partymeile	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	74	nsubj	_	CSID=DE|Lang=de
 77	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	74	cop	_	CSID=DE|Lang=de
-78	onun	o	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	82	advmod	_	CSID=TR|Lang=tr
+78	onun	o	PRON	_	Case=Gen|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	82	advmod	_	CSID=TR|Lang=tr
 79	için	için	ADP	_	_	78	fixed	_	CSID=TR|Lang=tr
 80	çok	çok	ADV	_	_	81	advmod	_	CSID=TR|Lang=tr
 81	güzel	güzel	ADJ	_	_	82	advmod	_	CSID=TR|Lang=tr
@@ -3033,7 +3033,7 @@
 9	yüzde	yüz	NOUN	_	Case=Loc|Number=Sing	8	nummod	_	CSID=TR|Lang=tr
 10	yüz	yüz	NUM	_	Case=Nom|Number=Sing	9	compound	_	CSID=TR|Lang=tr
 11	eh	eh	INTJ	_	_	15	discourse	_	CSID=TR|Lang=tr
-12	onun	o	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	15	advmod	_	CSID=TR|Lang=tr
+12	onun	o	PRON	_	Case=Gen|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	15	advmod	_	CSID=TR|Lang=tr
 13	için	için	ADP	_	_	12	fixed	_	CSID=TR|Lang=tr
 14	ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	15	nsubj	_	CSID=TR|Lang=tr
 15	gitmeyeceğim	git	VERB	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=1|Polarity=Neg|Tense=Fut	8	conj	_	CSID=TR|Lang=tr
@@ -3643,7 +3643,7 @@
 # text = Onun için ondan sonra eh ja o daha çok Spaß machen ediyor BWL.
 1	Onun	o	PRON	_	Case=Gen|Number=Sing|Person=3|PronType=Prs	12	obl	_	CSID=TR|Lang=tr
 2	için	için	ADP	_	_	1	case	_	CSID=TR|Lang=tr
-3	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	12	advmod	_	CSID=TR|Lang=tr
+3	ondan	o	PRON	_	Case=Abl|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	12	advmod	_	CSID=TR|Lang=tr
 4	sonra	sonra	ADP	_	_	3	fixed	_	CSID=TR|Lang=tr
 5	eh	eh	INTJ	_	_	12	discourse	_	CSID=TR|Lang=tr
 6	ja	ja	INTJ	_	_	12	discourse	_	CSID=DE|Lang=de
@@ -3659,7 +3659,7 @@
 # sent_id = TRDE-CS-C10-0020
 # text = Ben ondan sonra ona wechseln edeceğim.
 1	Ben	ben	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	6	nsubj	_	CSID=TR|Lang=tr
-2	ondan	o	PRON	_	Case=Abl|Number=Sing|Person=3|PronType=Prs	6	advmod	_	CSID=TR|Lang=tr
+2	ondan	o	PRON	_	Case=Abl|ExtPos=ADV|Number=Sing|Person=3|PronType=Prs	6	advmod	_	CSID=TR|Lang=tr
 3	sonra	sonra	ADP	_	_	2	fixed	_	CSID=TR|Lang=tr
 4	ona	o	PRON	_	Case=Dat|Number=Sing|Person=3|PronType=Prs	6	obl	_	CSID=TR|Lang=tr
 5	wechseln	wechseln	VERB	_	VerbForm=Inf	6	compound	_	CSID=DE|Lang=de
