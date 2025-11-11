@@ -144,6 +144,7 @@ For language IDs:
 Data available since: UD v2.7
 License: CC BY-NC-SA 4.0
 Includes text: yes
+Parallel: no
 Genre: spoken
 Lemmas: manual native
 UPOS: manual native
