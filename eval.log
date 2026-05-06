@@ -1,11 +1,11 @@
 Running the following version of UD tools:
-commit 26e6c87a2f518322d15901a351199b6be6569062
+commit b39dc4111bb13658bc0c204b48bb78b492e45d2b
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
-Date:   Fri Nov 7 15:39:58 2025 +0100
+Date:   Tue May 5 17:01:41 2026 +0200
 Evaluating the following revision of UD_Turkish_German-SAGT:
-commit 6f01c8a5b41b19c5283bba3db19f4b0df47087a2
-Merge: 72f47a0 2ac3dce
+commit 9df27ce241d28d25f40b27f616468563771fb6e7
 Author: Dan Zeman <zeman@ufal.mff.cuni.cz>
+Date:   Tue Nov 11 20:58:50 2025 +0100
 CoNLL-U data file regular expression = '(.+)-ud-(train|dev|test)\.conllu'
 Language-treebank code (from CoNLL-U file name) = 'qtd_sagt'
 Language code (from CoNLL-U file name) = 'qtd'
@@ -25,77 +25,114 @@ Universal relations: 33 out of 37 found in the corpus.
 Universal relations: source of annotation (from README) factor is 1.
 Genres: found 1 out of 18 known.
 /net/work/people/zeman/unidep/tools/validate.py --lang qtd --max-err=10 UD_Turkish_German-SAGT/qtd_sagt-ud-dev.conllu
-[Line 23 Sent TRDE-CS-C15-0002]: [L3 Warning pron-det-without-prontype] The word 'hangi' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 38 Sent TRDE-CS-C15-0003]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 106 Sent TRDE-CS-C15-0006]: [L3 Warning fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
-[Line 212 Sent TRDE-CS-C15-0011]: [L3 Warning pron-det-without-prontype] The word 'her' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 282 Sent TRDE-CS-C15-0014]: [L3 Warning fixed-without-extpos] Fixed expression 'Bir de' does not have the 'ExtPos' feature
-[Line 378 Sent TRDE-CS-C15-0016]: [L3 Warning pron-det-without-prontype] The word 'Nelerden' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 387 Sent TRDE-CS-C15-0017]: [L3 Warning pron-det-without-prontype] The word 'hangi' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 390 Sent TRDE-CS-C15-0017]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 447 Sent TRDE-CS-C15-0021]: [L3 Warning fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
-[Line 450 Sent TRDE-CS-C15-0021]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 4738 Sent TRDE-CS-C18-0091]: [L3 Syntax too-many-objects] Multiple direct objects [5, 6] ('Zeitungunu', 'şey') under the predicate 'yapmıştın'.
-[Line 8959 Sent TRDE-CS-V05-0030]: [L3 Syntax too-many-objects] Multiple direct objects [4, 5] ('üstleri', 'başları') under the predicate 'yapacaklar'.
-[Line 9186 Sent TRDE-CS-V05-0045]: [L3 Syntax too-many-objects] Multiple direct objects [14, 15] ('Sachen', 'was') under the predicate 'eingepackt'.
-[Line 9494 Sent TRDE-CS-E06-0003]: [L3 Syntax too-many-objects] Multiple direct objects [16, 19] ('Analyse', 'das') under the predicate 'bestehe'.
-[Line 10237 Sent TRDE-CS-E06-0040]: [L3 Syntax too-many-objects] Multiple direct objects [8, 10] ('Sachen', 'Fachbegriffe') under the predicate 'benutzen'.
-[Line 11236 Sent TRDE-CS-S08-0032]: [L3 Syntax too-many-objects] Multiple direct objects [5, 9] ('Praktikum', 'kendimi') under the predicate 'ettim'.
-[Line 13777 Sent TRDE-CS-S18-0035]: [L3 Syntax too-many-objects] Multiple direct objects [32, 35] ('şeyleri', 'kalp') under the predicate 'schreibt'.
-[Line 14128 Sent TRDE-CS-S18-0054]: [L3 Syntax too-many-objects] Multiple direct objects [6, 10] ('Altdeutsch', 'Deutsche') under the predicate 'übersetzen'.
-[Line 15341 Sent TRDE-CS-S18-0116]: [L3 Syntax too-many-objects] Multiple direct objects [11, 14] ('alles', 'alles') under the predicate 'angeboten'.
-Syntax errors: 9
-Warnings: 402
-*** FAILED *** with 9 errors
+[Line 23 Sent TRDE-CS-C15-0002]: [L3 WARNING pron-det-without-prontype] The word 'hangi' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 38 Sent TRDE-CS-C15-0003]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 106 Sent TRDE-CS-C15-0006]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 212 Sent TRDE-CS-C15-0011]: [L3 WARNING pron-det-without-prontype] The word 'her' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 282 Sent TRDE-CS-C15-0014]: [L3 WARNING fixed-without-extpos] Fixed expression 'Bir de' does not have the 'ExtPos' feature
+[Line 378 Sent TRDE-CS-C15-0016]: [L3 WARNING pron-det-without-prontype] The word 'Nelerden' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 387 Sent TRDE-CS-C15-0017]: [L3 WARNING pron-det-without-prontype] The word 'hangi' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 390 Sent TRDE-CS-C15-0017]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 447 Sent TRDE-CS-C15-0021]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 450 Sent TRDE-CS-C15-0021]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 460 Sent TRDE-CS-C15-0021]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 517 Sent TRDE-CS-C15-0025]: [L3 WARNING pron-det-without-prontype] The word 'ne' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 578 Sent TRDE-CS-C15-0029]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 605 Sent TRDE-CS-C15-0030]: [L3 WARNING fixed-without-extpos] Fixed expression 'tabii ki' does not have the 'ExtPos' feature
+[Line 944 Sent TRDE-CS-C15-0046]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 1047 Sent TRDE-CS-C15-0052]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 1168 Sent TRDE-CS-C15-0058]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 1224 Sent TRDE-CS-C15-0060]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 1283 Sent TRDE-CS-C15-0063]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 1456 Sent TRDE-CS-C15-0070]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 3045 Sent TRDE-CS-C18-0010]: [L3 SYNTAX obl-should-be-nmod] The parent (node [2] 'başta') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 4738 Sent TRDE-CS-C18-0091]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 6] ('Zeitungunu', 'şey') under the predicate 'yapmıştın'.
+[Line 8959 Sent TRDE-CS-V05-0030]: [L3 SYNTAX too-many-objects] Multiple direct objects [4, 5] ('üstleri', 'başları') under the predicate 'yapacaklar'.
+[Line 9186 Sent TRDE-CS-V05-0045]: [L3 SYNTAX too-many-objects] Multiple direct objects [14, 15] ('Sachen', 'was') under the predicate 'eingepackt'.
+[Line 9494 Sent TRDE-CS-E06-0003]: [L3 SYNTAX too-many-objects] Multiple direct objects [16, 19] ('Analyse', 'das') under the predicate 'bestehe'.
+[Line 9962 Sent TRDE-CS-E06-0027]: [L3 SYNTAX obl-should-be-nmod] The parent (node [4] 'Prüfungdan') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 10237 Sent TRDE-CS-E06-0040]: [L3 SYNTAX too-many-objects] Multiple direct objects [8, 10] ('Sachen', 'Fachbegriffe') under the predicate 'benutzen'.
+[Line 11236 Sent TRDE-CS-S08-0032]: [L3 SYNTAX too-many-objects] Multiple direct objects [5, 9] ('Praktikum', 'kendimi') under the predicate 'ettim'.
+[Line 11487 Sent TRDE-CS-S09-0005]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'ihtimalim') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 13777 Sent TRDE-CS-S18-0035]: [L3 SYNTAX too-many-objects] Multiple direct objects [32, 35] ('şeyleri', 'kalp') under the predicate 'schreibt'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 399
+SYNTAX errors: 12
+*** FAILED *** with 12 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qtd --max-err=10 UD_Turkish_German-SAGT/qtd_sagt-ud-test.conllu
-[Line 8 Sent TRDE-CS-C03-0001]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 13 Sent TRDE-CS-C03-0001]: [L3 Warning pron-det-without-prontype] The word 'herkes' is tagged 'PRON' but it lacks the 'PronType' feature
-[Line 82 Sent TRDE-CS-C03-0004]: [L3 Warning fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
-[Line 218 Sent TRDE-CS-C03-0012]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 266 Sent TRDE-CS-C03-0014]: [L3 Warning fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
-[Line 268 Sent TRDE-CS-C03-0014]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 280 Sent TRDE-CS-C03-0014]: [L3 Warning obl-should-be-nmod] The parent (node [19] 'Mai') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
-[Line 370 Sent TRDE-CS-C03-0018]: [L3 Warning pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 406 Sent TRDE-CS-C03-0020]: [L3 Warning fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
-[Line 448 Sent TRDE-CS-C03-0024]: [L3 Warning pron-det-without-prontype] The word 'orası' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 2113 Sent TRDE-CS-C20-0022]: [L3 Syntax too-many-objects] Multiple direct objects [3, 4] ('bakımı', 'şey') under the predicate 'yapıyoruz'.
-[Line 2163 Sent TRDE-CS-C20-0023]: [L3 Syntax too-many-objects] Multiple direct objects [20, 22] ('hepsini', 'şey') under the predicate 'yapıp'.
-[Line 2202 Sent TRDE-CS-C20-0024]: [L3 Syntax too-many-objects] Multiple direct objects [22, 23] ('das', 'was') under the predicate 'kauft'.
-[Line 2574 Sent TRDE-CS-C20-0038]: [L3 Syntax too-many-objects] Multiple direct objects [2, 12] ('was', 'Kartoffeln') under the predicate 'machen'.
-[Line 3620 Sent TRDE-CS-C21-0010]: [L3 Syntax too-many-objects] Multiple direct objects [2, 6] ('alles', 'was') under the predicate 'vorstellen'.
-[Line 8120 Sent TRDE-CS-E03-0015]: [L3 Syntax too-many-objects] Multiple direct objects [25, 27] ('Schulleben', 'sie') under the predicate 'darstellen'.
-[Line 10474 Sent TRDE-CS-V04-0032]: [L3 Syntax too-many-objects] Multiple direct objects [22, 24] ('kendimi', 'şey') under the predicate 'hissetmiyorum'.
-[Line 12669 Sent TRDE-CS-S15-0004]: [L3 Syntax too-many-objects] Multiple direct objects [10, 21] ('şeyi', 'kitap') under the predicate 'biliyorlar'.
-[Line 12835 Sent TRDE-CS-S15-0011]: [L3 Syntax too-many-objects] Multiple direct objects [2, 4] ('Trilogieyi', 'kitap') under the predicate 'yapmışlar'.
-[Line 13584 Sent TRDE-CS-S15-0051]: [L3 Syntax too-many-objects] Multiple direct objects [7, 9] ('das', 'Bionik') under the predicate 'nennt'.
-...suppressing further errors regarding Syntax
-Syntax errors: 11
-Warnings: 421
-*** FAILED *** with 11 errors
+[Line 8 Sent TRDE-CS-C03-0001]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 13 Sent TRDE-CS-C03-0001]: [L3 WARNING pron-det-without-prontype] The word 'herkes' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 82 Sent TRDE-CS-C03-0004]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 218 Sent TRDE-CS-C03-0012]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 266 Sent TRDE-CS-C03-0014]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 268 Sent TRDE-CS-C03-0014]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 280 Sent TRDE-CS-C03-0014]: [L3 SYNTAX obl-should-be-nmod] The parent (node [19] 'Mai') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 370 Sent TRDE-CS-C03-0018]: [L3 WARNING pron-det-without-prontype] The word 'bu' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 406 Sent TRDE-CS-C03-0020]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 448 Sent TRDE-CS-C03-0024]: [L3 WARNING pron-det-without-prontype] The word 'orası' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 466 Sent TRDE-CS-C03-0025]: [L3 WARNING pron-det-without-prontype] The word 'orada' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 498 Sent TRDE-CS-C03-0028]: [L3 WARNING pron-det-without-prontype] The word 'her' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 531 Sent TRDE-CS-C07-0001]: [L3 WARNING pron-det-without-prontype] The word 'ne' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 573 Sent TRDE-CS-C07-0005]: [L3 WARNING pron-det-without-prontype] The word 'neresinde' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 711 Sent TRDE-CS-C07-0013]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 740 Sent TRDE-CS-C07-0014]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ondan sonra' does not have the 'ExtPos' feature
+[Line 1076 Sent TRDE-CS-C08-0003]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 1199 Sent TRDE-CS-C08-0007]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 1207 Sent TRDE-CS-C08-0007]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 1447 Sent TRDE-CS-C08-0013]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+[Line 2032 Sent TRDE-CS-C20-0019]: [L3 WARNING fixed-without-extpos] Fixed expression 'tabii ki' does not have the 'ExtPos' feature
+[Line 2113 Sent TRDE-CS-C20-0022]: [L3 SYNTAX too-many-objects] Multiple direct objects [3, 4] ('bakımı', 'şey') under the predicate 'yapıyoruz'.
+[Line 2163 Sent TRDE-CS-C20-0023]: [L3 SYNTAX too-many-objects] Multiple direct objects [20, 22] ('hepsini', 'şey') under the predicate 'yapıp'.
+[Line 2202 Sent TRDE-CS-C20-0024]: [L3 SYNTAX too-many-objects] Multiple direct objects [22, 23] ('das', 'was') under the predicate 'kauft'.
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 2574 Sent TRDE-CS-C20-0038]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 12] ('was', 'Kartoffeln') under the predicate 'machen'.
+[Line 3087 Sent TRDE-CS-C20-0057]: [L3 SYNTAX obl-should-be-nmod] The parent (node [9] 'Teueren') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3620 Sent TRDE-CS-C21-0010]: [L3 SYNTAX too-many-objects] Multiple direct objects [2, 6] ('alles', 'was') under the predicate 'vorstellen'.
+[Line 5550 Sent TRDE-CS-C21-0093]: [L3 SYNTAX obl-should-be-nmod] The parent (node [32] 'an') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 5986 Sent TRDE-CS-C21-0108]: [L3 SYNTAX obl-should-be-nmod] The parent (node [16] 'saat') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 6001 Sent TRDE-CS-C21-0109]: [L3 SYNTAX obl-should-be-nmod] The parent (node [6] 'saat') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+...suppressing further messages regarding ERROR/SYNTAX
+Warnings: 412
+SYNTAX errors: 20
+*** FAILED *** with 20 errors
 Exit code: 1
 /net/work/people/zeman/unidep/tools/validate.py --lang qtd --max-err=10 UD_Turkish_German-SAGT/qtd_sagt-ud-train.conllu
-[Line 38 Sent TRDE-CS-C19-0003]: [L3 Warning fixed-without-extpos] Fixed expression 'tabii ki' does not have the 'ExtPos' feature
-[Line 67 Sent TRDE-CS-C19-0004]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 70 Sent TRDE-CS-C19-0004]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 85 Sent TRDE-CS-C19-0005]: [L3 Warning fixed-without-extpos] Fixed expression 'tabii ki' does not have the 'ExtPos' feature
-[Line 107 Sent TRDE-CS-C19-0005]: [L3 Warning pron-det-without-prontype] The word 'her' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 109 Sent TRDE-CS-C19-0005]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 111 Sent TRDE-CS-C19-0005]: [L3 Warning pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 194 Sent TRDE-CS-C19-0008]: [L3 Warning pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
-[Line 214 Sent TRDE-CS-C19-0009]: [L3 Warning fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
-[Line 218 Sent TRDE-CS-C19-0009]: [L3 Warning pron-det-without-prontype] The word 'hepsi' is tagged 'PRON' but it lacks the 'PronType' feature
-...suppressing further errors regarding Warning
-[Line 1883 Sent TRDE-CS-C04-0013]: [L3 Syntax too-many-objects] Multiple direct objects [18, 22] ('dilleri', 'das') under the predicate 'benutzt'.
-[Line 3118 Sent TRDE-CS-C09-0020]: [L3 Syntax too-many-objects] Multiple direct objects [45, 49] ('düğün', 'Erste') under the predicate 'başlıyor'.
-[Line 7849 Sent TRDE-CS-S19-0005]: [L3 Syntax too-many-objects] Multiple direct objects [10, 16] ('darauf', 'Lust') under the predicate 'habe'.
-[Line 8466 Sent TRDE-CS-S19-0038]: [L3 Syntax too-many-objects] Multiple direct objects [9, 12] ('was', 'Ernährung') under the predicate 'angeht'.
-[Line 10637 Sent TRDE-CS-S20-0073]: [L3 Syntax too-many-objects] Multiple direct objects [10, 14] ('Studenten', 'Schülern') under the predicate 'erzählt'.
-Syntax errors: 5
-Warnings: 328
-*** FAILED *** with 5 errors
+[Line 38 Sent TRDE-CS-C19-0003]: [L3 WARNING fixed-without-extpos] Fixed expression 'tabii ki' does not have the 'ExtPos' feature
+[Line 67 Sent TRDE-CS-C19-0004]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 70 Sent TRDE-CS-C19-0004]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 85 Sent TRDE-CS-C19-0005]: [L3 WARNING fixed-without-extpos] Fixed expression 'tabii ki' does not have the 'ExtPos' feature
+[Line 107 Sent TRDE-CS-C19-0005]: [L3 WARNING pron-det-without-prontype] The word 'her' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 109 Sent TRDE-CS-C19-0005]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 111 Sent TRDE-CS-C19-0005]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 194 Sent TRDE-CS-C19-0008]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 214 Sent TRDE-CS-C19-0009]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 218 Sent TRDE-CS-C19-0009]: [L3 WARNING pron-det-without-prontype] The word 'hepsi' is tagged 'PRON' but it lacks the 'PronType' feature
+[Line 270 Sent TRDE-CS-C19-0011]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 278 Sent TRDE-CS-C19-0011]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 288 Sent TRDE-CS-C19-0011]: [L3 WARNING pron-det-without-prontype] The word 'bir' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 293 Sent TRDE-CS-C19-0011]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 305 Sent TRDE-CS-C19-0011]: [L3 WARNING pron-det-without-prontype] The word 'o' is tagged 'DET' but it lacks the 'PronType' feature
+[Line 309 Sent TRDE-CS-C19-0011]: [L3 WARNING pron-det-without-prontype] The word 'orada' is tagged 'PRON' but it lacks the 'PronType' feature
+...suppressing further messages regarding WARNING/MORPHO
+[Line 368 Sent TRDE-CS-C19-0014]: [L3 WARNING fixed-without-extpos] Fixed expression 'Ya da' does not have the 'ExtPos' feature
+[Line 671 Sent TRDE-CS-C19-0027]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 733 Sent TRDE-CS-C19-0029]: [L3 WARNING fixed-without-extpos] Fixed expression 'ya da' does not have the 'ExtPos' feature
+[Line 800 Sent TRDE-CS-C19-0032]: [L3 WARNING fixed-without-extpos] Fixed expression 'bir de' does not have the 'ExtPos' feature
+...suppressing further messages regarding WARNING/SYNTAX
+[Line 1883 Sent TRDE-CS-C04-0013]: [L3 SYNTAX too-many-objects] Multiple direct objects [18, 22] ('dilleri', 'das') under the predicate 'benutzt'.
+[Line 2966 Sent TRDE-CS-C09-0016]: [L3 SYNTAX obl-should-be-nmod] The parent (node [20] 'Kurtahmetli') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+[Line 3118 Sent TRDE-CS-C09-0020]: [L3 SYNTAX too-many-objects] Multiple direct objects [45, 49] ('düğün', 'Erste') under the predicate 'başlıyor'.
+[Line 7849 Sent TRDE-CS-S19-0005]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 16] ('darauf', 'Lust') under the predicate 'habe'.
+[Line 8466 Sent TRDE-CS-S19-0038]: [L3 SYNTAX too-many-objects] Multiple direct objects [9, 12] ('was', 'Ernährung') under the predicate 'angeht'.
+[Line 10637 Sent TRDE-CS-S20-0073]: [L3 SYNTAX too-many-objects] Multiple direct objects [10, 14] ('Studenten', 'Schülern') under the predicate 'erzählt'.
+[Line 11786 Sent TRDE-CS-U11-0034]: [L3 SYNTAX obl-should-be-nmod] The parent (node [8] 'balta') is a nominal (and not a predicate), hence the relation should be 'nmod', not 'obl'.
+Warnings: 325
+SYNTAX errors: 7
+*** FAILED *** with 7 errors
 Exit code: 1
 Validity: 0.01
 (weight=0.111111111111111) * (score{features}=1) = 0.111111111111111
