@@ -3042,7 +3042,7 @@
 # text = İlk başta şimdi ehım würde ich sehr früh anfangen.
 1	İlk	ilk	ADJ	_	_	2	amod	_	CSID=TR|Lang=tr
 2	başta	baş	NOUN	_	Case=Loc|Number=Sing	9	obl	_	CSID=TR|Lang=tr
-3	şimdi	şimdi	NOUN	_	Case=Nom|Number=Sing	2	obl	_	CSID=TR|Lang=tr
+3	şimdi	şimdi	NOUN	_	Case=Nom|Number=Sing	2	nmod	_	CSID=TR|Lang=tr
 4	ehım	ehım	INTJ	_	_	9	discourse	_	CSID=TR|Lang=tr
 5	würde	werden	AUX	_	Mood=Sub|Number=Sing|Person=1|Tense=Past|VerbForm=Fin	9	aux	_	CSID=DE|Lang=de
 6	ich	ich	PRON	_	Case=Nom|Number=Sing|Person=1|PronType=Prs	9	nsubj	_	CSID=DE|Lang=de
@@ -3694,7 +3694,7 @@
 2	jetzt	jetzt	ADV	_	_	7	advmod	_	CSID=DE|Lang=de
 3	äh	äh	INTJ	_	_	7	discourse	_	CSID=DE|Lang=de
 4-5	n--ydi	_	_	_	_	_	_	_	CSID=TR|Lang=tr
-4	n--	ne	PRON	_	Case=Nom|Number=Sing|Typo=Yes	7	reparandum	_	CSID=TR|Lang=tr|CorrectForm=ne
+4	n--	ne	PRON	_	Case=Nom|Number=Sing|Typo=Yes	7	reparandum	_	CorrectForm=ne|CSID=TR|Lang=tr
 5	ydi	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	4	cop	_	CSID=TR|Lang=tr
 6	Traumberufun	Traumberuf	NOUN	_	Case=Nom|Number=Sing	7	nsubj	_	CSID=MIXED|CSPoint=Traumberuf§un|DeCase=Nom|DeGender=Masc|Lang=qtd
 7-8	neydi	_	_	_	_	_	_	_	CSID=TR|Lang=tr|SpaceAfter=No
@@ -9959,7 +9959,7 @@
 2	da	de	ADV	_	_	1	advmod:emph	_	CSID=TR|Lang=tr
 3	işte	işte	INTJ	_	_	1	discourse	_	CSID=TR|Lang=tr
 4	Prüfungdan	Prüfung	NOUN	_	Case=Abl|Number=Sing	11	obl	_	CSID=MIXED|CSPoint=Prüfung§dan|DeCase=Dat|DeGender=Fem|Lang=qtd
-5	sonra	sonra	NOUN	_	Case=Nom|Number=Sing	4	obl	_	CSID=TR|Lang=tr
+5	sonra	sonra	NOUN	_	Case=Nom|Number=Sing	4	nmod	_	CSID=TR|Lang=tr
 6	onu	o	PRON	_	Case=Acc|Number=Sing|Person=3|PronType=Prs	11	obj	_	CSID=TR|Lang=tr
 7	da	de	ADV	_	_	6	advmod:emph	_	CSID=TR|Lang=tr
 8	inşallah	inşallah	ADV	_	_	11	advmod	_	CSID=TR|Lang=tr
@@ -11484,7 +11484,7 @@
 # sent_id = TRDE-CS-S09-0005
 # text = Böylelikle Hauptschulabschlussdan sonra doğru düzgün meslek yapma ihtimalim, imkanım yoktu.
 1	Böylelikle	böylelikle	ADV	_	_	11	advmod	_	CSID=TR|Lang=tr
-2	Hauptschulabschlussdan	Hauptschulabschluss	NOUN	_	Case=Abl|Number=Sing	8	obl	_	CSID=MIXED|CSPoint=Hauptschulabschluss§dan|DeCase=Dat|DeGender=Masc|Lang=qtd
+2	Hauptschulabschlussdan	Hauptschulabschluss	NOUN	_	Case=Abl|Number=Sing	8	nmod	_	CSID=MIXED|CSPoint=Hauptschulabschluss§dan|DeCase=Dat|DeGender=Masc|Lang=qtd
 3	sonra	sonra	ADP	_	_	2	case	_	CSID=TR|Lang=tr
 4	doğru	doğru	ADJ	_	_	5	compound:redup	_	CSID=TR|Lang=tr
 5	düzgün	düzgün	ADJ	_	_	6	amod	_	CSID=TR|Lang=tr

@@ -2963,7 +2963,7 @@
 22	bis	bis	ADP	_	_	25	case	_	CSID=DE|Lang=de
 23	zu	zu	ADP	_	_	25	case	_	CSID=DE|Lang=de
 24	meinem	mein	PRON	_	Case=Dat|Gender=Masc|Number=Sing|Person=1|Poss=Yes|PronType=Prs	25	nmod	_	CSID=DE|Lang=de
-25	Opa	Opa	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	20	obl	_	CSID=DE|Lang=de
+25	Opa	Opa	NOUN	_	Case=Dat|Gender=Masc|Number=Sing	20	nmod	_	CSID=DE|Lang=de
 26	İncesu	İncesu	PROPN	_	Case=Nom|Number=Sing	36	nsubj	_	CSID=TR|Lang=tr
 27	das	der	PRON	_	Case=Nom|Gender=Neut|Number=Sing|PronType=Dem	26	appos	_	CSID=DE|Lang=de
 28	ist	sein	AUX	_	Mood=Ind|Number=Sing|Person=3|Tense=Pres|VerbForm=Fin	36	cop	_	CSID=DE|Lang=de
@@ -4503,7 +4503,7 @@
 11	hep	hep	ADV	_	_	15	advmod	_	CSID=TR|Lang=tr
 12	sizin	siz	PRON	_	Case=Nom|Number=Sing|Number[psor]=Sing|Person=2|Person[psor]=2|PronType=Prs	13	nmod	_	CSID=TR|Lang=tr
 13	Übung	Übung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	15	nsubj	_	CSID=DE|Lang=de
-14	bizden	biz	PRON	_	Case=Abl|Number=Sing|Person=1|PronType=Prs	15	obl	_	CSID=TR|Lang=tr
+14	bizden	biz	PRON	_	Case=Abl|Number=Sing|Person=1|PronType=Prs	15	nmod	_	CSID=TR|Lang=tr
 15-16	önceydi	_	_	_	_	_	_	_	CSID=TR|Lang=tr
 15	önce	önce	NOUN	_	Case=Nom|Number=Sing	5	obl	_	CSID=TR|Lang=tr
 16	ydi	i	AUX	_	Aspect=Perf|Evident=Fh|Mood=Ind|Number=Sing|Person=3|Tense=Past	15	cop	_	CSID=TR|Lang=tr
@@ -11783,7 +11783,7 @@
 7	eine	ein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Art	8	det	_	CSID=DE|Lang=de
 8	balta	balta	NOUN	_	Case=Nom|Number=Sing	6	nsubj	_	CSID=TR|Lang=tr
 9	mit	mit	ADP	_	_	10	case	_	CSID=DE|Lang=de
-10	büyü	büyü	NOUN	_	Case=Nom|Number=Sing	8	obl	_	CSID=TR|Lang=tr
+10	büyü	büyü	NOUN	_	Case=Nom|Number=Sing	8	nmod	_	CSID=TR|Lang=tr
 11	keine	kein	DET	_	Case=Nom|Definite=Ind|Gender=Fem|Number=Sing|PronType=Neg	12	det	_	CSID=DE|Lang=de
 12	Ahnung	Ahnung	NOUN	_	Case=Nom|Gender=Fem|Number=Sing	6	conj	_	CSID=DE|Lang=de|SpaceAfter=No
 13	?	?	PUNCT	_	_	6	punct	_	CSID=OTHER
